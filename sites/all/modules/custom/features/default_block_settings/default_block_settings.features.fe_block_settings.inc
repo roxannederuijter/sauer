@@ -22,10 +22,10 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'header_first',
+        'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -12,
       ),
       'seven' => array(
         'region' => '',
