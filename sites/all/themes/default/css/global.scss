@@ -22,7 +22,7 @@ img {
   max-width: 100%;
   margin-top: -19px;
   img {
-    width:75%;
+    width:56%;
   }
 }
 
@@ -308,6 +308,18 @@ ul#superfish-1 {
     a:before {
       content:'\f0c0';
       font-family: FontAwesome;
+    }
+  }
+}
+
+.bean-banner {
+  margin-top:250px;
+  margin-bottom:200px;
+  .field-name-field-inhoud {
+    text-align:center;
+    color:#fff;
+    h2 {
+      text-transform:uppercase;
     }
   }
 }

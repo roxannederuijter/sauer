@@ -17,7 +17,7 @@ img {
   max-width: 100%;
   margin-top: -19px; }
   .logo-img img {
-    width: 75%; }
+    width: 56%; }
 
 h1 {
   font-size: 2em;
@@ -280,5 +280,14 @@ ul#superfish-1 {
   ul#superfish-1 li.sf-item-4 a:before {
     content: '\f0c0';
     font-family: FontAwesome; }
+
+.bean-banner {
+  margin-top: 250px;
+  margin-bottom: 200px; }
+  .bean-banner .field-name-field-inhoud {
+    text-align: center;
+    color: #fff; }
+    .bean-banner .field-name-field-inhoud h2 {
+      text-transform: uppercase; }
 
 /*# sourceMappingURL=global.css.map */
