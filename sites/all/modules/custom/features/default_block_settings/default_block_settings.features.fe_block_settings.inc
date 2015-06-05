@@ -12,6 +12,32 @@ function default_block_settings_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
+  $export['block-contact'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'contact',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'user_second',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
+  );
+
   $export['devel-execute_php'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -230,8 +256,8 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'menu',
+        'status' => 1,
         'theme' => 'default',
         'weight' => 0,
       ),
@@ -242,7 +268,7 @@ function default_block_settings_default_fe_block_settings() {
         'weight' => 0,
       ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 
