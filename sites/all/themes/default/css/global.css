@@ -290,4 +290,15 @@ ul#superfish-1 {
     .bean-banner .field-name-field-inhoud h2 {
       text-transform: uppercase; }
 
+a.buttonblue {
+  background-color: #006c68;
+  color: #fff;
+  padding: 14px 60px;
+  margin-right: 2%; }
+
+a.buttonred {
+  background-color: #e36968;
+  color: #fff;
+  padding: 14px 25px; }
+
 /*# sourceMappingURL=global.css.map */
