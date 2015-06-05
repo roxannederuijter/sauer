@@ -22,7 +22,7 @@ function default_block_settings_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'sidebar_second',
+        'region' => 'header_first',
         'status' => 1,
         'theme' => 'default',
         'weight' => -12,
