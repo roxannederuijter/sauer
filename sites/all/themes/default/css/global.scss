@@ -265,50 +265,50 @@ ul#superfish-1 {
   li {
     margin:0;
     padding:0;
-    a {
-      margin: 38px 30px 15px 30px;
-      padding: 10px 0px;
-      color: #000;
-      text-transform: uppercase;
-      border-bottom: 3px solid transparent;
-    }
   }
   li.last {
     a {
-      margin: 38px 0px 15px 30px;
-      padding: 10px 0px;
+      margin: 20px 0px 15px 30px;
+      padding: 40px 0 0 0;
       color: #000;
       text-transform: uppercase;
-      border-bottom: 3px solid transparent;
-    }
-    a:before {
-      content:'\f086';
-      font-family: FontAwesome;
+      background: url("img/contact.svg") top 10px center no-repeat;
+      background-size: 20px;
     }
   }
   li.first {
-    a:before {
-      content:'\f015';
-      font-family: FontAwesome;
+    a {
+      margin: 20px 30px 15px 30px;
+      padding: 40px 0 0 0;
+      color: #000;
+      text-transform: uppercase;
+      background: url("img/home.svg") top 10px center no-repeat;
+      background-size: 20px;
     }
   }
   li.sf-item-2 {
-    a:before {
-      content:'\f0f2';
-      font-family: FontAwesome;
-    }
+    margin: 20px 30px 15px 30px;
+    padding: 40px 0 0 0;
+    color: #000;
+    text-transform: uppercase;
+    background: url("img/diensten.svg") top 10px center no-repeat;
+    background-size: 20px;
   }
   li.sf-item-3 {
-    a:before {
-      content:'\f1ea';
-      font-family: FontAwesome;
-    }
+    margin: 20px 30px 15px 30px;
+    padding: 40px 0 0 0;
+    color: #000;
+    text-transform: uppercase;
+    background: url("img/nieuws.svg") top 10px center no-repeat;
+    background-size: 20px;
   }
   li.sf-item-4 {
-    a:before {
-      content:'\f0c0';
-      font-family: FontAwesome;
-    }
+    margin: 20px 30px 15px 30px;
+    padding: 40px 0 0 0;
+    color: #000;
+    text-transform: uppercase;
+    background: url("img/overons.svg") top 10px center no-repeat;
+    background-size: 20px;
   }
 }
 
