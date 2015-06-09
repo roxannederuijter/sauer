@@ -200,16 +200,22 @@ input[type="button"]:hover,
 }
 
 .section-header {
-  background-image:url('img/bg.png');
-  background-size:cover;
-  background-position:center;
+
 }
 
 .zone-branding-wrapper {
   background-color: #fff;
+  position: absolute;
+  top: 44px;
+  width: 100%;
+  z-index: 997;
 }
 
 .zone-user-wrapper {
+  z-index: 997;
+  position: absolute;
+  top: 0;
+  width: 100%;
   li {
     float: left;
     list-style: none;

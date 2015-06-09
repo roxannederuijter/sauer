@@ -205,54 +205,58 @@ input[type="button"]:hover,
   .paragraphs-item-2-kolommen-tekst-afbeelding-rech .field-name-field-afbeelding-rechts {
     margin-bottom: 20px; }
 
-.section-header {
-  background-image: url("img/bg.png");
-  background-size: cover;
-  background-position: center; }
-
 .zone-branding-wrapper {
-  background-color: #fff; }
+  background-color: #fff;
+  position: absolute;
+  top: 44px;
+  width: 100%;
+  z-index: 997; }
 
-.zone-user-wrapper li {
-  float: left;
-  list-style: none;
-  padding: 13px 30px 13px 0;
-  font-size: 0.750em; }
-.zone-user-wrapper .place {
-  float: left; }
-  .zone-user-wrapper .place li.place {
-    color: #fff;
-    padding-right: 30px; }
-  .zone-user-wrapper .place li.place:before {
-    font-family: FontAwesome;
-    content: "\f041";
-    margin-right: 5px;
-    color: #fff; }
-  .zone-user-wrapper .place a {
-    color: #fff; }
-.zone-user-wrapper .phone {
-  float: left; }
-  .zone-user-wrapper .phone li.phone {
-    padding-right: 0px;
-    color: #fff; }
-  .zone-user-wrapper .phone li.phone:before {
-    font-family: FontAwesome;
-    content: "\f10b";
-    margin-right: 5px;
-    color: #fff; }
-  .zone-user-wrapper .phone a {
-    color: #fff; }
-.zone-user-wrapper .mail {
-  float: left; }
-  .zone-user-wrapper .mail a {
-    color: #fff; }
-  .zone-user-wrapper .mail a:before {
-    font-family: FontAwesome;
-    content: "\f0e0";
-    margin-right: 5px;
-    color: #fff; }
-.zone-user-wrapper .region-user-second-inner {
-  float: right; }
+.zone-user-wrapper {
+  z-index: 997;
+  position: absolute;
+  top: 0;
+  width: 100%; }
+  .zone-user-wrapper li {
+    float: left;
+    list-style: none;
+    padding: 13px 30px 13px 0;
+    font-size: 0.750em; }
+  .zone-user-wrapper .place {
+    float: left; }
+    .zone-user-wrapper .place li.place {
+      color: #fff;
+      padding-right: 30px; }
+    .zone-user-wrapper .place li.place:before {
+      font-family: FontAwesome;
+      content: "\f041";
+      margin-right: 5px;
+      color: #fff; }
+    .zone-user-wrapper .place a {
+      color: #fff; }
+  .zone-user-wrapper .phone {
+    float: left; }
+    .zone-user-wrapper .phone li.phone {
+      padding-right: 0px;
+      color: #fff; }
+    .zone-user-wrapper .phone li.phone:before {
+      font-family: FontAwesome;
+      content: "\f10b";
+      margin-right: 5px;
+      color: #fff; }
+    .zone-user-wrapper .phone a {
+      color: #fff; }
+  .zone-user-wrapper .mail {
+    float: left; }
+    .zone-user-wrapper .mail a {
+      color: #fff; }
+    .zone-user-wrapper .mail a:before {
+      font-family: FontAwesome;
+      content: "\f0e0";
+      margin-right: 5px;
+      color: #fff; }
+  .zone-user-wrapper .region-user-second-inner {
+    float: right; }
 
 .block-superfish {
   float: right; }
