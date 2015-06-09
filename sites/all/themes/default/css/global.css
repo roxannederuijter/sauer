@@ -302,11 +302,30 @@ a.buttonblue {
   background-color: #006c68;
   color: #fff;
   padding: 14px 60px;
-  margin-right: 2%; }
+  margin-right: 2%;
+  text-transform: uppercase; }
 
 a.buttonred {
   background-color: #e36968;
   color: #fff;
-  padding: 14px 25px; }
+  padding: 14px 25px;
+  text-transform: uppercase; }
+
+.view-diensten .views-row {
+  width: 20%;
+  float: left;
+  text-align: center;
+  padding: 50px 6%; }
+  .view-diensten .views-row .views-field-field-samenvatting {
+    font-size: 0.938em; }
+  .view-diensten .views-row .views-field-title {
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+    .view-diensten .views-row .views-field-title a {
+      color: #000; }
+  .view-diensten .views-row .views-field-field-image {
+    margin-bottom: 13px; }
 
 /*# sourceMappingURL=global.css.map */

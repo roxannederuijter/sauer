@@ -329,12 +329,37 @@ a.buttonblue {
   color:#fff;
   padding:14px 60px;
   margin-right:2%;
+  text-transform: uppercase;
 }
 
 a.buttonred {
   background-color:$red;
   color:#fff;
   padding:14px 25px;
+  text-transform: uppercase;
 }
 
+.view-diensten {
+  .views-row {
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 50px 6%;
+    .views-field-field-samenvatting {
+      font-size:0.938em;
+    }
+    .views-field-title {
+      font-size: 24px;
+      color: #000;
+      text-transform: uppercase;
+      margin-bottom:20px;
+      a {
+        color:#000;
+      }
+    }
+    .views-field-field-image {
+      margin-bottom:13px;
+    }
+  }
+}
 

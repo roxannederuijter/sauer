@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View - Diensten feature.
+ */
+
+include_once 'view_diensten.features.inc';
