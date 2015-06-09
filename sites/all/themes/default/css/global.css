@@ -372,6 +372,24 @@ h2.block-title {
   padding-top: 40px; }
 
 .zone-footer-wrapper {
-  background-color: #006c68; }
+  background-color: #006c68;
+  padding: 40px 0; }
+
+.block-superfish-2 {
+  float: left;
+  color: #fff; }
+  .block-superfish-2 h2.block-title {
+    margin-bottom: 10px;
+    text-transform: none;
+    float: left; }
+  .block-superfish-2 ul li {
+    margin: 0; }
+    .block-superfish-2 ul li a {
+      color: #fff;
+      font-size: 0.750em;
+      padding: 4px 0; }
+    .block-superfish-2 ul li a:before {
+      content: '\003e';
+      margin-right: 3%; }
 
 /*# sourceMappingURL=global.css.map */

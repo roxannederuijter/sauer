@@ -429,4 +429,29 @@ h2.block-title {
 
 .zone-footer-wrapper {
   background-color:$groen;
+  padding:40px 0;
+}
+
+.block-superfish-2 {
+  float:left;
+  color:#fff;
+  h2.block-title {
+    margin-bottom:10px;
+    text-transform:none;
+    float:left;
+  }
+  ul {
+    li {
+      margin:0;
+      a {
+        color:#fff;
+        font-size:0.750em;
+        padding:4px 0;
+      }
+      a:before {
+        content:'\003e';
+        margin-right:3%;
+      }
+    }
+  }
 }
