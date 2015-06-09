@@ -333,7 +333,7 @@ function content_paragraph_bundels_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => '',
+          'image_style' => 'contact',
         ),
         'type' => 'image',
         'weight' => 0,
@@ -411,7 +411,7 @@ function content_paragraph_bundels_field_default_field_instances() {
     'label' => 'Tekst rechts',
     'required' => 1,
     'settings' => array(
-      'text_processing' => 0,
+      'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
     'widget' => array(

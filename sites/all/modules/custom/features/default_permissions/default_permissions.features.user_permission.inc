@@ -590,6 +590,15 @@ function default_permissions_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'create any contact bean'.
+  $permissions['create any contact bean'] = array(
+    'name' => 'create any contact bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
   // Exported permission: 'create dienst content'.
   $permissions['create dienst content'] = array(
     'name' => 'create dienst content',
@@ -664,6 +673,15 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'delete any banner bean'.
   $permissions['delete any banner bean'] = array(
     'name' => 'delete any banner bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'delete any contact bean'.
+  $permissions['delete any contact bean'] = array(
+    'name' => 'delete any contact bean',
     'roles' => array(
       'administrator' => 'administrator',
     ),
@@ -877,6 +895,15 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'edit any banner bean'.
   $permissions['edit any banner bean'] = array(
     'name' => 'edit any banner bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'edit any contact bean'.
+  $permissions['edit any contact bean'] = array(
+    'name' => 'edit any contact bean',
     'roles' => array(
       'administrator' => 'administrator',
     ),
@@ -1203,6 +1230,17 @@ function default_permissions_user_default_permissions() {
   $permissions['view any banner bean'] = array(
     'name' => 'view any banner bean',
     'roles' => array(
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'view any contact bean'.
+  $permissions['view any contact bean'] = array(
+    'name' => 'view any contact bean',
+    'roles' => array(
+      'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),

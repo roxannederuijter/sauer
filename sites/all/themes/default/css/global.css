@@ -362,4 +362,13 @@ h2.block-title {
 .view-werknemers .view-footer .button {
   text-align: center; }
 
+.block-bean-contact h2.block-title {
+  text-align: left;
+  margin-bottom: 17px; }
+.block-bean-contact .field-name-field-afbeelding {
+  float: left; }
+
+.zone-postscript-wrapper {
+  padding-top: 40px; }
+
 /*# sourceMappingURL=global.css.map */
