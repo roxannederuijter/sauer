@@ -590,6 +590,15 @@ function default_permissions_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'create any banner_vervolgpagina bean'.
+  $permissions['create any banner_vervolgpagina bean'] = array(
+    'name' => 'create any banner_vervolgpagina bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
   // Exported permission: 'create any contact bean'.
   $permissions['create any contact bean'] = array(
     'name' => 'create any contact bean',
@@ -673,6 +682,15 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'delete any banner bean'.
   $permissions['delete any banner bean'] = array(
     'name' => 'delete any banner bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'delete any banner_vervolgpagina bean'.
+  $permissions['delete any banner_vervolgpagina bean'] = array(
+    'name' => 'delete any banner_vervolgpagina bean',
     'roles' => array(
       'administrator' => 'administrator',
     ),
@@ -895,6 +913,15 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'edit any banner bean'.
   $permissions['edit any banner bean'] = array(
     'name' => 'edit any banner bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'edit any banner_vervolgpagina bean'.
+  $permissions['edit any banner_vervolgpagina bean'] = array(
+    'name' => 'edit any banner_vervolgpagina bean',
     'roles' => array(
       'administrator' => 'administrator',
     ),
@@ -1230,6 +1257,17 @@ function default_permissions_user_default_permissions() {
   $permissions['view any banner bean'] = array(
     'name' => 'view any banner bean',
     'roles' => array(
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'bean',
+  );
+
+  // Exported permission: 'view any banner_vervolgpagina bean'.
+  $permissions['view any banner_vervolgpagina bean'] = array(
+    'name' => 'view any banner_vervolgpagina bean',
+    'roles' => array(
+      'administrator' => 'administrator',
       'anonymous user' => 'anonymous user',
       'authenticated user' => 'authenticated user',
     ),

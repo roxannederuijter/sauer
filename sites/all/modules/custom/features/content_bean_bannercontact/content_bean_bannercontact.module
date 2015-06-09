@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content - bean bannercontact feature.
+ */
+
+include_once 'content_bean_bannercontact.features.inc';

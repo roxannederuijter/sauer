@@ -18,7 +18,7 @@ function default_block_settings_default_fe_block_settings() {
     'delta' => 'banner',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'home',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -35,7 +35,7 @@ function default_block_settings_default_fe_block_settings() {
       ),
     ),
     'title' => '<none>',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['bean-contact'] = array(
@@ -49,6 +49,32 @@ function default_block_settings_default_fe_block_settings() {
     'themes' => array(
       'default' => array(
         'region' => 'postscript_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['bean-contactbanner'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 'contactbanner',
+    'module' => 'bean',
+    'node_types' => array(),
+    'pages' => 'contact',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'header_first',
         'status' => 1,
         'theme' => 'default',
         'weight' => 0,
