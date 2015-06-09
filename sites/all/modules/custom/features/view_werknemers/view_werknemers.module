@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View - Werknemers feature.
+ */
+
+include_once 'view_werknemers.features.inc';

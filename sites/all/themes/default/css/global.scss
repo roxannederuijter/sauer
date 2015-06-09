@@ -363,3 +363,47 @@ a.buttonred {
   }
 }
 
+.zone-preface-wrapper {
+  margin-bottom:40px;
+}
+
+h2.block-title {
+  text-align:center;
+  text-transform:uppercase;
+  margin-bottom:40px;
+  font-size:1.875em;
+  font-weight:600;
+}
+
+.zone-preface-second-wrapper {
+  background-color:$gray;
+  padding-top:50px;
+  padding-bottom:40px;
+}
+
+.view-werknemers {
+  .views-row {
+    width: 18%;
+    float: left;
+    padding: 50px 3%;
+    text-align: center;
+    .views-field-field-naam {
+      font-size:0.938em;
+      color:$red;
+    }
+    .views-field-field-functie {
+      font-size:0.938em;
+    }
+    .views-field-field-image {
+      padding-bottom:25px;
+    }
+  }
+  .view-header {
+    text-align:center;
+  }
+  .view-footer {
+    .button {
+      text-align:center;
+    }
+  }
+}

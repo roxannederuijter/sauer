@@ -662,5 +662,31 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 1,
   );
 
+  $export['views-werknemers-block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'werknemers-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'home',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'preface_second',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Onze mensen',
+    'visibility' => 1,
+  );
+
   return $export;
 }

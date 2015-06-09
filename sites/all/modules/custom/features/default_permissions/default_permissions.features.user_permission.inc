@@ -590,6 +590,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'create dienst content'.
+  $permissions['create dienst content'] = array(
+    'name' => 'create dienst content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'create files'.
   $permissions['create files'] = array(
     'name' => 'create files',
@@ -618,6 +625,13 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'create webform content'.
   $permissions['create webform content'] = array(
     'name' => 'create webform content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'create werknemer content'.
+  $permissions['create werknemer content'] = array(
+    'name' => 'create werknemer content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -656,6 +670,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'delete any dienst content'.
+  $permissions['delete any dienst content'] = array(
+    'name' => 'delete any dienst content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete any document files'.
   $permissions['delete any document files'] = array(
     'name' => 'delete any document files',
@@ -691,11 +712,25 @@ function default_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'delete any werknemer content'.
+  $permissions['delete any werknemer content'] = array(
+    'name' => 'delete any werknemer content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete own audio files'.
   $permissions['delete own audio files'] = array(
     'name' => 'delete own audio files',
     'roles' => array(),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'delete own dienst content'.
+  $permissions['delete own dienst content'] = array(
+    'name' => 'delete own dienst content',
+    'roles' => array(),
+    'module' => 'node',
   );
 
   // Exported permission: 'delete own document files'.
@@ -740,6 +775,13 @@ function default_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
+  );
+
+  // Exported permission: 'delete own werknemer content'.
+  $permissions['delete own werknemer content'] = array(
+    'name' => 'delete own werknemer content',
+    'roles' => array(),
+    'module' => 'node',
   );
 
   // Exported permission: 'delete revisions'.
@@ -841,6 +883,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'edit any dienst content'.
+  $permissions['edit any dienst content'] = array(
+    'name' => 'edit any dienst content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit any document files'.
   $permissions['edit any document files'] = array(
     'name' => 'edit any document files',
@@ -876,6 +925,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'edit any werknemer content'.
+  $permissions['edit any werknemer content'] = array(
+    'name' => 'edit any werknemer content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit bean view mode'.
   $permissions['edit bean view mode'] = array(
     'name' => 'edit bean view mode',
@@ -899,6 +955,13 @@ function default_permissions_user_default_permissions() {
     'name' => 'edit own audio files',
     'roles' => array(),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'edit own dienst content'.
+  $permissions['edit own dienst content'] = array(
+    'name' => 'edit own dienst content',
+    'roles' => array(),
+    'module' => 'node',
   );
 
   // Exported permission: 'edit own document files'.
@@ -943,6 +1006,13 @@ function default_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
+  );
+
+  // Exported permission: 'edit own werknemer content'.
+  $permissions['edit own werknemer content'] = array(
+    'name' => 'edit own werknemer content',
+    'roles' => array(),
+    'module' => 'node',
   );
 
   // Exported permission: 'edit webform components'.

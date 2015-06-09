@@ -328,4 +328,36 @@ a.buttonred {
   .view-diensten .views-row .views-field-field-image {
     margin-bottom: 13px; }
 
+.zone-preface-wrapper {
+  margin-bottom: 40px; }
+
+h2.block-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-size: 1.875em;
+  font-weight: 600; }
+
+.zone-preface-second-wrapper {
+  background-color: #f7f7f7;
+  padding-top: 50px;
+  padding-bottom: 40px; }
+
+.view-werknemers .views-row {
+  width: 18%;
+  float: left;
+  padding: 50px 3%;
+  text-align: center; }
+  .view-werknemers .views-row .views-field-field-naam {
+    font-size: 0.938em;
+    color: #e36968; }
+  .view-werknemers .views-row .views-field-field-functie {
+    font-size: 0.938em; }
+  .view-werknemers .views-row .views-field-field-image {
+    padding-bottom: 25px; }
+.view-werknemers .view-header {
+  text-align: center; }
+.view-werknemers .view-footer .button {
+  text-align: center; }
+
 /*# sourceMappingURL=global.css.map */
