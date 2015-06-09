@@ -324,32 +324,6 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['superfish-2'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'delta' => 2,
-    'module' => 'superfish',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'default' => array(
-        'region' => 'footer_first',
-        'status' => 1,
-        'theme' => 'default',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => 'Direct naar',
-    'visibility' => 0,
-  );
-
   $export['superfish-3'] = array(
     'cache' => -1,
     'custom' => 0,
