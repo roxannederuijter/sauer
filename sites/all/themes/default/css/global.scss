@@ -213,13 +213,14 @@ input[type="button"]:hover,
   li {
     float: left;
     list-style: none;
-    padding: 13px 30% 13px 0;
+    padding: 13px 30px 13px 0;
     font-size:0.750em;
   }
   .place {
     float:left;
     li.place {
       color:#fff;
+      padding-right:30px;
     }
     li.place:before {
       font-family: FontAwesome;

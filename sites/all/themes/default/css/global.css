@@ -216,12 +216,13 @@ input[type="button"]:hover,
 .zone-user-wrapper li {
   float: left;
   list-style: none;
-  padding: 13px 30% 13px 0;
+  padding: 13px 30px 13px 0;
   font-size: 0.750em; }
 .zone-user-wrapper .place {
   float: left; }
   .zone-user-wrapper .place li.place {
-    color: #fff; }
+    color: #fff;
+    padding-right: 30px; }
   .zone-user-wrapper .place li.place:before {
     font-family: FontAwesome;
     content: "\f041";
