@@ -327,6 +327,8 @@ a.buttonred {
       color: #000; }
   .view-diensten .views-row .views-field-field-image {
     margin-bottom: 13px; }
+.view-diensten .view-footer .button {
+  text-align: center; }
 
 .zone-preface-wrapper {
   margin-bottom: 40px; }
