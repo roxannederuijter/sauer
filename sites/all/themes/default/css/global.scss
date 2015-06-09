@@ -29,42 +29,43 @@ img {
 h1 {
   font-size: 2em;
   font-weight: 800;
+  font-family:$font;
 }
 
 h2 {
   font-size: 1.6em;
-  font-weight: 600;
+  font-weight: bold;
+  font-family:$font;
 }
 
 h2.block-title {
   font-size: 1.6em;
-  font-weight: 600;
+  font-weight: bold;
+  font-family:$font;
 }
 
 h3 {
   font-size: 1.4em;
+  font-family: $font;
+  font-weight: 400;
 }
 
 h4 {
   font-size: 1.2em;
+  font-family: $font;
+  font-weight: 400;
 }
 
 h5 {
   font-size: 1em;
-}
-
-h1, h2, h2.block-title, h3, h4, h5 {
   font-family: $font;
-}
-
-h3, h4, h5 {
   font-weight: 400;
 }
 
-p, a, a:link, div {
+
+p {
   font-family: $font;
   font-size: 1em;
-  text-decoration: none;
 }
 
 a, a:link {
@@ -73,6 +74,9 @@ a, a:link {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  font-family: $font;
+  font-size: 1em;
+  text-decoration: none;
 }
 
 a:hover, a:link:hover {
@@ -86,6 +90,10 @@ a:hover, a:link:hover {
 .fa:before {
   margin-right: 0.5em;
   font-family: FontAwesome;
+}
+
+div {
+  font-family:$font;
 }
 
 label {
@@ -206,6 +214,7 @@ input[type="button"]:hover,
     float: left;
     list-style: none;
     padding: 13px 30% 13px 0;
+    font-size:0.750em;
   }
   .place {
     float:left;
@@ -265,6 +274,9 @@ ul#superfish-1 {
   li {
     margin:0;
     padding:0;
+    a {
+      font-size:0.938em;
+    }
   }
   li.last {
     a {
@@ -313,14 +325,24 @@ ul#superfish-1 {
 }
 
 .bean-banner {
-  margin-top:250px;
+  margin-top:330px;
   margin-bottom:200px;
   .field-name-field-inhoud {
     text-align:center;
-    color:#fff;
+    color:#000;
     h2 {
       text-transform:uppercase;
+      font-size:2.250em;
     }
+    .bannertext {
+      font-size: 1.500em;
+    }
+  }
+}
+
+.block-diensten-block {
+  h2.block-title {
+    background: url("img/line.png") no-repeat scroll left -2% center, url("img/line.png") no-repeat scroll right -4% center transparent;
   }
 }
 
@@ -330,6 +352,8 @@ a.buttonblue {
   padding:14px 60px;
   margin-right:2%;
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.938em;
 }
 
 a.buttonred {
@@ -337,6 +361,8 @@ a.buttonred {
   color:#fff;
   padding:14px 25px;
   text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.938em;
 }
 
 .view-diensten {
@@ -377,7 +403,7 @@ h2.block-title {
   text-transform:uppercase;
   margin-bottom:40px;
   font-size:1.875em;
-  font-weight:600;
+  font-weight:700;
 }
 
 .zone-preface-second-wrapper {

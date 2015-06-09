@@ -21,42 +21,47 @@ img {
 
 h1 {
   font-size: 2em;
-  font-weight: 800; }
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif; }
 
 h2 {
   font-size: 1.6em;
-  font-weight: 600; }
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif; }
 
 h2.block-title {
   font-size: 1.6em;
-  font-weight: 600; }
-
-h3 {
-  font-size: 1.4em; }
-
-h4 {
-  font-size: 1.2em; }
-
-h5 {
-  font-size: 1em; }
-
-h1, h2, h2.block-title, h3, h4, h5 {
+  font-weight: bold;
   font-family: "Montserrat", sans-serif; }
 
-h3, h4, h5 {
+h3 {
+  font-size: 1.4em;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400; }
 
-p, a, a:link, div {
+h4 {
+  font-size: 1.2em;
   font-family: "Montserrat", sans-serif;
+  font-weight: 400; }
+
+h5 {
   font-size: 1em;
-  text-decoration: none; }
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; }
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em; }
 
 a, a:link {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  text-decoration: none; }
 
 a:hover, a:link:hover {
   -webkit-transition: all 0.3s ease;
@@ -68,6 +73,9 @@ a:hover, a:link:hover {
 .fa:before {
   margin-right: 0.5em;
   font-family: FontAwesome; }
+
+div {
+  font-family: "Montserrat", sans-serif; }
 
 label {
   font-weight: normal; }
@@ -208,7 +216,8 @@ input[type="button"]:hover,
 .zone-user-wrapper li {
   float: left;
   list-style: none;
-  padding: 13px 30% 13px 0; }
+  padding: 13px 30% 13px 0;
+  font-size: 0.750em; }
 .zone-user-wrapper .place {
   float: left; }
   .zone-user-wrapper .place li.place {
@@ -253,6 +262,8 @@ ul#superfish-1 {
   ul#superfish-1 li {
     margin: 0;
     padding: 0; }
+    ul#superfish-1 li a {
+      font-size: 0.938em; }
   ul#superfish-1 li.last a {
     margin: 20px 0px 15px 30px;
     padding: 40px 0 0 0;
@@ -290,26 +301,36 @@ ul#superfish-1 {
     background-size: 20px; }
 
 .bean-banner {
-  margin-top: 250px;
+  margin-top: 330px;
   margin-bottom: 200px; }
   .bean-banner .field-name-field-inhoud {
     text-align: center;
-    color: #fff; }
+    color: #000; }
     .bean-banner .field-name-field-inhoud h2 {
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-size: 2.250em; }
+    .bean-banner .field-name-field-inhoud .bannertext {
+      font-size: 1.500em; }
+
+.block-diensten-block h2.block-title {
+  background: url("img/line.png") no-repeat scroll left -2% center, url("img/line.png") no-repeat scroll right -4% center transparent; }
 
 a.buttonblue {
   background-color: #006c68;
   color: #fff;
   padding: 14px 60px;
   margin-right: 2%;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.938em; }
 
 a.buttonred {
   background-color: #e36968;
   color: #fff;
   padding: 14px 25px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.938em; }
 
 .view-diensten .views-row {
   width: 20%;
@@ -338,7 +359,7 @@ h2.block-title {
   text-transform: uppercase;
   margin-bottom: 40px;
   font-size: 1.875em;
-  font-weight: 600; }
+  font-weight: 700; }
 
 .zone-preface-second-wrapper {
   background-color: #f7f7f7;
