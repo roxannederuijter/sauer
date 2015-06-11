@@ -530,4 +530,12 @@ ul#superfish-1 li.sf-item-2 ul {
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px; }
 
+#block-views-werknemers-block-1 {
+  width: 80%;
+  margin: 0 auto; }
+  #block-views-werknemers-block-1 .view-werknemers img {
+    width: 66%; }
+  #block-views-werknemers-block-1 .view-werknemers .views-row {
+    width: 26%; }
+
 /*# sourceMappingURL=global.css.map */
