@@ -45,7 +45,7 @@ function default_block_settings_default_fe_block_settings() {
     'module' => 'bean',
     'node_types' => array(),
     'pages' => 'home
-contact',
+contact-0',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -71,7 +71,7 @@ contact',
     'delta' => 'contactbanner',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => 'contact',
+    'pages' => 'contact-0',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -123,7 +123,7 @@ contact',
     'machine_name' => 'googlemaps',
     'module' => 'block',
     'node_types' => array(),
-    'pages' => 'contact',
+    'pages' => 'contact-0',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -791,6 +791,32 @@ contact',
     ),
     'title' => 'Onze mensen',
     'visibility' => 1,
+  );
+
+  $export['webform-client-block-10'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'client-block-10',
+    'module' => 'webform',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   return $export;
