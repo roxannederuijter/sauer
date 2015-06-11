@@ -305,17 +305,14 @@ ul#superfish-1 {
     background: url("img/overons.svg") top 10px center no-repeat;
     background-size: 20px; }
 
-.bean-banner {
-  margin-top: 330px;
-  margin-bottom: 200px; }
-  .bean-banner .field-name-field-inhoud {
-    text-align: center;
-    color: #000; }
-    .bean-banner .field-name-field-inhoud h2 {
-      text-transform: uppercase;
-      font-size: 2.250em; }
-    .bean-banner .field-name-field-inhoud .bannertext {
-      font-size: 1.500em; }
+.front h2 {
+  text-transform: uppercase;
+  font-size: 2.250em; }
+.front .bannertext {
+  font-size: 1.500em;
+  text-align: center; }
+  .front .bannertext a {
+    font-size: 0.938em; }
 
 .block-diensten-block h2.block-title {
   background: url("img/line.png") no-repeat scroll left -2% center, url("img/line.png") no-repeat scroll right -4% center transparent; }
@@ -357,7 +354,8 @@ a.buttonred {
   text-align: center; }
 
 .zone-preface-wrapper {
-  margin-bottom: 40px; }
+  background-color: #f7f7f7;
+  padding: 50px 0; }
 
 h2.block-title {
   text-align: center;
@@ -367,9 +365,13 @@ h2.block-title {
   font-weight: 700; }
 
 .zone-preface-second-wrapper {
-  background-color: #f7f7f7;
   padding-top: 50px;
   padding-bottom: 40px; }
+
+.zone-preface-third-wrapper {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: #f7f7f7; }
 
 .view-werknemers .views-row {
   width: 18%;
@@ -423,6 +425,14 @@ h2.block-title {
   margin: 0 auto; }
 
 #region-header-first {
+  width: 100%;
+  margin: 0 auto; }
+
+#region-postscript-second {
+  width: 100%;
+  margin: 0 auto; }
+
+#zone-bottom {
   width: 100%;
   margin: 0 auto; }
 

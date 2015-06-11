@@ -266,9 +266,9 @@ input[type="button"]:hover,
       color:#fff;
     }
   }
- .region-user-second-inner {
-   float:right;
- }
+  .region-user-second-inner {
+    float:right;
+  }
 }
 
 .block-superfish {
@@ -331,20 +331,18 @@ ul#superfish-1 {
   }
 }
 
-.bean-banner {
-  margin-top:330px;
-  margin-bottom:200px;
-  .field-name-field-inhoud {
-    text-align:center;
-    color:#000;
+.front {
     h2 {
       text-transform:uppercase;
       font-size:2.250em;
     }
     .bannertext {
       font-size: 1.500em;
+      text-align:center;
+      a {
+        font-size:0.938em;
+      }
     }
-  }
 }
 
 .block-diensten-block {
@@ -402,7 +400,8 @@ a.buttonred {
 }
 
 .zone-preface-wrapper {
-  margin-bottom:40px;
+  background-color:$gray;
+  padding:50px 0;
 }
 
 h2.block-title {
@@ -414,9 +413,14 @@ h2.block-title {
 }
 
 .zone-preface-second-wrapper {
-  background-color:$gray;
   padding-top:50px;
   padding-bottom:40px;
+}
+
+.zone-preface-third-wrapper {
+  padding-top:50px;
+  padding-bottom:40px;
+  background-color:$gray;
 }
 
 .view-werknemers {
@@ -495,6 +499,16 @@ h2.block-title {
 }
 
 #region-header-first {
+  width:100%;
+  margin:0 auto;
+}
+
+#region-postscript-second {
+  width:100%;
+  margin:0 auto;
+}
+
+#zone-bottom {
   width:100%;
   margin:0 auto;
 }

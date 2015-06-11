@@ -39,10 +39,29 @@ function default_block_settings_default_fe_block_boxes() {
   $fe_block_boxes->info = 'Googlemaps';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'googlemaps';
-  $fe_block_boxes->body = '<p><iframe frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.472582427155!2d3.5880625999999998!3d51.4494792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c499f77ee909d3%3A0x70f803f7c912f681!2sEdisonweg+2%2C+4382+NW+Vlissingen!5e0!3m2!1sen!2snl!4v1433861990131" style="border:0" width="600"></iframe></p>
+  $fe_block_boxes->body = '<p><iframe frameborder="0" height="450" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.472582427155!2d3.5880625999999998!3d51.4494792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c499f77ee909d3%3A0x70f803f7c912f681!2sEdisonweg+2%2C+4382+NW+Vlissingen!5e0!3m2!1sen!2snl!4v1433861990131" style="border:0" width="100%"></iframe></p>
 ';
 
   $export['googlemaps'] = $fe_block_boxes;
+
+  $fe_block_boxes = new stdClass();
+  $fe_block_boxes->info = 'Sauer en Oonk';
+  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->machine_name = 'sauer';
+  $fe_block_boxes->body = '<h2 class="rtecenter">Sauer &amp; Oonk</h2>
+
+<div class="bannertext">
+<p class="rtecenter">Belangrijke gebeurtenissen in uw leven vragen verstandige beslissingen.</p>
+
+<p class="rtecenter">Wij willen u daarbij graag van dienst zijn.</p>
+
+<p class="rtecenter">&nbsp;</p>
+
+<p><a class="buttonblue" href="http://&lt;front&gt;">OVER ONS</a>&nbsp;<a class="buttonred" href="http://&lt;front&gt;">AFSPRAAK MAKEN</a></p>
+</div>
+';
+
+  $export['sauer'] = $fe_block_boxes;
 
   return $export;
 }

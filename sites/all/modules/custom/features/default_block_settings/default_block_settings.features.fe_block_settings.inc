@@ -143,6 +143,32 @@ contact',
     'visibility' => 1,
   );
 
+  $export['block-sauer'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'machine_name' => 'sauer',
+    'module' => 'block',
+    'node_types' => array(),
+    'pages' => 'home',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'preface_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -15,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['devel-execute_php'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -725,10 +751,10 @@ contact',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'preface_first',
+        'region' => 'preface_second',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -15,
       ),
       'seven' => array(
         'region' => '',
@@ -751,10 +777,10 @@ contact',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'preface_second',
+        'region' => 'preface_third',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -14,
       ),
       'seven' => array(
         'region' => '',

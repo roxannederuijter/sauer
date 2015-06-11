@@ -10,45 +10,65 @@
 function content_bean_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'bean-banner-field_inhoud'
-  $field_instances['bean-banner-field_inhoud'] = array(
+  // Exported field_instance: 'bean-banner-field_image'
+  $field_instances['bean-banner-field_image'] = array(
     'bundle' => 'banner',
-    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => '',
+        ),
+        'type' => 'image',
         'weight' => 0,
       ),
     ),
     'entity_type' => 'bean',
-    'field_name' => 'field_inhoud',
-    'label' => 'Inhoud',
+    'field_name' => 'field_image',
+    'label' => 'Afbeelding',
     'required' => 0,
     'settings' => array(
-      'display_summary' => 0,
-      'text_processing' => 1,
+      'alt_field' => 0,
+      'default_image' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 0,
       'user_register_form' => FALSE,
     ),
     'widget' => array(
       'active' => 1,
-      'module' => 'text',
+      'module' => 'media',
       'settings' => array(
-        'rows' => 20,
-        'summary_rows' => 5,
+        'allowed_schemes' => array(
+          'public' => 'public',
+        ),
+        'allowed_types' => array(
+          'audio' => 0,
+          'document' => 0,
+          'image' => 'image',
+          'video' => 0,
+        ),
+        'browser_plugins' => array(
+          'media_default--media_browser_1' => 0,
+          'media_default--media_browser_my_files' => 0,
+          'upload' => 0,
+        ),
       ),
-      'type' => 'text_textarea_with_summary',
-      'weight' => 31,
+      'type' => 'media_generic',
+      'weight' => 32,
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Inhoud');
+  t('Afbeelding');
 
   return $field_instances;
 }
