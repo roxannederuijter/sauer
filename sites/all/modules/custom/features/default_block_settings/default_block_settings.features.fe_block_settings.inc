@@ -795,6 +795,32 @@ diensten-*',
     'visibility' => 1,
   );
 
+  $export['views-werknemers-block_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'werknemers-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'over-ons',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['webform-client-block-10'] = array(
     'cache' => -1,
     'custom' => 0,

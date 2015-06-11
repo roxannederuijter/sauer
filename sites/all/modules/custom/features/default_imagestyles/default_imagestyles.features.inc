@@ -26,5 +26,20 @@ function default_imagestyles_image_default_styles() {
     ),
   );
 
+  // Exported image style: dienst.
+  $styles['dienst'] = array(
+    'label' => 'Dienst',
+    'effects' => array(
+      3 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 400,
+          'height' => 400,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   return $styles;
 }

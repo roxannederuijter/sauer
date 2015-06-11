@@ -3,6 +3,7 @@ core = 7.x
 package = Content
 dependencies[] = ctools
 dependencies[] = features
+dependencies[] = file_entity
 dependencies[] = image
 dependencies[] = media
 dependencies[] = node
