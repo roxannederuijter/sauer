@@ -435,7 +435,9 @@ contact-0',
     'delta' => 3,
     'module' => 'superfish',
     'node_types' => array(),
-    'pages' => 'diensten-*',
+    'pages' => 'diensten
+diensten*
+diensten-*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -452,7 +454,7 @@ contact-0',
       ),
     ),
     'title' => 'NIeuws',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   $export['superfish-4'] = array(
