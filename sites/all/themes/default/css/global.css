@@ -377,7 +377,8 @@ h2.block-title {
   width: 18%;
   float: left;
   padding: 50px 3%;
-  text-align: center; }
+  text-align: center;
+  min-height: 315px; }
   .view-werknemers .views-row .views-field-field-naam {
     font-size: 0.938em;
     color: #e36968; }
