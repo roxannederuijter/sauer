@@ -511,10 +511,44 @@ h2.block-title {
 #zone-bottom {
   width:100%;
   margin:0 auto;
+  p {
+    margin:0;
+    padding:0;
+    font-size:0;
+  }
 }
 
 .node-type-webform {
   #zone-content-wrapper {
     background-image:url('img/contactbg.png');
+    padding:50px 0;
+    .field-name-field-tekst-lang {
+      text-align:center;
+    }
+    .webform-component {
+      width:35%;
+      margin:0 auto;
+      margin-bottom:10px;
+    }
+    input {
+      border-radius:5px;
+    }
+    select {
+      border-radius:5px;
+    }
+    textarea {
+      border-radius:5px;
+    }
+    .form-actions {
+      width:20%;
+      margin:0 auto;
+    }
+    .webform-submit {
+      border-radius:0;
+      background-color:$red;
+      color:#fff;
+      text-transform:uppercase;
+      padding:11px 15px;
+    }
   }
 }
