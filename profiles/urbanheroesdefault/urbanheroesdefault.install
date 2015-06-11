@@ -288,3 +288,8 @@ function urbanheroesdefault_install() {
   variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', '1');
 }
+
+function urbanheroesdefault_update_7001() {
+    field_delete_field('field_inhoud');
+    field_purge_batch(9999999999999999999999999999);
+}
