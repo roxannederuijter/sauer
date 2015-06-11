@@ -436,4 +436,7 @@ h2.block-title {
   width: 100%;
   margin: 0 auto; }
 
+.node-type-webform #zone-content-wrapper {
+  background-image: url("img/contactbg.png"); }
+
 /*# sourceMappingURL=global.css.map */
