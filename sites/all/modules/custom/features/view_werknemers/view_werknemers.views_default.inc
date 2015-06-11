@@ -107,10 +107,10 @@ De uitdaging voor hen en de medewerkers ligt in hoogwaardige juridisch advieswer
   $handler->display->display_options['pager']['options']['expose']['items_per_page_label'] = 'Items per pagina';
   $handler->display->display_options['pager']['options']['expose']['items_per_page_options_all_label'] = '- Alle -';
   $handler->display->display_options['pager']['options']['expose']['offset_label'] = 'Startpunt';
-  $handler->display->display_options['pager']['options']['tags']['first'] = '« eerste';
+  $handler->display->display_options['pager']['options']['tags']['first'] = '';
   $handler->display->display_options['pager']['options']['tags']['previous'] = '‹ vorige';
   $handler->display->display_options['pager']['options']['tags']['next'] = 'volgende ›';
-  $handler->display->display_options['pager']['options']['tags']['last'] = 'laatste »';
+  $handler->display->display_options['pager']['options']['tags']['last'] = '';
   $handler->display->display_options['defaults']['footer'] = FALSE;
   /* Voet: Algemeen: Ongefilterde tekst */
   $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
@@ -133,10 +133,8 @@ De uitdaging voor hen en de medewerkers ligt in hoogwaardige juridisch advieswer
     t('Items per pagina'),
     t('- Alle -'),
     t('Startpunt'),
-    t('« eerste'),
     t('‹ vorige'),
     t('volgende ›'),
-    t('laatste »'),
   );
   $export['werknemers'] = $view;
 
