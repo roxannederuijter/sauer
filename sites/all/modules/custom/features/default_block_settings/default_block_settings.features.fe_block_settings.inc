@@ -71,7 +71,7 @@ contact-0',
     'delta' => 'contactbanner',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => 'contact-0',
+    'pages' => 'home',
     'roles' => array(),
     'themes' => array(
       'default' => array(
@@ -88,7 +88,7 @@ contact-0',
       ),
     ),
     'title' => '<none>',
-    'visibility' => 1,
+    'visibility' => 0,
   );
 
   $export['block-contact'] = array(

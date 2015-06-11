@@ -552,3 +552,41 @@ h2.block-title {
     }
   }
 }
+
+.sf-menu.sf-horizontal.sf-shadow ul, .sf-menu.sf-vertical.sf-shadow ul, .sf-menu.sf-navbar.sf-shadow ul ul {
+  background-color:#fff;
+  background-image:none;
+}
+
+
+
+ul#superfish-1 li.sf-item-2{
+  ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#fff;
+    padding:0;
+    width:100%;
+    li {
+      float:none;
+      width:200px;
+      background:none;
+      margin: 0;
+      padding: 0;
+      color: #000;
+      text-transform: uppercase;
+      a {
+        background:none;
+        margin: 0;
+        margin-top:17px;
+        padding: 0;
+        color: #000;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+

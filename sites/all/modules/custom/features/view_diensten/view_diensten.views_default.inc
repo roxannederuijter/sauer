@@ -39,12 +39,7 @@ function view_diensten_views_default_views() {
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Voet: Algemeen: Ongefilterde tekst */
-  $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
-  $handler->display->display_options['footer']['area_text_custom']['table'] = 'views';
-  $handler->display->display_options['footer']['area_text_custom']['field'] = 'area_text_custom';
-  $handler->display->display_options['footer']['area_text_custom']['content'] = '<div class="button"><a class="buttonred" href="">Bekijk onze diensten</a></div>';
-  /* Veld: Inhoud: Afbeelding */
+  /* Veld: Veld: Afbeelding */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
   $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
   $handler->display->display_options['fields']['field_image']['field'] = 'field_image';
@@ -99,7 +94,6 @@ function view_diensten_views_default_views() {
     t('Sorteren op'),
     t('Oplopend'),
     t('Aflopend'),
-    t('<div class="button"><a class="buttonred" href="">Bekijk onze diensten</a></div>'),
     t('Frontpage-Block'),
   );
   $export['diensten'] = $view;
