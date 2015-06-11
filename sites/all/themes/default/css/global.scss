@@ -645,6 +645,14 @@ ul#superfish-1 li.sf-item-2{
     }
     .view-werknemers .views-row {
       width: 26%;
+      min-height:285px;
+      padding: 5px 3% 0px 3%;
+    }
+    .view-werknemers .views-row .views-field-field-image {
+      padding-bottom: 0px;
+    }
+    .view-header {
+      margin-bottom:50px;
     }
   }
 

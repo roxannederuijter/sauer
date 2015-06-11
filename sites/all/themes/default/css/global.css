@@ -536,6 +536,12 @@ ul#superfish-1 li.sf-item-2 ul {
   #block-views-werknemers-block-1 .view-werknemers img {
     width: 66%; }
   #block-views-werknemers-block-1 .view-werknemers .views-row {
-    width: 26%; }
+    width: 26%;
+    min-height: 285px;
+    padding: 5px 3% 0px 3%; }
+  #block-views-werknemers-block-1 .view-werknemers .views-row .views-field-field-image {
+    padding-bottom: 0px; }
+  #block-views-werknemers-block-1 .view-header {
+    margin-bottom: 50px; }
 
 /*# sourceMappingURL=global.css.map */
