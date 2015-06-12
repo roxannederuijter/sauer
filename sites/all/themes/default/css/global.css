@@ -523,6 +523,22 @@ ul#superfish-1 li.sf-item-2 ul {
         font-size: 0.938em;
         padding: 4px 0;
         font-weight: 400; }
+  .region-sidebar-first .block-superfish-4 {
+    float: left;
+    color: #fff;
+    margin-left: 20px; }
+    .region-sidebar-first .block-superfish-4 h2.block-title {
+      margin-bottom: 10px;
+      text-transform: none;
+      float: left; }
+    .region-sidebar-first .block-superfish-4 ul li {
+      margin: 0;
+      width: 100%; }
+      .region-sidebar-first .block-superfish-4 ul li a {
+        color: #fff;
+        font-size: 0.938em;
+        padding: 4px 0;
+        font-weight: 400; }
 
 .view-werknemers img {
   width: 100%;

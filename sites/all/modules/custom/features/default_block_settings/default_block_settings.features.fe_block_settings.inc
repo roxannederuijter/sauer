@@ -444,7 +444,7 @@ diensten-*',
         'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',
@@ -463,14 +463,14 @@ diensten-*',
     'delta' => 4,
     'module' => 'superfish',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'nieuws',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'sidebar_first',
+        'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => '',
@@ -479,8 +479,8 @@ diensten-*',
         'weight' => 0,
       ),
     ),
-    'title' => '',
-    'visibility' => 0,
+    'title' => 'NIeuws categorie',
+    'visibility' => 1,
   );
 
   $export['system-help'] = array(
@@ -522,7 +522,7 @@ diensten-*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => 'content',
@@ -769,6 +769,32 @@ diensten-*',
     'visibility' => 1,
   );
 
+  $export['views-nieuws-block'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'nieuws-block',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'nieuws',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -15,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['views-werknemers-block'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -808,7 +834,7 @@ diensten-*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',

@@ -59,7 +59,7 @@ De uitdaging voor hen en de medewerkers ligt in hoogwaardige juridisch advieswer
   $handler->display->display_options['fields']['field_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_image']['settings'] = array(
     'image_style' => 'dienst',
-    'image_link' => 'content',
+    'image_link' => '',
   );
   /* Veld: Inhoud: Naam */
   $handler->display->display_options['fields']['field_naam']['id'] = 'field_naam';
