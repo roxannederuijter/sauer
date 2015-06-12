@@ -147,12 +147,10 @@ function content_ds_settings_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'ds_content' => array(
-        0 => 'title',
-        1 => 'field_paragraph_s',
+        0 => 'field_paragraph_s',
       ),
     ),
     'fields' => array(
-      'title' => 'ds_content',
       'field_paragraph_s' => 'ds_content',
     ),
     'classes' => array(),
