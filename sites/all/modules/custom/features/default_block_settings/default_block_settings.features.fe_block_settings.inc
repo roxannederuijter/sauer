@@ -38,6 +38,32 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 1,
   );
 
+  $export['bean-banner-over-ons'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 'banner-over-ons',
+    'module' => 'bean',
+    'node_types' => array(),
+    'pages' => 'over-ons',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'header_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['bean-contact'] = array(
     'cache' => 1,
     'custom' => 0,
@@ -71,7 +97,8 @@ contact-0',
     'delta' => 'contactbanner',
     'module' => 'bean',
     'node_types' => array(),
-    'pages' => 'home',
+    'pages' => 'home
+over-ons',
     'roles' => array(),
     'themes' => array(
       'default' => array(

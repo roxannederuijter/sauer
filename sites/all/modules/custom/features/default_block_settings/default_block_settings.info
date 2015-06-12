@@ -15,6 +15,7 @@ features[fe_block_boxes][] = contact
 features[fe_block_boxes][] = googlemaps
 features[fe_block_boxes][] = sauer
 features[fe_block_settings][] = bean-banner
+features[fe_block_settings][] = bean-banner-over-ons
 features[fe_block_settings][] = bean-contact
 features[fe_block_settings][] = bean-contactbanner
 features[fe_block_settings][] = block-contact
