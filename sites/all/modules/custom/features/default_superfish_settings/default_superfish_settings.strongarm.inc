@@ -616,7 +616,7 @@ function default_superfish_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'superfish_mclevels_3';
-  $strongarm->value = '1';
+  $strongarm->value = '7';
   $export['superfish_mclevels_3'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -700,7 +700,7 @@ function default_superfish_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'superfish_multicolumn_3';
-  $strongarm->value = 0;
+  $strongarm->value = 1;
   $export['superfish_multicolumn_3'] = $strongarm;
 
   $strongarm = new stdClass();

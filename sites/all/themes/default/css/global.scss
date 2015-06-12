@@ -631,6 +631,23 @@ ul#superfish-1 li.sf-item-2{
       }
     }
   }
+
+  .sf-megamenu-column {
+    ol {
+      li {
+        a {
+          font-size:0.750em;
+          color:#fff;
+        }
+        a:before {
+          content:'\003e';
+          margin-right:3%;
+        }
+      }
+    }
+  }
+
+
   .block-superfish-4 {
     float:left;
     color:#fff;

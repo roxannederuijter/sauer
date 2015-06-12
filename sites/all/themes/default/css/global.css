@@ -526,6 +526,12 @@ ul#superfish-1 li.sf-item-2 ul {
         font-size: 0.938em;
         padding: 4px 0;
         font-weight: 400; }
+  .region-sidebar-first .sf-megamenu-column ol li a {
+    font-size: 0.750em;
+    color: #fff; }
+  .region-sidebar-first .sf-megamenu-column ol li a:before {
+    content: '\003e';
+    margin-right: 3%; }
   .region-sidebar-first .block-superfish-4 {
     float: left;
     color: #fff;
