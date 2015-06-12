@@ -586,4 +586,30 @@ ul#superfish-1 li.sf-item-2 ul {
     color: #FFF;
     outline: 0; }
 
+.context-nieuws .pager li {
+  border-right: none;
+  color: #006c68;
+  font: "Montserrat", sans-serif;
+  font-size: 0.938em;
+  outline: 0; }
+  .context-nieuws .pager li a {
+    color: #006c68; }
+.context-nieuws .pager li a {
+  background: none;
+  cursor: pointer; }
+.context-nieuws .pager {
+  background: #f7f7f7;
+  border: none;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  padding: 6px 0; }
+.context-nieuws li.pager-first {
+  display: none; }
+.context-nieuws .pager li.pager-current {
+  background: #e36968;
+  border-radius: 15px;
+  color: #FFF;
+  outline: 0; }
+
 /*# sourceMappingURL=global.css.map */

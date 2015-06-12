@@ -711,4 +711,39 @@ ul#superfish-1 li.sf-item-2{
     }
   }
 
+.context-nieuws {
+  .pager li {
+    border-right: none;
+    color: $groen;
+    font:$font;
+    font-size:0.938em;
+    outline: 0;
+    a {
+      color:$groen;
+    }
+  }
+  .pager li a {
+    background: none;
+
+    cursor: pointer;
+  }
+  .pager {
+    background: $gray;
+    border: none;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    padding:6px 0;
+  }
+  li.pager-first {
+    display:none;
+  }
+  .pager li.pager-current {
+    background:$red;
+    border-radius:15px;
+    color: #FFF;
+    outline: 0;
+  }
+}
+
 
