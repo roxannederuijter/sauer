@@ -472,6 +472,9 @@ h2.block-title {
 }
 
 .block-superfish-2 {
+  .nolink {
+    display:none;
+  }
   float:left;
   color:#fff;
   h2.block-title {

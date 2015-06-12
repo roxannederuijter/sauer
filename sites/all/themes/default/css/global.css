@@ -408,6 +408,8 @@ h2.block-title {
 .block-superfish-2 {
   float: left;
   color: #fff; }
+  .block-superfish-2 .nolink {
+    display: none; }
   .block-superfish-2 h2.block-title {
     margin-bottom: 10px;
     text-transform: none;
