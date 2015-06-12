@@ -463,7 +463,8 @@ diensten-*',
     'delta' => 4,
     'module' => 'superfish',
     'node_types' => array(),
-    'pages' => 'nieuws',
+    'pages' => 'nieuws
+nieuws*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
