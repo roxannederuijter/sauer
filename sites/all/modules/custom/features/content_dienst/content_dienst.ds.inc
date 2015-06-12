@@ -18,7 +18,7 @@ function content_dienst_ds_field_settings_info() {
   $ds_fieldsetting->view_mode = 'default';
   $ds_fieldsetting->settings = array(
     'title' => array(
-      'weight' => '1',
+      'weight' => '0',
       'label' => 'hidden',
       'format' => 'default',
     ),
@@ -44,13 +44,13 @@ function content_dienst_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'ds_content' => array(
-        0 => 'field_paragraphs',
-        1 => 'title',
+        0 => 'title',
+        1 => 'field_paragraphs',
       ),
     ),
     'fields' => array(
-      'field_paragraphs' => 'ds_content',
       'title' => 'ds_content',
+      'field_paragraphs' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(
