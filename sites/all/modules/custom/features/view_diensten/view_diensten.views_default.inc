@@ -63,6 +63,14 @@ function view_diensten_views_default_views() {
   $handler->display->display_options['fields']['field_samenvatting']['field'] = 'field_samenvatting';
   $handler->display->display_options['fields']['field_samenvatting']['label'] = '';
   $handler->display->display_options['fields']['field_samenvatting']['element_label_colon'] = FALSE;
+  /* Veld: Inhoud: Voorpagina */
+  $handler->display->display_options['fields']['field_voorpagina']['id'] = 'field_voorpagina';
+  $handler->display->display_options['fields']['field_voorpagina']['table'] = 'field_data_field_voorpagina';
+  $handler->display->display_options['fields']['field_voorpagina']['field'] = 'field_voorpagina';
+  $handler->display->display_options['fields']['field_voorpagina']['label'] = '';
+  $handler->display->display_options['fields']['field_voorpagina']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_voorpagina']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_voorpagina']['type'] = 'ds_taxonomy_view_mode';
   /* Sorteercriterium: Inhoud: Datum van inzending */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
@@ -72,6 +80,11 @@ function view_diensten_views_default_views() {
   $handler->display->display_options['sorts']['promote']['id'] = 'promote';
   $handler->display->display_options['sorts']['promote']['table'] = 'node';
   $handler->display->display_options['sorts']['promote']['field'] = 'promote';
+  /* Sorteercriterium: Inhoud: Voorpagina (field_voorpagina) */
+  $handler->display->display_options['sorts']['field_voorpagina_tid']['id'] = 'field_voorpagina_tid';
+  $handler->display->display_options['sorts']['field_voorpagina_tid']['table'] = 'field_data_field_voorpagina';
+  $handler->display->display_options['sorts']['field_voorpagina_tid']['field'] = 'field_voorpagina_tid';
+  $handler->display->display_options['sorts']['field_voorpagina_tid']['expose']['label'] = 'Voorpagina (field_voorpagina)';
   /* Filtercriterium: Inhoud: Gepubliceerd */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
@@ -86,6 +99,14 @@ function view_diensten_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'dienst' => 'dienst',
   );
+  /* Filtercriterium: Inhoud: Voorpagina (field_voorpagina) */
+  $handler->display->display_options['filters']['field_voorpagina_tid']['id'] = 'field_voorpagina_tid';
+  $handler->display->display_options['filters']['field_voorpagina_tid']['table'] = 'field_data_field_voorpagina';
+  $handler->display->display_options['filters']['field_voorpagina_tid']['field'] = 'field_voorpagina_tid';
+  $handler->display->display_options['filters']['field_voorpagina_tid']['value'] = array(
+    0 => '1',
+  );
+  $handler->display->display_options['filters']['field_voorpagina_tid']['vocabulary'] = 'frontpage';
 
   /* Display: Frontpage-Block */
   $handler = $view->new_display('block', 'Frontpage-Block', 'block');
@@ -98,6 +119,7 @@ function view_diensten_views_default_views() {
     t('Sorteren op'),
     t('Oplopend'),
     t('Aflopend'),
+    t('Voorpagina (field_voorpagina)'),
     t('Frontpage-Block'),
   );
   $export['diensten'] = $view;
