@@ -111,6 +111,7 @@ De uitdaging voor hen en de medewerkers ligt in hoogwaardige juridisch advieswer
   $handler->display->display_options['pager']['options']['tags']['previous'] = '‹ vorige';
   $handler->display->display_options['pager']['options']['tags']['next'] = 'volgende ›';
   $handler->display->display_options['pager']['options']['tags']['last'] = '';
+  $handler->display->display_options['defaults']['header'] = FALSE;
   $handler->display->display_options['defaults']['footer'] = FALSE;
   /* Voet: Algemeen: Ongefilterde tekst */
   $handler->display->display_options['footer']['area_text_custom']['id'] = 'area_text_custom';
