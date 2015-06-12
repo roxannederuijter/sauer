@@ -268,7 +268,8 @@ ul#superfish-1 {
     margin: 0;
     padding: 0; }
     ul#superfish-1 li a {
-      font-size: 0.938em; }
+      font-size: 0.938em;
+      color: #000; }
   ul#superfish-1 li.last a {
     margin: 20px 0px 15px 30px;
     padding: 40px 0 0 0;
