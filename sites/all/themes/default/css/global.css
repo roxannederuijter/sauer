@@ -656,4 +656,7 @@ ul#superfish-1 li.sf-item-2 ul {
 .context-over-ons .field-name-field-tekst-lang {
   text-align: center; }
 
+.sticky-wrapper {
+  height: 0 !important; }
+
 /*# sourceMappingURL=global.css.map */
