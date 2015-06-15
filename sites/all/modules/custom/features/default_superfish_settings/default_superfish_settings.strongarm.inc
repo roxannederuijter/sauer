@@ -1120,14 +1120,14 @@ function default_superfish_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'superfish_smallset_3';
-  $strongarm->value = 'Hoofdmenu';
+  $strongarm->value = 'Diensten';
   $export['superfish_smallset_3'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'superfish_smallset_4';
-  $strongarm->value = 'Hoofdmenu';
+  $strongarm->value = 'Nieuws';
   $export['superfish_smallset_4'] = $strongarm;
 
   $strongarm = new stdClass();
