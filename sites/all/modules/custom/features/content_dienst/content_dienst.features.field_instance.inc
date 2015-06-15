@@ -71,51 +71,6 @@ function content_dienst_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-dienst-field_nieuws_item'
-  $field_instances['node-dienst-field_nieuws_item'] = array(
-    'bundle' => 'dienst',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'hidden',
-        'module' => 'entityreference',
-        'settings' => array(
-          'links' => 1,
-          'view_mode' => 'teaser',
-        ),
-        'type' => 'entityreference_entity_view',
-        'weight' => 2,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_nieuws_item',
-    'label' => 'Nieuws-item',
-    'required' => 0,
-    'settings' => array(
-      'behaviors' => array(
-        'test_instance_behavior' => array(
-          'status' => 0,
-        ),
-      ),
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_buttons',
-      'weight' => 45,
-    ),
-  );
-
   // Exported field_instance: 'node-dienst-field_paragraphs'
   $field_instances['node-dienst-field_paragraphs'] = array(
     'bundle' => 'dienst',
@@ -255,7 +210,6 @@ function content_dienst_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Afbeelding');
-  t('Nieuws-item');
   t('Paragraphs');
   t('Samenvatting');
   t('Voorpagina');
