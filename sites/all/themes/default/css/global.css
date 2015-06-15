@@ -519,11 +519,16 @@ ul#superfish-1 li.sf-item-2 ul {
   .region-sidebar-first .block-superfish-3 {
     float: left;
     color: #fff;
-    margin-left: 20px; }
+    margin-left: 20px;
+    width: 100%;
+    margin: 0;
+    background-color: #494949; }
     .region-sidebar-first .block-superfish-3 h2.block-title {
       margin-bottom: 10px;
       text-transform: none;
-      float: left; }
+      float: left;
+      width: 100%;
+      margin-left: 10px; }
     .region-sidebar-first .block-superfish-3 ul li {
       margin: 0;
       width: 100%; }
@@ -541,11 +546,16 @@ ul#superfish-1 li.sf-item-2 ul {
   .region-sidebar-first .block-superfish-4 {
     float: left;
     color: #fff;
-    margin-left: 20px; }
+    margin-left: 20px;
+    width: 100%;
+    margin: 0;
+    background-color: #494949; }
     .region-sidebar-first .block-superfish-4 h2.block-title {
       margin-bottom: 10px;
       text-transform: none;
-      float: left; }
+      float: left;
+      width: 100%;
+      margin-left: 10px; }
     .region-sidebar-first .block-superfish-4 ul li {
       margin: 0;
       width: 100%; }
@@ -554,6 +564,16 @@ ul#superfish-1 li.sf-item-2 ul {
         font-size: 0.938em;
         padding: 4px 0;
         font-weight: 400; }
+
+#superfish-3-select {
+  background-color: #494949;
+  color: white;
+  border: none; }
+
+#superfish-4-select {
+  background-color: #494949;
+  color: white;
+  border: none; }
 
 .view-werknemers img {
   width: 100%;

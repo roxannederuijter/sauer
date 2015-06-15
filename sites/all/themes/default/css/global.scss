@@ -601,38 +601,43 @@ ul#superfish-1 li.sf-item-2{
 }
 
 .region-sidebar-first {
-  background-color:#494949;
-  padding:20px 0px;
+  background-color: #494949;
+  padding: 20px 0px;
   .block-superfish {
-    float:left;
+    float: left;
   }
   h2.block-title {
     text-align: left;
     text-transform: none;
-    color:#fff;
+    color: #fff;
     margin-bottom: 20px;
     font-size: 1.875em;
     font-weight: 400;
-    float:left;
+    float: left;
   }
   .block-superfish-3 {
-    float:left;
-    color:#fff;
-    margin-left:20px;
+    float: left;
+    color: #fff;
+    margin-left: 20px;
+    width: 100%;
+    margin: 0;
+    background-color: #494949;
     h2.block-title {
-      margin-bottom:10px;
-      text-transform:none;
-      float:left;
+      margin-bottom: 10px;
+      text-transform: none;
+      float: left;
+      width: 100%;
+      margin-left: 10px;
     }
     ul {
       li {
-        margin:0;
-        width:100%;
+        margin: 0;
+        width: 100%;
         a {
-          color:#fff;
-          font-size:0.938em;
-          padding:4px 0;
-          font-weight:400;
+          color: #fff;
+          font-size: 0.938em;
+          padding: 4px 0;
+          font-weight: 400;
         }
       }
     }
@@ -642,40 +647,56 @@ ul#superfish-1 li.sf-item-2{
     ol {
       li {
         a {
-          font-size:0.750em;
-          color:#fff;
+          font-size: 0.750em;
+          color: #fff;
         }
         a:before {
-          content:'\003e';
-          margin-right:3%;
+          content: '\003e';
+          margin-right: 3%;
         }
       }
     }
   }
 
-
   .block-superfish-4 {
-    float:left;
-    color:#fff;
-    margin-left:20px;
+    float: left;
+    color: #fff;
+    margin-left: 20px;
+    width: 100%;
+    margin: 0;
+    background-color: #494949;
     h2.block-title {
-      margin-bottom:10px;
-      text-transform:none;
-      float:left;
+      margin-bottom: 10px;
+      text-transform: none;
+      float: left;
+      width: 100%;
+      margin-left: 10px;
     }
     ul {
       li {
-        margin:0;
-        width:100%;
+        margin: 0;
+        width: 100%;
         a {
-          color:#fff;
-          font-size:0.938em;
-          padding:4px 0;
-          font-weight:400;
+          color: #fff;
+          font-size: 0.938em;
+          padding: 4px 0;
+          font-weight: 400;
         }
       }
     }
   }
+}
+
+#superfish-3-select {
+  background-color:#494949;
+  color:white;
+  border:none;
+}
+
+#superfish-4-select {
+  background-color:#494949;
+  color:white;
+  border:none;
 }
 
 .view-werknemers img {

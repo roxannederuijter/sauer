@@ -122,6 +122,84 @@ a.buttonred {
   }
 }
 
+.region-sidebar-first {
+  background-color:#494949;
+  padding:20px 0px;
+  .block-superfish {
+    float:left;
+  }
+  h2.block-title {
+    text-align: left;
+    text-transform: none;
+    color:#fff;
+    margin-bottom: 20px;
+    font-size: 1.875em;
+    font-weight: 400;
+    float:left;
+  }
+  .block-superfish-3 {
+    float:left;
+    color:#fff;
+    margin-left:20px;
+    background-color:transparent;
+    h2.block-title {
+      margin-bottom:10px;
+      text-transform:none;
+      float:left;
+    }
+    ul {
+      li {
+        margin:0;
+        width:100%;
+        a {
+          color:#fff;
+          font-size:0.938em;
+          padding:4px 0;
+          font-weight:400;
+        }
+      }
+    }
+  }
+
+  .sf-megamenu-column {
+    ol {
+      li {
+        a {
+          font-size:0.750em;
+          color:#fff;
+        }
+        a:before {
+          content:'\003e';
+          margin-right:3%;
+        }
+      }
+    }
+  }
+  .block-superfish-4 {
+    float:left;
+    color:#fff;
+    margin-left:20px;
+    background-color:transparent;
+    h2.block-title {
+      margin-bottom:10px;
+      text-transform:none;
+      float:left;
+    }
+    ul {
+      li {
+        margin:0;
+        width:100%;
+        a {
+          color:#fff;
+          font-size:0.938em;
+          padding:4px 0;
+          font-weight:400;
+        }
+      }
+    }
+  }
+}
+
 
 
 
