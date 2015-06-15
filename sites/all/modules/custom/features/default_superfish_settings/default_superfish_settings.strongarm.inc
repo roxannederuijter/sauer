@@ -805,7 +805,7 @@ function default_superfish_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'superfish_menu_4';
-  $strongarm->value = 'main-menu:617';
+  $strongarm->value = 'main-menu:627';
   $export['superfish_menu_4'] = $strongarm;
 
   $strongarm = new stdClass();
