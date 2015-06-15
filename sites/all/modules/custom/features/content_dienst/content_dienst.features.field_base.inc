@@ -32,36 +32,42 @@ function content_dienst_field_default_field_bases() {
     'type' => 'image',
   );
 
-  // Exported field_base: 'field_nieuws_items'
-  $field_bases['field_nieuws_items'] = array(
+  // Exported field_base: 'field_nieuws_item'
+  $field_bases['field_nieuws_item'] = array(
     'active' => 1,
     'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_nieuws_items',
+    'field_name' => 'field_nieuws_item',
     'indexes' => array(
-      'nid' => array(
-        0 => 'nid',
+      'target_id' => array(
+        0 => 'target_id',
       ),
     ),
     'locked' => 0,
-    'module' => 'node_reference',
+    'module' => 'entityreference',
     'settings' => array(
-      'referenceable_types' => array(
-        'dienst' => 0,
-        'nieuws' => 'nieuws',
-        'page' => 0,
-        'webform' => 0,
-        'werknemer' => 0,
+      'handler' => 'base',
+      'handler_settings' => array(
+        'behaviors' => array(
+          'test_field_behavior' => array(
+            'status' => 0,
+          ),
+          'views-select-list' => array(
+            'status' => 0,
+          ),
+        ),
+        'sort' => array(
+          'type' => 'none',
+        ),
+        'target_bundles' => array(
+          'nieuws' => 'nieuws',
+        ),
       ),
-      'view' => array(
-        'args' => array(),
-        'display_name' => '',
-        'view_name' => '',
-      ),
+      'target_type' => 'node',
     ),
     'translatable' => 0,
-    'type' => 'node_reference',
+    'type' => 'entityreference',
   );
 
   // Exported field_base: 'field_paragraphs'
