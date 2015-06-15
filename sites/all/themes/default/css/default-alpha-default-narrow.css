@@ -107,7 +107,6 @@ a.buttonred {
   padding: 5px 3% 0px 3%; }
 
 .region-sidebar-first {
-  background-color: #494949;
   padding: 20px 0px; }
   .region-sidebar-first .block-superfish {
     float: left; }
@@ -122,8 +121,7 @@ a.buttonred {
   .region-sidebar-first .block-superfish-3 {
     float: left;
     color: #fff;
-    margin-left: 20px;
-    background-color: transparent; }
+    margin-left: 20px; }
     .region-sidebar-first .block-superfish-3 h2.block-title {
       margin-bottom: 10px;
       text-transform: none;
@@ -145,8 +143,7 @@ a.buttonred {
   .region-sidebar-first .block-superfish-4 {
     float: left;
     color: #fff;
-    margin-left: 10px;
-    background-color: transparent; }
+    margin-left: 10px; }
     .region-sidebar-first .block-superfish-4 h2.block-title {
       margin-bottom: 10px;
       text-transform: none;

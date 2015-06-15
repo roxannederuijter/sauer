@@ -352,6 +352,32 @@ over-ons',
     'visibility' => 0,
   );
 
+  $export['menu-menu-custommenu'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'menu-custommenu',
+    'module' => 'menu',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
+  );
+
   $export['node-recent'] = array(
     'cache' => 1,
     'custom' => 0,
@@ -535,6 +561,59 @@ nieuws*',
     ),
     'title' => 'NIeuws categorie',
     'visibility' => 1,
+  );
+
+  $export['superfish-5'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 5,
+    'module' => 'superfish',
+    'node_types' => array(),
+    'pages' => 'nieuws
+nieuws*',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['superfish-6'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 6,
+    'module' => 'superfish',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '',
+    'visibility' => 0,
   );
 
   $export['system-help'] = array(
