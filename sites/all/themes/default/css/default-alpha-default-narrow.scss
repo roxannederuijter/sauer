@@ -200,6 +200,88 @@ a.buttonred {
   }
 }
 
+.context-nieuws {
+  .pager li {
+    border-right: none;
+    color: $groen;
+    font:$font;
+    font-size:0.938em;
+    outline: 0;
+    a {
+      color:$groen;
+    }
+  }
+  .pager li a {
+    background: none;
+
+    cursor: pointer;
+  }
+  .pager {
+    background: $gray;
+    border: none;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    padding:6px 0;
+  }
+  li.pager-first {
+    display:none;
+  }
+  .pager li.pager-current {
+    background:$red;
+    border-radius:15px;
+    color: #FFF;
+    outline: 0;
+  }
+  .views-field-field-image {
+    width:30%;
+    float:left;
+  }
+  .views-field-title {
+    width:67%;
+    float:left;
+    margin:0 0 0 3%;
+    font-size:1.125em;
+    text-transform:uppercase;
+    font-weight:700;
+    text-align:left;
+    a {
+      color:#000;
+    }
+  }
+  .views-field-created {
+    width:67%;
+    float:left;
+    margin:0 0 0 3%;
+    font-size:0.938em;
+    margin-bottom: 20px;
+    text-align:left;
+  }
+  .views-field-field-samenvatting {
+    width:67%;
+    float:left;
+    margin:0 0 0 3%;
+    text-align:left;
+  }
+  .views-field-view-node {
+    width:67%;
+    float:left;
+    margin:0 0 0 3%;
+    text-align:left;
+    a {
+      color:$red;
+    }
+  }
+  .view-nieuws {
+    .views-row {
+      min-height:210px;
+    }
+  }
+  h2 {
+    text-transform:uppercase;
+  }
+}
+
 
 
 

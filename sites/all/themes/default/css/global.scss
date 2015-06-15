@@ -793,43 +793,47 @@ ul#superfish-1 li.sf-item-2{
     outline: 0;
   }
   .views-field-field-image {
-    width:30%;
+    width:100%;
     float:left;
   }
   .views-field-title {
-    width:67%;
+    width:100%;
     float:left;
     margin:0 0 0 3%;
     font-size:1.125em;
     text-transform:uppercase;
     font-weight:700;
+    text-align:center;
     a {
       color:#000;
     }
   }
   .views-field-created {
-    width:67%;
+    width:100%;
     float:left;
     margin:0 0 0 3%;
     font-size:0.938em;
     margin-bottom: 20px;
+    text-align:center;
   }
   .views-field-field-samenvatting {
-    width:67%;
+    width:100%;
     float:left;
     margin:0 0 0 3%;
+    text-align:center;
   }
   .views-field-view-node {
-    width:67%;
+    width:100%;
     float:left;
     margin:0 0 0 3%;
+    text-align:center;
     a {
       color:$red;
     }
   }
   .view-nieuws {
     .views-row {
-      min-height:210px;
+      min-height:461px;
     }
   }
   h2 {

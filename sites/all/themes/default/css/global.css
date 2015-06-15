@@ -647,35 +647,39 @@ ul#superfish-1 li.sf-item-2 ul {
   color: #FFF;
   outline: 0; }
 .context-nieuws .views-field-field-image {
-  width: 30%;
+  width: 100%;
   float: left; }
 .context-nieuws .views-field-title {
-  width: 67%;
+  width: 100%;
   float: left;
   margin: 0 0 0 3%;
   font-size: 1.125em;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+  text-align: center; }
   .context-nieuws .views-field-title a {
     color: #000; }
 .context-nieuws .views-field-created {
-  width: 67%;
+  width: 100%;
   float: left;
   margin: 0 0 0 3%;
   font-size: 0.938em;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  text-align: center; }
 .context-nieuws .views-field-field-samenvatting {
-  width: 67%;
+  width: 100%;
   float: left;
-  margin: 0 0 0 3%; }
+  margin: 0 0 0 3%;
+  text-align: center; }
 .context-nieuws .views-field-view-node {
-  width: 67%;
+  width: 100%;
   float: left;
-  margin: 0 0 0 3%; }
+  margin: 0 0 0 3%;
+  text-align: center; }
   .context-nieuws .views-field-view-node a {
     color: #e36968; }
 .context-nieuws .view-nieuws .views-row {
-  min-height: 210px; }
+  min-height: 461px; }
 .context-nieuws h2 {
   text-transform: uppercase; }
 
