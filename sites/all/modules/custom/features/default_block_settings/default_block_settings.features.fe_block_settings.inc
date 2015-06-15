@@ -128,7 +128,7 @@ over-ons',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'footer_second',
+        'region' => 'footer_third',
         'status' => 1,
         'theme' => 'default',
         'weight' => -18,
