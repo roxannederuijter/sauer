@@ -2,3 +2,12 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
 @import 'variables';
+
+.logo-img {
+  margin: 0;
+  max-width: 100%;
+  margin-top: -19px;
+  img {
+    width:56%;
+  }
+}

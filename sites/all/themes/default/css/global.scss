@@ -18,11 +18,13 @@ img {
 }
 
 .logo-img {
-  margin: 0;
-  max-width: 100%;
-  margin-top: -19px;
+  width: 100%;
+  margin-top: 5px;
+  margin:0 auto;
+  margin-bottom:10px;
   img {
-    width:56%;
+    width:38%;
+    margin:0 auto
   }
 }
 
@@ -220,7 +222,7 @@ input[type="button"]:hover,
     float: left;
     list-style: none;
     padding: 13px 30px 13px 0;
-    font-size:0.750em;
+    font-size:0.688em;
   }
   .place {
     float:left;
@@ -272,7 +274,7 @@ input[type="button"]:hover,
 }
 
 .block-superfish {
-  float: right;
+  float: left;
 }
 
 ul#superfish-1 {
@@ -341,31 +343,31 @@ ul#superfish-1 {
       font-size: 1.500em;
       text-align:center;
       a {
-        font-size:0.938em;
+        font-size:0.688em;
       }
     }
 }
 
 .block-diensten-block {
   h2.block-title {
-    background: url("img/line.png") no-repeat scroll left -2% center, url("img/line.png") no-repeat scroll right -4% center transparent;
+    background: url("img/line.png") no-repeat scroll left -204% center, url("img/line.png") no-repeat scroll right -203% center transparent;
   }
 }
 
 a.buttonblue {
   background-color:$groen;
   color:#fff;
-  padding:14px 60px;
+  padding:14px 19px;
   margin-right:2%;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 0.938em;
+  font-size: 0.688em;
 }
 
 a.buttonred {
   background-color:$red;
   color:#fff;
-  padding:14px 25px;
+  padding:14px 19px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.938em;
@@ -373,10 +375,10 @@ a.buttonred {
 
 .view-diensten {
   .views-row {
-    width: 20%;
+    width: 85%;
     float: left;
     text-align: center;
-    padding: 50px 6%;
+    padding: 15px 6%;
     .views-field-field-samenvatting {
       font-size:0.938em;
     }
@@ -426,11 +428,12 @@ h2.block-title {
 
 .view-werknemers {
   .views-row {
-    width: 18%;
-    float: left;
-    padding: 50px 3%;
+    width: 48%;
+    float: none;
+    padding: 30px 3%;
     text-align: center;
-    min-height:315px;
+    min-height: 285px;
+    margin: 0 auto;
     .views-field-field-naam {
       font-size:0.938em;
       color:$red;
