@@ -861,8 +861,20 @@ ul#superfish-1 li.sf-item-2{
 }
 
 #zone-content-wrapper {
-  background-image: url('img/contactbg.png');
   padding: 80px 0;
+}
+
+.context-diensten {
+  .ds-2col > .group-left {
+    margin-bottom:30px;
+    width: 100%;
+    text-align: center;
+  }
+  .ds-2col > .group-right {
+    margin-bottom:30px;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 

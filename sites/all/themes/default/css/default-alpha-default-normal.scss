@@ -32,3 +32,16 @@
 #zone-content-wrapper {
   padding: 50px 0;
 }
+
+.context-diensten {
+  .ds-2col > .group-left {
+    margin-bottom:30px;
+    width: 30%;
+    text-align: left;
+  }
+  .ds-2col > .group-right {
+    margin-bottom:30px;
+    width: 65%;
+    text-align: left;
+  }
+}
