@@ -25,7 +25,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'header_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -14,
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => '',
@@ -51,7 +51,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'header_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => '',
@@ -105,7 +105,7 @@ over-ons',
         'region' => 'header_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -13,
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',
@@ -128,10 +128,10 @@ over-ons',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'footer_third',
+        'region' => 'footer_second',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => '',
