@@ -8,4 +8,17 @@
   .logo-img img {
     width: 56%; }
 
+.node-type-webform #zone-content-wrapper .webform-component {
+  width: 35%;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+.node-type-webform #zone-content-wrapper input {
+  border-radius: 5px; }
+.node-type-webform #zone-content-wrapper .form-actions {
+  width: 20%;
+  margin: 0 auto; }
+
+#zone-content-wrapper {
+  padding: 50px 0; }
+
 /*# sourceMappingURL=default-alpha-default-normal.css.map */

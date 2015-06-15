@@ -11,3 +11,24 @@
     width:56%;
   }
 }
+
+.node-type-webform {
+  #zone-content-wrapper {
+    .webform-component {
+      width:35%;
+      margin:0 auto;
+      margin-bottom:10px;
+    }
+    input {
+      border-radius:5px;
+    }
+    .form-actions {
+      width:20%;
+      margin:0 auto;
+    }
+  }
+}
+
+#zone-content-wrapper {
+  padding: 50px 0;
+}

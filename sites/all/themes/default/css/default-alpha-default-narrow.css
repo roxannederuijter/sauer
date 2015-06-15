@@ -92,4 +92,8 @@ a.buttonred {
   padding: 50px 3%;
   min-height: 315px; }
 
+.node-type-webform #zone-content-wrapper .form-actions {
+  width: 25%;
+  margin: 0 auto; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

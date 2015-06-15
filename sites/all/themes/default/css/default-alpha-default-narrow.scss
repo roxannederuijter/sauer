@@ -95,6 +95,7 @@ a.buttonred {
   }
 }
 
+
 .view-werknemers {
   .views-row {
     width: 18%;
@@ -103,4 +104,15 @@ a.buttonred {
     min-height:315px;
   }
 }
+
+.node-type-webform {
+  #zone-content-wrapper {
+    .form-actions {
+      width:25%;
+      margin:0 auto;
+    }
+  }
+}
+
+
 
