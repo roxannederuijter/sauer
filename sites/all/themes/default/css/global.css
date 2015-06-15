@@ -659,4 +659,8 @@ ul#superfish-1 li.sf-item-2 ul {
 .sticky-wrapper {
   height: 0 !important; }
 
+.view-display-id-block .views-row {
+  border-top: 1px solid #a1a1a1;
+  padding-top: 25px; }
+
 /*# sourceMappingURL=global.css.map */
