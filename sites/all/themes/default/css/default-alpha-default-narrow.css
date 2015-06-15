@@ -92,9 +92,14 @@ a.buttonred {
   padding: 50px 3%;
   min-height: 315px; }
 
-.node-type-webform #zone-content-wrapper .form-actions {
-  width: 25%;
-  margin: 0 auto; }
+.node-type-webform #zone-content-wrapper {
+  padding: 80px 0; }
+  .node-type-webform #zone-content-wrapper .form-actions {
+    width: 25%;
+    margin: 0 auto; }
+
+#zone-content-wrapper {
+  padding: 80px 0; }
 
 #block-views-werknemers-block-1 .view-werknemers .views-row {
   width: 26%;
@@ -140,7 +145,7 @@ a.buttonred {
   .region-sidebar-first .block-superfish-4 {
     float: left;
     color: #fff;
-    margin-left: 20px;
+    margin-left: 10px;
     background-color: transparent; }
     .region-sidebar-first .block-superfish-4 h2.block-title {
       margin-bottom: 10px;
@@ -216,5 +221,8 @@ a.buttonred {
   min-height: 210px; }
 .context-nieuws h2 {
   text-transform: uppercase; }
+
+.front #zone-content-wrapper {
+  padding: 10px 0; }
 
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */

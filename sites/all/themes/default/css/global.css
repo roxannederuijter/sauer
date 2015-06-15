@@ -696,11 +696,13 @@ ul#superfish-1 li.sf-item-2 ul {
 #zone-content-wrapper {
   padding: 80px 0; }
 
-.context-diensten .ds-2col > .group-left {
+.front #zone-content-wrapper {
+  padding: 10px 0; }
+.front .context-diensten .ds-2col > .group-left {
   margin-bottom: 30px;
   width: 100%;
   text-align: center; }
-.context-diensten .ds-2col > .group-right {
+.front .context-diensten .ds-2col > .group-right {
   margin-bottom: 30px;
   width: 100%;
   text-align: center; }

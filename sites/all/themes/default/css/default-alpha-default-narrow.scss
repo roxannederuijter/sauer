@@ -107,11 +107,16 @@ a.buttonred {
 
 .node-type-webform {
   #zone-content-wrapper {
+    padding:80px 0;
     .form-actions {
       width:25%;
       margin:0 auto;
     }
   }
+}
+
+#zone-content-wrapper {
+  padding: 80px 0;
 }
 
 #block-views-werknemers-block-1 {
@@ -178,7 +183,7 @@ a.buttonred {
   .block-superfish-4 {
     float:left;
     color:#fff;
-    margin-left:20px;
+    margin-left:10px;
     background-color:transparent;
     h2.block-title {
       margin-bottom:10px;
@@ -282,6 +287,11 @@ a.buttonred {
   }
 }
 
+.front {
+  #zone-content-wrapper {
+    padding: 10px 0;
+  }
+}
 
 
 

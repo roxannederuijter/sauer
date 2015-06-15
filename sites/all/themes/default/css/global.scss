@@ -357,7 +357,7 @@ ul#superfish-1 {
 a.buttonblue {
   background-color:$groen;
   color:#fff;
-  padding:14px 19px;
+  padding:14px 5px;
   margin-right:2%;
   text-transform: uppercase;
   font-weight: bold;
@@ -367,7 +367,7 @@ a.buttonblue {
 a.buttonred {
   background-color:$red;
   color:#fff;
-  padding:14px 19px;
+  padding:14px 5px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.938em;
@@ -661,7 +661,7 @@ ul#superfish-1 li.sf-item-2{
   .block-superfish-4 {
     float: left;
     color: #fff;
-    margin-left: 20px;
+    margin-left: 10px;
     width: 100%;
     margin: 0;
     background-color: #494949;
@@ -864,16 +864,23 @@ ul#superfish-1 li.sf-item-2{
   padding: 80px 0;
 }
 
-.context-diensten {
-  .ds-2col > .group-left {
-    margin-bottom:30px;
-    width: 100%;
-    text-align: center;
+.front {
+  #zone-content-wrapper {
+    padding: 10px 0;
   }
-  .ds-2col > .group-right {
-    margin-bottom:30px;
-    width: 100%;
-    text-align: center;
+}
+
+  .context-diensten {
+    .ds-2col > .group-left {
+      margin-bottom:30px;
+      width: 100%;
+      text-align: center;
+    }
+    .ds-2col > .group-right {
+      margin-bottom:30px;
+      width: 100%;
+      text-align: center;
+    }
   }
 }
 
