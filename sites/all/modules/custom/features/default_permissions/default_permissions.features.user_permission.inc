@@ -624,6 +624,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'create nieuws content'.
+  $permissions['create nieuws content'] = array(
+    'name' => 'create nieuws content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'create page content'.
   $permissions['create page content'] = array(
     'name' => 'create page content',
@@ -727,6 +734,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'delete any nieuws content'.
+  $permissions['delete any nieuws content'] = array(
+    'name' => 'delete any nieuws content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete any page content'.
   $permissions['delete any page content'] = array(
     'name' => 'delete any page content',
@@ -781,6 +795,13 @@ function default_permissions_user_default_permissions() {
     'name' => 'delete own image files',
     'roles' => array(),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'delete own nieuws content'.
+  $permissions['delete own nieuws content'] = array(
+    'name' => 'delete own nieuws content',
+    'roles' => array(),
+    'module' => 'node',
   );
 
   // Exported permission: 'delete own page content'.
@@ -958,6 +979,13 @@ function default_permissions_user_default_permissions() {
     'module' => 'file_entity',
   );
 
+  // Exported permission: 'edit any nieuws content'.
+  $permissions['edit any nieuws content'] = array(
+    'name' => 'edit any nieuws content',
+    'roles' => array(),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit any page content'.
   $permissions['edit any page content'] = array(
     'name' => 'edit any page content',
@@ -1030,6 +1058,13 @@ function default_permissions_user_default_permissions() {
     'name' => 'edit own image files',
     'roles' => array(),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'edit own nieuws content'.
+  $permissions['edit own nieuws content'] = array(
+    'name' => 'edit own nieuws content',
+    'roles' => array(),
+    'module' => 'node',
   );
 
   // Exported permission: 'edit own page content'.
