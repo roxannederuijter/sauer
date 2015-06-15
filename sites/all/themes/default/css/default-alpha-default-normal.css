@@ -33,4 +33,11 @@
 .block-superfish-2 {
   float: left; }
 
+.breadcrumb a {
+  color: #000; }
+
+.breadcrumb {
+  background: url("img/breadline.png") no-repeat scroll left -36% center transparent;
+  padding: 0; }
+
 /*# sourceMappingURL=default-alpha-default-normal.css.map */
