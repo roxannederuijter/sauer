@@ -46,11 +46,13 @@ function content_dienst_ds_layout_settings_info() {
       'ds_content' => array(
         0 => 'title',
         1 => 'field_paragraphs',
+        2 => 'field_nieuws_items',
       ),
     ),
     'fields' => array(
       'title' => 'ds_content',
       'field_paragraphs' => 'ds_content',
+      'field_nieuws_items' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(

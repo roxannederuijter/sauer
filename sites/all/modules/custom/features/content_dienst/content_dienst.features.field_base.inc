@@ -32,6 +32,38 @@ function content_dienst_field_default_field_bases() {
     'type' => 'image',
   );
 
+  // Exported field_base: 'field_nieuws_items'
+  $field_bases['field_nieuws_items'] = array(
+    'active' => 1,
+    'cardinality' => -1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_nieuws_items',
+    'indexes' => array(
+      'nid' => array(
+        0 => 'nid',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'node_reference',
+    'settings' => array(
+      'referenceable_types' => array(
+        'dienst' => 0,
+        'nieuws' => 'nieuws',
+        'page' => 0,
+        'webform' => 0,
+        'werknemer' => 0,
+      ),
+      'view' => array(
+        'args' => array(),
+        'display_name' => '',
+        'view_name' => '',
+      ),
+    ),
+    'translatable' => 0,
+    'type' => 'node_reference',
+  );
+
   // Exported field_base: 'field_paragraphs'
   $field_bases['field_paragraphs'] = array(
     'active' => 1,
