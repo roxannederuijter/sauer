@@ -407,6 +407,14 @@ h2.block-title {
 .zone-footer-wrapper {
   background-color: #006c68;
   padding: 40px 0; }
+  .zone-footer-wrapper h2 {
+    float: left;
+    color: #fff;
+    text-transform: none !important;
+    margin-bottom: 10px; }
+  .zone-footer-wrapper img {
+    margin: 0;
+    margin-bottom: 20px; }
 
 .block-superfish-2 {
   float: left;
@@ -707,5 +715,8 @@ ul#superfish-1 li.sf-item-2 ul {
   margin-bottom: 30px;
   width: 100%;
   text-align: center; }
+
+.block-superfish-2 {
+  float: left; }
 
 /*# sourceMappingURL=global.css.map */

@@ -473,6 +473,16 @@ h2.block-title {
 .zone-footer-wrapper {
   background-color:$groen;
   padding:40px 0;
+  h2 {
+    float:left;
+    color:#fff;
+    text-transform: none!important;
+    margin-bottom: 10px;
+  }
+  img {
+    margin:0;
+    margin-bottom:20px;
+  }
 }
 
 .block-superfish-2 {
@@ -884,6 +894,9 @@ ul#superfish-1 li.sf-item-2{
   }
 }
 
+.block-superfish-2 {
+  float:left;
+}
 
 
 

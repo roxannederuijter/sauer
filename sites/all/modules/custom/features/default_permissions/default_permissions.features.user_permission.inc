@@ -354,6 +354,15 @@ function default_permissions_user_default_permissions() {
     'module' => 'menu',
   );
 
+  // Exported permission: 'administer menu tree'.
+  $permissions['administer menu tree'] = array(
+    'name' => 'administer menu tree',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'menutree',
+  );
+
   // Exported permission: 'administer meta tags'.
   $permissions['administer meta tags'] = array(
     'name' => 'administer meta tags',
@@ -608,6 +617,15 @@ function default_permissions_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'create any extern bean'.
+  $permissions['create any extern bean'] = array(
+    'name' => 'create any extern bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
+  );
+
   // Exported permission: 'create dienst content'.
   $permissions['create dienst content'] = array(
     'name' => 'create dienst content',
@@ -725,6 +743,15 @@ function default_permissions_user_default_permissions() {
     'name' => 'delete any document files',
     'roles' => array(),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'delete any extern bean'.
+  $permissions['delete any extern bean'] = array(
+    'name' => 'delete any extern bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
   );
 
   // Exported permission: 'delete any image files'.
@@ -970,6 +997,15 @@ function default_permissions_user_default_permissions() {
     'name' => 'edit any document files',
     'roles' => array(),
     'module' => 'file_entity',
+  );
+
+  // Exported permission: 'edit any extern bean'.
+  $permissions['edit any extern bean'] = array(
+    'name' => 'edit any extern bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'bean',
   );
 
   // Exported permission: 'edit any image files'.
@@ -1320,6 +1356,17 @@ function default_permissions_user_default_permissions() {
     'module' => 'bean',
   );
 
+  // Exported permission: 'view any extern bean'.
+  $permissions['view any extern bean'] = array(
+    'name' => 'view any extern bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'bean',
+  );
+
   // Exported permission: 'view bean page'.
   $permissions['view bean page'] = array(
     'name' => 'view bean page',
@@ -1393,6 +1440,15 @@ function default_permissions_user_default_permissions() {
       'administrator' => 'administrator',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'view site tree'.
+  $permissions['view site tree'] = array(
+    'name' => 'view site tree',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'menutree',
   );
 
   // Exported permission: 'view the administration theme'.

@@ -18,6 +18,7 @@ features[fe_block_settings][] = bean-banner
 features[fe_block_settings][] = bean-banner-over-ons
 features[fe_block_settings][] = bean-contact
 features[fe_block_settings][] = bean-contactbanner
+features[fe_block_settings][] = bean-zie-ook
 features[fe_block_settings][] = block-contact
 features[fe_block_settings][] = block-googlemaps
 features[fe_block_settings][] = block-sauer

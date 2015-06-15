@@ -118,6 +118,32 @@ over-ons',
     'visibility' => 0,
   );
 
+  $export['bean-zie-ook'] = array(
+    'cache' => 1,
+    'custom' => 0,
+    'delta' => 'zie-ook',
+    'module' => 'bean',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'footer_third',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => 'Zie ook',
+    'visibility' => 0,
+  );
+
   $export['block-contact'] = array(
     'cache' => -1,
     'custom' => 0,
