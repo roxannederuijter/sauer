@@ -372,6 +372,10 @@ ul#superfish-1 {
   .bannertext {
     font-size: 1.500em;
     text-align:center;
+    font-family:$light;
+    p {
+      font-family:$light;
+    }
     a {
       font-size:0.688em;
     }
@@ -391,7 +395,6 @@ a.buttonblue {
   padding:14px 6px;
   margin-right:2%;
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 0.688em;
 }
 
@@ -400,7 +403,6 @@ a.buttonred {
   color:#fff;
   padding:14px 6px;
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 0.938em;
 }
 
@@ -412,6 +414,10 @@ a.buttonred {
     padding: 15px 6%;
     .views-field-field-samenvatting {
       font-size:0.938em;
+      font-family:$light;
+      p {
+        font-family:$light;
+      }
     }
     .views-field-title {
       font-size: 24px;
@@ -471,6 +477,10 @@ h2.block-title {
     }
     .views-field-field-functie {
       font-size:0.938em;
+      font-family:$light;
+      .field-content {
+        font-family:$light;
+      }
     }
     .views-field-field-image {
       padding-bottom:25px;
@@ -478,6 +488,7 @@ h2.block-title {
   }
   .view-header {
     text-align:center;
+    font-family:$light;
   }
   .view-footer {
     .button {
@@ -808,6 +819,7 @@ ul#superfish-1 li.sf-item-2{
   }
   .view-header {
     margin-bottom:50px;
+    font-family:$light;
   }
   .pager li {
     border-right: none;
@@ -982,4 +994,18 @@ ul#superfish-1 li.sf-item-2{
   padding: 0;
 }
 
+@font-face {
+  font-family: 'montserratlight';
+  src: url('fonts/montserrat-light-webfont.eot');
+  src: url('fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+  url('fonts/montserrat-light-webfont.woff') format('woff'),
+  url('fonts/montserrat-light-webfont.ttf') format('truetype'),
+  url('fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
+p {
+  font-family:$light;
+}

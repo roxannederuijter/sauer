@@ -333,7 +333,10 @@ ul#superfish-1 {
   font-size: 2.250em; }
 .front .bannertext {
   font-size: 1.500em;
-  text-align: center; }
+  text-align: center;
+  font-family: "montserratlight"; }
+  .front .bannertext p {
+    font-family: "montserratlight"; }
   .front .bannertext a {
     font-size: 0.688em; }
 
@@ -346,7 +349,6 @@ a.buttonblue {
   padding: 14px 6px;
   margin-right: 2%;
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 0.688em; }
 
 a.buttonred {
@@ -354,7 +356,6 @@ a.buttonred {
   color: #fff;
   padding: 14px 6px;
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 0.938em; }
 
 .view-diensten .views-row {
@@ -363,7 +364,10 @@ a.buttonred {
   text-align: center;
   padding: 15px 6%; }
   .view-diensten .views-row .views-field-field-samenvatting {
-    font-size: 0.938em; }
+    font-size: 0.938em;
+    font-family: "montserratlight"; }
+    .view-diensten .views-row .views-field-field-samenvatting p {
+      font-family: "montserratlight"; }
   .view-diensten .views-row .views-field-title {
     font-size: 24px;
     color: #000;
@@ -407,11 +411,15 @@ h2.block-title {
     font-size: 0.938em;
     color: #e36968; }
   .view-werknemers .views-row .views-field-field-functie {
-    font-size: 0.938em; }
+    font-size: 0.938em;
+    font-family: "montserratlight"; }
+    .view-werknemers .views-row .views-field-field-functie .field-content {
+      font-family: "montserratlight"; }
   .view-werknemers .views-row .views-field-field-image {
     padding-bottom: 25px; }
 .view-werknemers .view-header {
-  text-align: center; }
+  text-align: center;
+  font-family: "montserratlight"; }
 .view-werknemers .view-footer .button {
   text-align: center; }
 
@@ -656,7 +664,8 @@ ul#superfish-1 li.sf-item-2 ul {
   #block-views-werknemers-block-1 .view-werknemers .views-row .views-field-field-image {
     padding-bottom: 0px; }
   #block-views-werknemers-block-1 .view-header {
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    font-family: "montserratlight"; }
   #block-views-werknemers-block-1 .pager li {
     border-right: none;
     color: #006c68;
@@ -779,5 +788,14 @@ ul#superfish-1 li.sf-item-2 ul {
 .breadcrumb {
   background: url("img/breadline.png") no-repeat scroll left -36% center transparent;
   padding: 0; }
+
+@font-face {
+  font-family: 'montserratlight';
+  src: url("fonts/montserrat-light-webfont.eot");
+  src: url("fonts/montserrat-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/montserrat-light-webfont.woff2") format("woff2"), url("fonts/montserrat-light-webfont.woff") format("woff"), url("fonts/montserrat-light-webfont.ttf") format("truetype"), url("fonts/montserrat-light-webfont.svg#montserratlight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+p {
+  font-family: "montserratlight"; }
 
 /*# sourceMappingURL=global.css.map */
