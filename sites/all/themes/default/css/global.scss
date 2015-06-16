@@ -281,11 +281,23 @@ ul#superfish-1 {
   padding: 0;
   margin: 0;
   li {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     a {
-      font-size:0.938em;
-      color:#000;
+      font-size: 0.938em;
+      color: #000;
+      -webkit-transition: none;
+      -moz-transition: none;
+      -ms-transition: none;
+      -o-transition: none;
+      transition: none;
+    }
+    a:hover {
+      -webkit-transition: none;
+      -moz-transition: none;
+      -ms-transition: none;
+      -o-transition: none;
+      transition: none;
     }
   }
   li.last {
@@ -294,14 +306,24 @@ ul#superfish-1 {
       padding: 40px 0 0 0;
       color: #000;
       text-transform: uppercase;
-      background: url("img/contact.svg") top 10px center no-repeat;
+      background: url("img/icons/chat1.svg") top 10px center no-repeat;
       background-size: 20px;
     }
     a:hover {
-      color:$groen;
+      margin: 20px 0px 15px 30px;
+      padding: 40px 0 0 0;
+      color: $groen;
+      text-transform: uppercase;
+      background: url("img/icons/chat.svg") top 10px center no-repeat;
+      background-size: 20px;
     }
     a.active {
-      color:$groen;
+      margin: 20px 0px 15px 30px;
+      padding: 40px 0 0 0;
+      color: $groen;
+      text-transform: uppercase;
+      background: url("img/icons/chat.svg") top 10px center no-repeat;
+      background-size: 20px;
     }
   }
   li.first {
@@ -310,56 +332,84 @@ ul#superfish-1 {
       padding: 40px 0 0 0;
       color: #000;
       text-transform: uppercase;
-      background: url("img/home.svg") top 10px center no-repeat;
+      background: url("img/icons/home1.svg") top 10px center no-repeat;
       background-size: 20px;
     }
     a:hover {
-      color:$groen;
+      margin: 20px 30px 15px 30px;
+      padding: 40px 0 0 0;
+      color: $groen;
+      background: url("img/icons/home.svg") top 10px center no-repeat;
+      background-size: 20px;
+
     }
     a.active {
-      color:$groen;
+      margin: 20px 30px 15px 30px;
+      padding: 40px 0 0 0;
+      color: $groen;
+      background: url("img/icons/home.svg") top 10px center no-repeat;
+      background-size: 20px;
+
     }
   }
   li.sf-item-2 {
-    margin: 20px 30px 15px 30px;
-    padding: 40px 0 0 0;
-    color: #000;
-    text-transform: uppercase;
-    background: url("img/diensten.svg") top 10px center no-repeat;
-    background-size: 20px;
-    a:hover {
-      color:$groen;
-    }
-    a.active {
-      color:$groen;
-    }
+      margin: 20px 30px 15px 30px;
+      padding: 40px 0 0 0;
+      color: #000;
+      text-transform: uppercase;
+      background: url("img/icons/briefcase1.svg") top 10px center no-repeat;
+      background-size: 20px;
   }
   li.sf-item-3 {
-    margin: 20px 30px 15px 30px;
-    padding: 40px 0 0 0;
-    color: #000;
-    text-transform: uppercase;
-    background: url("img/nieuws.svg") top 10px center no-repeat;
-    background-size: 20px;
+    a {
+      margin: 20px 30px 15px 30px;
+      padding: 40px 0 0 0;
+      color: #000;
+      text-transform: uppercase;
+      background: url("img/icons/newspaper1.svg") top 10px center no-repeat;
+      background-size: 20px;
+    }
     a:hover {
-      color:$groen;
+      margin: 20px 30px 15px 30px;
+      padding: 40px 0 0 0;
+      color: $groen;
+      text-transform: uppercase;
+      background: url("img/icons/newspaper.svg") top 10px center no-repeat;
+      background-size: 20px;
     }
     a.active {
-      color:$groen;
+      margin: 20px 30px 15px 30px;
+      padding: 40px 0 0 0;
+      color: $groen;
+      text-transform: uppercase;
+      background: url("img/icons/newspaper.svg") top 10px center no-repeat;
+      background-size: 20px;
     }
   }
   li.sf-item-4 {
-    margin: 20px 30px 15px 30px;
-    padding: 40px 0 0 0;
-    color: #000;
-    text-transform: uppercase;
-    background: url("img/overons.svg") top 10px center no-repeat;
-    background-size: 20px;
+    a {
+      margin: 20px 30px 15px 30px;
+      padding: 40px 0 0 0;
+      color: #000;
+      text-transform: uppercase;
+      background: url("img/icons/group1.svg") top 10px center no-repeat;
+      background-size: 20px;
+    }
     a:hover {
-      color:$groen;
+      margin: 20px 30px 15px 30px;
+      padding: 40px 0 0 0;
+      color: $groen;
+      text-transform: uppercase;
+      background: url("img/icons/group.svg") top 10px center no-repeat;
+      background-size: 20px;
     }
     a.active {
-      color:$groen;
+      margin: 20px 30px 15px 30px;
+      padding: 40px 0 0 0;
+      color: $groen;
+      text-transform: uppercase;
+      background: url("img/icons/group.svg") top 10px center no-repeat;
+      background-size: 20px;
     }
   }
 }
@@ -653,6 +703,22 @@ ul#superfish-1 li.sf-item-2{
         margin-top:17px;
         padding: 0;
         color: #000;
+        text-transform: uppercase;
+      }
+      a:hover{
+        background:none;
+        margin: 0;
+        margin-top:17px;
+        padding: 0;
+        color: $groen;
+        text-transform: uppercase;
+      }
+      a.active {
+        background:none;
+        margin: 0;
+        margin-top:17px;
+        padding: 0;
+        color: $groen;
         text-transform: uppercase;
       }
     }
@@ -1006,6 +1072,6 @@ ul#superfish-1 li.sf-item-2{
   font-style: normal;
 }
 
-p {
-  font-family:$light;
-}
+  p {
+    font-family: $light;
+  }

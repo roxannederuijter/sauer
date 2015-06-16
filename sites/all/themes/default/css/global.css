@@ -271,62 +271,107 @@ ul#superfish-1 {
     padding: 0; }
     ul#superfish-1 li a {
       font-size: 0.938em;
-      color: #000; }
+      color: #000;
+      -webkit-transition: none;
+      -moz-transition: none;
+      -ms-transition: none;
+      -o-transition: none;
+      transition: none; }
+    ul#superfish-1 li a:hover {
+      -webkit-transition: none;
+      -moz-transition: none;
+      -ms-transition: none;
+      -o-transition: none;
+      transition: none; }
   ul#superfish-1 li.last a {
     margin: 20px 0px 15px 30px;
     padding: 40px 0 0 0;
     color: #000;
     text-transform: uppercase;
-    background: url("img/contact.svg") top 10px center no-repeat;
+    background: url("img/icons/chat1.svg") top 10px center no-repeat;
     background-size: 20px; }
   ul#superfish-1 li.last a:hover {
-    color: #006c68; }
+    margin: 20px 0px 15px 30px;
+    padding: 40px 0 0 0;
+    color: #006c68;
+    text-transform: uppercase;
+    background: url("img/icons/chat.svg") top 10px center no-repeat;
+    background-size: 20px; }
   ul#superfish-1 li.last a.active {
-    color: #006c68; }
+    margin: 20px 0px 15px 30px;
+    padding: 40px 0 0 0;
+    color: #006c68;
+    text-transform: uppercase;
+    background: url("img/icons/chat.svg") top 10px center no-repeat;
+    background-size: 20px; }
   ul#superfish-1 li.first a {
     margin: 20px 30px 15px 30px;
     padding: 40px 0 0 0;
     color: #000;
     text-transform: uppercase;
-    background: url("img/home.svg") top 10px center no-repeat;
+    background: url("img/icons/home1.svg") top 10px center no-repeat;
     background-size: 20px; }
   ul#superfish-1 li.first a:hover {
-    color: #006c68; }
+    margin: 20px 30px 15px 30px;
+    padding: 40px 0 0 0;
+    color: #006c68;
+    background: url("img/icons/home.svg") top 10px center no-repeat;
+    background-size: 20px; }
   ul#superfish-1 li.first a.active {
-    color: #006c68; }
+    margin: 20px 30px 15px 30px;
+    padding: 40px 0 0 0;
+    color: #006c68;
+    background: url("img/icons/home.svg") top 10px center no-repeat;
+    background-size: 20px; }
   ul#superfish-1 li.sf-item-2 {
     margin: 20px 30px 15px 30px;
     padding: 40px 0 0 0;
     color: #000;
     text-transform: uppercase;
-    background: url("img/diensten.svg") top 10px center no-repeat;
+    background: url("img/icons/briefcase1.svg") top 10px center no-repeat;
     background-size: 20px; }
-    ul#superfish-1 li.sf-item-2 a:hover {
-      color: #006c68; }
-    ul#superfish-1 li.sf-item-2 a.active {
-      color: #006c68; }
-  ul#superfish-1 li.sf-item-3 {
+  ul#superfish-1 li.sf-item-3 a {
     margin: 20px 30px 15px 30px;
     padding: 40px 0 0 0;
     color: #000;
     text-transform: uppercase;
-    background: url("img/nieuws.svg") top 10px center no-repeat;
+    background: url("img/icons/newspaper1.svg") top 10px center no-repeat;
     background-size: 20px; }
-    ul#superfish-1 li.sf-item-3 a:hover {
-      color: #006c68; }
-    ul#superfish-1 li.sf-item-3 a.active {
-      color: #006c68; }
-  ul#superfish-1 li.sf-item-4 {
+  ul#superfish-1 li.sf-item-3 a:hover {
+    margin: 20px 30px 15px 30px;
+    padding: 40px 0 0 0;
+    color: #006c68;
+    text-transform: uppercase;
+    background: url("img/icons/newspaper.svg") top 10px center no-repeat;
+    background-size: 20px; }
+  ul#superfish-1 li.sf-item-3 a.active {
+    margin: 20px 30px 15px 30px;
+    padding: 40px 0 0 0;
+    color: #006c68;
+    text-transform: uppercase;
+    background: url("img/icons/newspaper.svg") top 10px center no-repeat;
+    background-size: 20px; }
+  ul#superfish-1 li.sf-item-4 a {
     margin: 20px 30px 15px 30px;
     padding: 40px 0 0 0;
     color: #000;
     text-transform: uppercase;
-    background: url("img/overons.svg") top 10px center no-repeat;
+    background: url("img/icons/group1.svg") top 10px center no-repeat;
     background-size: 20px; }
-    ul#superfish-1 li.sf-item-4 a:hover {
-      color: #006c68; }
-    ul#superfish-1 li.sf-item-4 a.active {
-      color: #006c68; }
+  ul#superfish-1 li.sf-item-4 a:hover {
+    margin: 20px 30px 15px 30px;
+    padding: 40px 0 0 0;
+    color: #006c68;
+    text-transform: uppercase;
+    background: url("img/icons/group.svg") top 10px center no-repeat;
+    background-size: 20px; }
+  ul#superfish-1 li.sf-item-4 a.active {
+    margin: 20px 30px 15px 30px;
+    padding: 40px 0 0 0;
+    color: #006c68;
+    text-transform: uppercase;
+    background: url("img/icons/group.svg") top 10px center no-repeat;
+    background-size: 20px; }
 
 .front h2 {
   text-transform: uppercase;
@@ -543,6 +588,20 @@ ul#superfish-1 li.sf-item-2 ul {
       margin-top: 17px;
       padding: 0;
       color: #000;
+      text-transform: uppercase; }
+    ul#superfish-1 li.sf-item-2 ul li a:hover {
+      background: none;
+      margin: 0;
+      margin-top: 17px;
+      padding: 0;
+      color: #006c68;
+      text-transform: uppercase; }
+    ul#superfish-1 li.sf-item-2 ul li a.active {
+      background: none;
+      margin: 0;
+      margin-top: 17px;
+      padding: 0;
+      color: #006c68;
       text-transform: uppercase; }
 
 .region-sidebar-first {
