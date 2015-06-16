@@ -121,14 +121,15 @@ a.buttonred {
   .region-sidebar-first .block-superfish-3 {
     float: left;
     color: #fff;
-    margin-left: 20px; }
+    padding-bottom: 10px; }
     .region-sidebar-first .block-superfish-3 h2.block-title {
       margin-bottom: 10px;
       text-transform: none;
       float: left; }
     .region-sidebar-first .block-superfish-3 ul li {
       margin: 0;
-      width: 100%; }
+      width: 100%;
+      margin-left: 10px; }
       .region-sidebar-first .block-superfish-3 ul li a {
         color: #fff;
         font-size: 0.938em;
@@ -143,19 +144,39 @@ a.buttonred {
   .region-sidebar-first .block-superfish-4 {
     float: left;
     color: #fff;
-    margin-left: 10px; }
+    padding-bottom: 10px; }
     .region-sidebar-first .block-superfish-4 h2.block-title {
       margin-bottom: 10px;
       text-transform: none;
       float: left; }
     .region-sidebar-first .block-superfish-4 ul li {
       margin: 0;
-      width: 100%; }
+      width: 100%;
+      margin-left: 10px; }
       .region-sidebar-first .block-superfish-4 ul li a {
         color: #fff;
         font-size: 0.938em;
         padding: 4px 0;
         font-weight: 400; }
+  .region-sidebar-first .block-superfish-5 {
+    float: left;
+    color: #fff;
+    padding-bottom: 10px; }
+    .region-sidebar-first .block-superfish-5 h2.block-title {
+      margin-bottom: 10px;
+      text-transform: none;
+      float: left; }
+    .region-sidebar-first .block-superfish-5 ul {
+      padding: 10px; }
+      .region-sidebar-first .block-superfish-5 ul li {
+        margin: 0;
+        width: 100%;
+        margin-left: 10px; }
+        .region-sidebar-first .block-superfish-5 ul li a {
+          color: #fff;
+          font-size: 0.938em;
+          padding: 4px 0;
+          font-weight: 400; }
 
 .context-nieuws .pager li {
   border-right: none;

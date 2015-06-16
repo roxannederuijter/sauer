@@ -438,6 +438,8 @@ h2.block-title {
   .zone-footer-wrapper img {
     margin: 0;
     margin-bottom: 20px; }
+  .zone-footer-wrapper a, .zone-footer-wrapper a:link {
+    float: left; }
 
 .block-superfish-2 {
   float: left;
@@ -557,10 +559,10 @@ ul#superfish-1 li.sf-item-2 ul {
   .region-sidebar-first .block-superfish-3 {
     float: left;
     color: #fff;
-    margin-left: 20px;
     width: 100%;
     margin: 0;
-    background-color: #494949; }
+    background-color: #494949;
+    padding-bottom: 10px; }
     .region-sidebar-first .block-superfish-3 h2.block-title {
       margin-bottom: 10px;
       text-transform: none;
@@ -569,7 +571,8 @@ ul#superfish-1 li.sf-item-2 ul {
       margin-left: 10px; }
     .region-sidebar-first .block-superfish-3 ul li {
       margin: 0;
-      width: 100%; }
+      width: 100%;
+      margin-left: 10px; }
       .region-sidebar-first .block-superfish-3 ul li a {
         color: #fff;
         font-size: 0.938em;
@@ -584,9 +587,9 @@ ul#superfish-1 li.sf-item-2 ul {
   .region-sidebar-first .block-superfish-4 {
     float: left;
     color: #fff;
-    margin-left: 10px;
     width: 100%;
     margin: 0;
+    padding-bottom: 10px;
     background-color: #494949; }
     .region-sidebar-first .block-superfish-4 h2.block-title {
       margin-bottom: 10px;
@@ -596,12 +599,33 @@ ul#superfish-1 li.sf-item-2 ul {
       margin-left: 10px; }
     .region-sidebar-first .block-superfish-4 ul li {
       margin: 0;
-      width: 100%; }
+      width: 100%;
+      margin-left: 10px; }
       .region-sidebar-first .block-superfish-4 ul li a {
         color: #fff;
         font-size: 0.938em;
         padding: 4px 0;
         font-weight: 400; }
+  .region-sidebar-first .block-superfish-5 {
+    float: left;
+    color: #fff;
+    padding-bottom: 10px;
+    width: 100%; }
+    .region-sidebar-first .block-superfish-5 h2.block-title {
+      margin-bottom: 10px;
+      text-transform: none;
+      float: left; }
+    .region-sidebar-first .block-superfish-5 ul {
+      padding: 10px; }
+      .region-sidebar-first .block-superfish-5 ul li {
+        margin: 0;
+        width: 100%;
+        margin-left: 10px; }
+        .region-sidebar-first .block-superfish-5 ul li a {
+          color: #fff;
+          font-size: 0.938em;
+          padding: 4px 0;
+          font-weight: 400; }
 
 #superfish-3-select {
   background-color: #494949;
