@@ -10,10 +10,17 @@
 
 .is-sticky .logo-img {
   margin: 0;
-  max-width: 100%;
-  margin-top: 0px; }
+  max-width: 93%;
+  margin-top: 0px;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out; }
   .is-sticky .logo-img img {
     width: 56%; }
+.is-sticky .zone-branding-wrapper {
+  top: 0 !important; }
 
 .node-type-webform #zone-content-wrapper .webform-component {
   width: 35%;
