@@ -81,7 +81,11 @@
       font-weight: 300; }
 
 a.buttonblue {
-  padding: 14px 40px;
-  font-size: 0.938em; }
+  padding: 10px 0;
+  font-size: 0.938em;
+  width: 47%;
+  float: left;
+  text-align: center;
+  box-sizing: border-box; }
 
 /*# sourceMappingURL=default-alpha-default-normal.css.map */

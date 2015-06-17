@@ -7,7 +7,9 @@
 (function ($) {
     $(document).ready(function() {
         $('a[href*=#]').on('click', function(event){
-            event.preventDefault();
+            if ($("#block-views-diensten-block").length > 0){
+                event.preventDefault();
+            }
             $('html,body').animate({scrollTop:$(this.hash).offset().top - 140}, 1000);
         });
     });

@@ -927,4 +927,9 @@ ul#superfish-1 li.sf-item-2 ul {
       #region-header-second .region-header-second-inner .block-superfish-5 a:hover {
         color: #e36968; }
 
+.node-dienst .field-name-field-contact-persoon .field-name-field-image {
+  width: 26%;
+  min-height: 285px;
+  padding: 5px 3% 0px 3%; }
+
 /*# sourceMappingURL=global.css.map */
