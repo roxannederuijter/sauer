@@ -5,7 +5,7 @@
   <title><?php print $head_title; ?></title>  
   <?php print $styles; ?>
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,600,700,800' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <?php print $scripts; ?>
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>

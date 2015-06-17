@@ -25,7 +25,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'header_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -18,
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',
@@ -51,7 +51,7 @@ function default_block_settings_default_fe_block_settings() {
         'region' => 'header_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -16,
+        'weight' => -19,
       ),
       'seven' => array(
         'region' => '',
@@ -105,7 +105,7 @@ over-ons',
         'region' => 'header_first',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -17,
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => '',
@@ -184,32 +184,6 @@ over-ons',
         'status' => 1,
         'theme' => 'default',
         'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
-    'visibility' => 1,
-  );
-
-  $export['block-sauer'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'machine_name' => 'sauer',
-    'module' => 'block',
-    'node_types' => array(),
-    'pages' => 'home',
-    'roles' => array(),
-    'themes' => array(
-      'default' => array(
-        'region' => 'preface_first',
-        'status' => 1,
-        'theme' => 'default',
-        'weight' => -15,
       ),
       'seven' => array(
         'region' => '',

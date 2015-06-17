@@ -12,6 +12,17 @@
   }
 }
 
+.is-sticky {
+  .logo-img {
+    margin: 0;
+    max-width: 100%;
+    margin-top: 0px;
+    img {
+      width:56%;
+    }
+  }
+}
+
 .node-type-webform {
   #zone-content-wrapper {
     .webform-component {

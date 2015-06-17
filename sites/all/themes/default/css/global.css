@@ -4,7 +4,7 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 body {
   font-size: 100%;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 img {
   max-width: 100%;
@@ -24,35 +24,35 @@ img {
 h1 {
   font-size: 2em;
   font-weight: 800;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 h2 {
   font-size: 1.6em;
   font-weight: bold;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 h2.block-title {
   font-size: 1.6em;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif; }
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif; }
 
 h3 {
   font-size: 1.4em;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
 h4 {
   font-size: 1.2em;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
 h5 {
   font-size: 1em;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400; }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em; }
 
 a, a:link {
@@ -61,7 +61,7 @@ a, a:link {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1em;
   text-decoration: none; }
 
@@ -77,7 +77,7 @@ a:hover, a:link:hover {
   font-family: FontAwesome; }
 
 div {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 label {
   font-weight: normal; }
@@ -215,48 +215,48 @@ input[type="button"]:hover,
   z-index: 997; }
 
 .zone-user-wrapper {
-  z-index: 997;
-  position: absolute;
-  top: 0;
-  width: 100%; }
+  width: 100%;
+  background-color: #464b58; }
   .zone-user-wrapper li {
     float: left;
     list-style: none;
     padding: 13px 30px 13px 0;
-    font-size: 0.688em; }
+    font-size: 0.688em;
+    font: "Open Sans", sans-serif;
+    color: #d1d2d5; }
   .zone-user-wrapper .place {
     float: left; }
     .zone-user-wrapper .place li.place {
-      color: #fff;
+      color: #d1d2d5;
       padding-right: 30px; }
     .zone-user-wrapper .place li.place:before {
       font-family: FontAwesome;
       content: "\f041";
       margin-right: 5px;
-      color: #fff; }
+      color: #d1d2d5; }
     .zone-user-wrapper .place a {
-      color: #fff; }
+      color: #d1d2d5; }
   .zone-user-wrapper .phone {
     float: left; }
     .zone-user-wrapper .phone li.phone {
       padding-right: 30px;
-      color: #fff; }
+      color: #d1d2d5; }
     .zone-user-wrapper .phone li.phone:before {
       font-family: FontAwesome;
       content: "\f10b";
       margin-right: 5px;
-      color: #fff; }
+      color: #d1d2d5; }
     .zone-user-wrapper .phone a {
-      color: #fff; }
+      color: #d1d2d5; }
   .zone-user-wrapper .mail {
     float: left; }
     .zone-user-wrapper .mail a {
-      color: #fff; }
+      color: #d1d2d5; }
     .zone-user-wrapper .mail a:before {
       font-family: FontAwesome;
       content: "\f0e0";
       margin-right: 5px;
-      color: #fff; }
+      color: #d1d2d5; }
   .zone-user-wrapper .region-user-second-inner {
     float: right; }
 
@@ -378,10 +378,7 @@ ul#superfish-1 {
   font-size: 2.250em; }
 .front .bannertext {
   font-size: 1.500em;
-  text-align: center;
-  font-family: "montserratlight"; }
-  .front .bannertext p {
-    font-family: "montserratlight"; }
+  text-align: center; }
   .front .bannertext a {
     font-size: 0.688em; }
 
@@ -409,10 +406,7 @@ a.buttonred {
   text-align: center;
   padding: 15px 6%; }
   .view-diensten .views-row .views-field-field-samenvatting {
-    font-size: 0.938em;
-    font-family: "montserratlight"; }
-    .view-diensten .views-row .views-field-field-samenvatting p {
-      font-family: "montserratlight"; }
+    font-size: 0.938em; }
   .view-diensten .views-row .views-field-title {
     font-size: 24px;
     color: #000;
@@ -426,7 +420,7 @@ a.buttonred {
   text-align: center; }
 
 .zone-preface-wrapper {
-  background-color: #f7f7f7;
+  background-color: #f1f4f9;
   padding: 50px 0; }
 
 h2.block-title {
@@ -434,7 +428,7 @@ h2.block-title {
   text-transform: uppercase;
   margin-bottom: 40px;
   font-size: 1.875em;
-  font-weight: 700; }
+  font-weight: 300; }
 
 .zone-preface-second-wrapper {
   padding-top: 50px;
@@ -443,7 +437,7 @@ h2.block-title {
 .zone-preface-third-wrapper {
   padding-top: 50px;
   padding-bottom: 40px;
-  background-color: #f7f7f7; }
+  background-color: #f1f4f9; }
 
 .view-werknemers .views-row {
   width: 48%;
@@ -456,15 +450,11 @@ h2.block-title {
     font-size: 0.938em;
     color: #e36968; }
   .view-werknemers .views-row .views-field-field-functie {
-    font-size: 0.938em;
-    font-family: "montserratlight"; }
-    .view-werknemers .views-row .views-field-field-functie .field-content {
-      font-family: "montserratlight"; }
+    font-size: 0.938em; }
   .view-werknemers .views-row .views-field-field-image {
     padding-bottom: 25px; }
 .view-werknemers .view-header {
-  text-align: center;
-  font-family: "montserratlight"; }
+  text-align: center; }
 .view-werknemers .view-footer .button {
   text-align: center; }
 
@@ -723,12 +713,11 @@ ul#superfish-1 li.sf-item-2 ul {
   #block-views-werknemers-block-1 .view-werknemers .views-row .views-field-field-image {
     padding-bottom: 0px; }
   #block-views-werknemers-block-1 .view-header {
-    margin-bottom: 50px;
-    font-family: "montserratlight"; }
+    margin-bottom: 50px; }
   #block-views-werknemers-block-1 .pager li {
     border-right: none;
     color: #006c68;
-    font: "Montserrat", sans-serif;
+    font: "Open Sans", sans-serif;
     font-size: 0.938em;
     outline: 0; }
     #block-views-werknemers-block-1 .pager li a {
@@ -737,7 +726,7 @@ ul#superfish-1 li.sf-item-2 ul {
     background: none;
     cursor: pointer; }
   #block-views-werknemers-block-1 .pager {
-    background: #f7f7f7;
+    background: #f1f4f9;
     border: none;
     border-radius: 0px;
     -moz-border-radius: 0px;
@@ -754,7 +743,7 @@ ul#superfish-1 li.sf-item-2 ul {
 .context-nieuws .pager li {
   border-right: none;
   color: #006c68;
-  font: "Montserrat", sans-serif;
+  font: "Open Sans", sans-serif;
   font-size: 0.938em;
   outline: 0; }
   .context-nieuws .pager li a {
@@ -763,7 +752,7 @@ ul#superfish-1 li.sf-item-2 ul {
   background: none;
   cursor: pointer; }
 .context-nieuws .pager {
-  background: #f7f7f7;
+  background: #f1f4f9;
   border: none;
   border-radius: 0px;
   -moz-border-radius: 0px;
@@ -848,15 +837,6 @@ ul#superfish-1 li.sf-item-2 ul {
   background: url("img/breadline.png") no-repeat scroll left -36% center transparent;
   padding: 0; }
 
-@font-face {
-  font-family: 'montserratlight';
-  src: url("fonts/montserrat-light-webfont.eot");
-  src: url("fonts/montserrat-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/montserrat-light-webfont.woff2") format("woff2"), url("fonts/montserrat-light-webfont.woff") format("woff"), url("fonts/montserrat-light-webfont.ttf") format("truetype"), url("fonts/montserrat-light-webfont.svg#montserratlight") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-p {
-  font-family: "montserratlight"; }
-
 .english {
   float: left; }
   .english li {
@@ -882,5 +862,34 @@ p {
       padding: 20px 14px;
       background-size: 28px 26px;
       font-size: 1px; }
+
+.front .bean-banner h2 {
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 52px; }
+.front .bean-banner .paragraphs-items-field-paragraphs {
+  width: 1180px;
+  margin: 0 auto; }
+  .front .bean-banner .paragraphs-items-field-paragraphs .paragraphs-item-2-kolommen-tekst {
+    position: relative;
+    height: 155px; }
+  .front .bean-banner .paragraphs-items-field-paragraphs .group-left {
+    background: rgba(228, 104, 104, 0.9);
+    padding: 3%;
+    position: absolute;
+    left: 0;
+    bottom: 36px; }
+  .front .bean-banner .paragraphs-items-field-paragraphs .group-right {
+    width: 56%;
+    position: absolute;
+    right: 0;
+    bottom: 23px; }
+    .front .bean-banner .paragraphs-items-field-paragraphs .group-right .bannertext {
+      font-size: 21px;
+      text-align: left;
+      font-weight: 300; }
+
+.zone-header-wrapper {
+  margin-top: 44px; }
 
 /*# sourceMappingURL=global.css.map */

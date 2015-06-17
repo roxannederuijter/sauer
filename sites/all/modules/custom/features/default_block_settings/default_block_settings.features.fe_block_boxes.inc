@@ -56,24 +56,5 @@ function default_block_settings_default_fe_block_boxes() {
 
   $export['googlemaps'] = $fe_block_boxes;
 
-  $fe_block_boxes = new stdClass();
-  $fe_block_boxes->info = 'Sauer en Oonk';
-  $fe_block_boxes->format = 'filtered_html';
-  $fe_block_boxes->machine_name = 'sauer';
-  $fe_block_boxes->body = '<h2 class="rtecenter">Sauer &amp; Oonk</h2>
-
-<div class="bannertext">
-<p class="rtecenter">Belangrijke gebeurtenissen in uw leven vragen verstandige beslissingen.</p>
-
-<p class="rtecenter">Wij willen u daarbij graag van dienst zijn.</p>
-
-<p class="rtecenter">&nbsp;</p>
-
-<p><a class="buttonblue" href="http://&lt;front&gt;">OVER ONS</a>&nbsp;<a class="buttonred" href="http://&lt;front&gt;">AFSPRAAK MAKEN</a></p>
-</div>
-';
-
-  $export['sauer'] = $fe_block_boxes;
-
   return $export;
 }

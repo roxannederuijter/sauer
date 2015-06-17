@@ -28,6 +28,7 @@ img {
   }
 }
 
+
 h1 {
   font-size: 2em;
   font-weight: 800;
@@ -42,7 +43,7 @@ h2 {
 
 h2.block-title {
   font-size: 1.6em;
-  font-weight: bold;
+  font-weight: 300;
   font-family:$font;
 }
 
@@ -214,58 +215,58 @@ input[type="button"]:hover,
 }
 
 .zone-user-wrapper {
-  z-index: 997;
-  position: absolute;
-  top: 0;
   width: 100%;
+  background-color: #464b58;
   li {
     float: left;
     list-style: none;
     padding: 13px 30px 13px 0;
     font-size:0.688em;
+    font:$font;
+    color: #d1d2d5;
   }
   .place {
     float:left;
     li.place {
-      color:#fff;
+      color: #d1d2d5;
       padding-right:30px;
     }
     li.place:before {
       font-family: FontAwesome;
       content: "\f041";
       margin-right:5px;
-      color:#fff;
+      color: #d1d2d5;
     }
     a {
-      color:#fff;
+      color: #d1d2d5;
     }
   }
   .phone{
     float:left;
     li.phone {
       padding-right:30px;
-      color:#fff;
+      color: #d1d2d5;
     }
     li.phone:before {
       font-family: FontAwesome;
       content: "\f10b";
       margin-right:5px;
-      color:#fff;
+      color: #d1d2d5;
     }
     a {
-      color:#fff;
+      color: #d1d2d5;
     }
   }
   .mail {
     float:left;
     a {
-      color:#fff;
+      color: #d1d2d5;
     }
     a:before {
       font-family: FontAwesome;
       content: "\f0e0";
       margin-right:5px;
-      color:#fff;
+      color: #d1d2d5;
     }
   }
   .region-user-second-inner {
@@ -422,9 +423,7 @@ ul#superfish-1 {
   .bannertext {
     font-size: 1.500em;
     text-align:center;
-    font-family:$light;
     p {
-      font-family:$light;
     }
     a {
       font-size:0.688em;
@@ -464,9 +463,7 @@ a.buttonred {
     padding: 15px 6%;
     .views-field-field-samenvatting {
       font-size:0.938em;
-      font-family:$light;
       p {
-        font-family:$light;
       }
     }
     .views-field-title {
@@ -499,7 +496,7 @@ h2.block-title {
   text-transform:uppercase;
   margin-bottom:40px;
   font-size:1.875em;
-  font-weight:700;
+  font-weight:300;
 }
 
 .zone-preface-second-wrapper {
@@ -527,9 +524,9 @@ h2.block-title {
     }
     .views-field-field-functie {
       font-size:0.938em;
-      font-family:$light;
+
       .field-content {
-        font-family:$light;
+
       }
     }
     .views-field-field-image {
@@ -538,7 +535,7 @@ h2.block-title {
   }
   .view-header {
     text-align:center;
-    font-family:$light;
+
   }
   .view-footer {
     .button {
@@ -885,7 +882,7 @@ ul#superfish-1 li.sf-item-2{
   }
   .view-header {
     margin-bottom:50px;
-    font-family:$light;
+
   }
   .pager li {
     border-right: none;
@@ -1060,21 +1057,8 @@ ul#superfish-1 li.sf-item-2{
   padding: 0;
 }
 
-@font-face {
-  font-family: 'montserratlight';
-  src: url('fonts/montserrat-light-webfont.eot');
-  src: url('fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
-  url('fonts/montserrat-light-webfont.woff2') format('woff2'),
-  url('fonts/montserrat-light-webfont.woff') format('woff'),
-  url('fonts/montserrat-light-webfont.ttf') format('truetype'),
-  url('fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
-  p {
-    font-family: $light;
-  }
+
 
 .english {
   float:left;
@@ -1106,4 +1090,44 @@ ul#superfish-1 li.sf-item-2{
       font-size:1px;
     }
   }
+}
+
+.front {
+  .bean-banner {
+    h2 {
+      color:#fff;
+      font-weight:300;
+      margin-bottom: 52px;
+    }
+    .paragraphs-items-field-paragraphs {
+      width: 1180px;
+      margin: 0 auto;
+      .paragraphs-item-2-kolommen-tekst {
+        position: relative;
+        height: 155px;
+      }
+      .group-left {
+        background: rgba(228, 104, 104, 0.9);
+        padding: 3%;
+        position: absolute;
+        left: 0;
+        bottom: 36px;
+      }
+      .group-right {
+        width: 56%;
+        position: absolute;
+        right: 0;
+        bottom: 23px;
+         .bannertext {
+           font-size: 21px;
+           text-align: left;
+           font-weight: 300;
+        }
+      }
+    }
+  }
+}
+
+.zone-header-wrapper {
+  margin-top:44px;
 }

@@ -75,7 +75,7 @@
   background: url("img/line.png") no-repeat scroll left -2% center, url("img/line.png") no-repeat scroll right -4% center transparent; }
 
 a.buttonblue {
-  padding: 14px 60px;
+  padding: 14px 40px;
   font-size: 0.938em; }
 
 a.buttonred {
@@ -181,7 +181,7 @@ a.buttonred {
 .context-nieuws .pager li {
   border-right: none;
   color: #006c68;
-  font: "Montserrat", sans-serif;
+  font: "Open Sans", sans-serif;
   font-size: 0.938em;
   outline: 0; }
   .context-nieuws .pager li a {
@@ -190,7 +190,7 @@ a.buttonred {
   background: none;
   cursor: pointer; }
 .context-nieuws .pager {
-  background: #f7f7f7;
+  background: #f1f4f9;
   border: none;
   border-radius: 0px;
   -moz-border-radius: 0px;
