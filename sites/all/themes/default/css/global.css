@@ -860,7 +860,8 @@ p {
 .english {
   float: left; }
   .english li {
-    margin-top: 5px; }
+    margin-top: 5px;
+    padding-right: 5px; }
     .english li a {
       color: transparent;
       background-image: url("img/United-Kingdom.png");
@@ -872,7 +873,8 @@ p {
 .german {
   float: left; }
   .german li {
-    margin-top: 5px; }
+    margin-top: 5px;
+    padding-right: 0; }
     .german li a {
       color: transparent;
       background-image: url("img/Germany.png");
