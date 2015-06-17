@@ -28,7 +28,7 @@ h1 {
 
 h2 {
   font-size: 1.6em;
-  font-weight: bold;
+  font-weight: 300;
   font-family: "Open Sans", sans-serif; }
 
 h2.block-title {
@@ -614,7 +614,7 @@ ul#superfish-1 li.sf-item-2 ul {
     color: #fff;
     margin-bottom: 20px;
     font-size: 1.875em;
-    font-weight: 400;
+    font-weight: 300;
     float: left; }
   .region-sidebar-first .block-superfish-3 {
     float: left;
@@ -777,7 +777,7 @@ ul#superfish-1 li.sf-item-2 ul {
   margin: 0 0 0 3%;
   font-size: 1.125em;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 300;
   text-align: center; }
   .context-nieuws .views-field-title a {
     color: #000; }
