@@ -92,7 +92,7 @@
       margin: 0 auto;
       .paragraphs-item-2-kolommen-tekst {
         position: relative;
-        height: 155px;
+        height: 180px;
       }
       .group-left {
         background: rgba(228, 104, 104, 0.9);
@@ -104,9 +104,7 @@
       }
       .group-right {
         width: 49%;
-        position: absolute;
-        right: 0;
-        bottom: 7px;
+        float:right;
         .bannertext {
           font-size: 1.313em;
           text-align: left;

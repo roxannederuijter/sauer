@@ -63,7 +63,7 @@
   margin: 0 auto; }
   .front .bean-banner .paragraphs-items-field-paragraphs .paragraphs-item-2-kolommen-tekst {
     position: relative;
-    height: 155px; }
+    height: 180px; }
   .front .bean-banner .paragraphs-items-field-paragraphs .group-left {
     background: rgba(228, 104, 104, 0.9);
     padding: 3%;
@@ -73,9 +73,7 @@
     width: 41%; }
   .front .bean-banner .paragraphs-items-field-paragraphs .group-right {
     width: 49%;
-    position: absolute;
-    right: 0;
-    bottom: 7px; }
+    float: right; }
     .front .bean-banner .paragraphs-items-field-paragraphs .group-right .bannertext {
       font-size: 1.313em;
       text-align: left;

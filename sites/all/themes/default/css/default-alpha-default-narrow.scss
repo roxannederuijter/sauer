@@ -358,9 +358,7 @@ a.buttonred {
       }
       .group-right {
         width: 56%;
-        position: absolute;
-        right: 0;
-        bottom: 23px;
+        float:right;
         .bannertext {
           font-size: 1.000em;
           text-align: left;

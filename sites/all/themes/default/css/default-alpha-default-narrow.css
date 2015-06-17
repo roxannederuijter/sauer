@@ -275,9 +275,7 @@ a.buttonred {
     bottom: 36px; }
   .front .bean-banner .paragraphs-items-field-paragraphs .group-right {
     width: 56%;
-    position: absolute;
-    right: 0;
-    bottom: 23px; }
+    float: right; }
     .front .bean-banner .paragraphs-items-field-paragraphs .group-right .bannertext {
       font-size: 1.000em;
       text-align: left;
