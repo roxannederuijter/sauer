@@ -432,11 +432,14 @@ h2.block-title {
 
 .zone-preface-second-wrapper {
   padding-top: 50px;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  background-color: #f1f4f9; }
 
 .zone-preface-third-wrapper {
   padding-top: 50px;
-  padding-bottom: 40px;
+  padding-bottom: 40px; }
+
+.zone-postscript-wrapper {
   background-color: #f1f4f9; }
 
 .view-werknemers .views-row {
