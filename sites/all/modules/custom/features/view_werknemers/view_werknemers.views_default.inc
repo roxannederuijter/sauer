@@ -77,6 +77,10 @@ De uitdaging voor hen en de medewerkers ligt in hoogwaardige juridisch advieswer
   $handler->display->display_options['sorts']['random']['id'] = 'random';
   $handler->display->display_options['sorts']['random']['table'] = 'views';
   $handler->display->display_options['sorts']['random']['field'] = 'random';
+  /* Sorteercriterium: Inhoud: Gepubliceerd */
+  $handler->display->display_options['sorts']['status']['id'] = 'status';
+  $handler->display->display_options['sorts']['status']['table'] = 'node';
+  $handler->display->display_options['sorts']['status']['field'] = 'status';
   /* Filtercriterium: Inhoud: Gepubliceerd */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
