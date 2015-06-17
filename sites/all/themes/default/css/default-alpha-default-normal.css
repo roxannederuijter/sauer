@@ -54,4 +54,34 @@
   background: url("img/breadline.png") no-repeat scroll left -36% center transparent;
   padding: 0; }
 
+.front .bean-banner h2 {
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 52px; }
+.front .bean-banner .paragraphs-items-field-paragraphs {
+  width: 60%;
+  margin: 0 auto; }
+  .front .bean-banner .paragraphs-items-field-paragraphs .paragraphs-item-2-kolommen-tekst {
+    position: relative;
+    height: 155px; }
+  .front .bean-banner .paragraphs-items-field-paragraphs .group-left {
+    background: rgba(228, 104, 104, 0.9);
+    padding: 3%;
+    position: absolute;
+    left: 0;
+    bottom: 36px; }
+  .front .bean-banner .paragraphs-items-field-paragraphs .group-right {
+    width: 56%;
+    position: absolute;
+    right: 0;
+    bottom: 23px; }
+    .front .bean-banner .paragraphs-items-field-paragraphs .group-right .bannertext {
+      font-size: 1.313em;
+      text-align: left;
+      font-weight: 300; }
+
+a.buttonblue {
+  padding: 14px 40px;
+  font-size: 0.938em; }
+
 /*# sourceMappingURL=default-alpha-default-normal.css.map */

@@ -1104,24 +1104,24 @@ ul#superfish-1 li.sf-item-2{
       margin-bottom: 52px;
     }
     .paragraphs-items-field-paragraphs {
-      width: 1180px;
+      width: 100%;
       margin: 0 auto;
       .paragraphs-item-2-kolommen-tekst {
         position: relative;
-        height: 155px;
+        height: auto;
       }
       .group-left {
         background: rgba(228, 104, 104, 0.9);
         padding: 3%;
-        position: absolute;
+        position: relative;
         left: 0;
-        bottom: 36px;
+        bottom: 0;
       }
       .group-right {
-        width: 56%;
-        position: absolute;
+        width: 100%;
+        position: relative;
         right: 0;
-        bottom: 23px;
+        bottom: 0;
          .bannertext {
            font-size: 21px;
            text-align: left;

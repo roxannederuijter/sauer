@@ -79,8 +79,9 @@
 }
 
 a.buttonblue {
-  padding:14px 40px;
-  font-size: 0.938em;
+  padding: 14px 7px;
+  font-size: 0.625em;
+  width: 100%;
 }
 
 a.buttonred {
@@ -331,5 +332,40 @@ a.buttonred {
   padding: 0;
 }
 
+.front {
+  .bean-banner {
+    h2 {
+      color:#fff;
+      font-weight:300;
+      margin-bottom: 52px;
+    }
+    .paragraphs-items-field-paragraphs {
+      width: 60%;
+      margin: 0 auto;
+      .paragraphs-item-2-kolommen-tekst {
+        position: relative;
+        height: 155px;
+      }
+      .group-left {
+        background: rgba(228, 104, 104, 0.9);
+        padding: 3%;
+        position: absolute;
+        left: 0;
+        bottom: 36px;
+      }
+      .group-right {
+        width: 56%;
+        position: absolute;
+        right: 0;
+        bottom: 23px;
+        .bannertext {
+          font-size: 1.000em;
+          text-align: left;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
 
 
