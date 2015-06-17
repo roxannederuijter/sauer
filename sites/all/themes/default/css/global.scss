@@ -502,7 +502,9 @@ h2.block-title {
 .zone-preface-second-wrapper {
   padding-top:50px;
   padding-bottom:40px;
-  background-color:$gray;
+  background-image:url('img/dienstenbackground.png');
+  background-size: cover;
+  margin: 0 auto;
 }
 
 .zone-preface-third-wrapper {
