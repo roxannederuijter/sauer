@@ -239,7 +239,7 @@ input[type="button"]:hover,
   .zone-user-wrapper .phone {
     float: left; }
     .zone-user-wrapper .phone li.phone {
-      padding-right: 0px;
+      padding-right: 30px;
       color: #fff; }
     .zone-user-wrapper .phone li.phone:before {
       font-family: FontAwesome;
@@ -856,5 +856,29 @@ ul#superfish-1 li.sf-item-2 ul {
   font-style: normal; }
 p {
   font-family: "montserratlight"; }
+
+.english {
+  float: left; }
+  .english li {
+    margin-top: 5px; }
+    .english li a {
+      color: transparent;
+      background-image: url("img/United-Kingdom.png");
+      background-repeat: no-repeat;
+      padding: 20px 14px;
+      background-size: 28px 26px;
+      font-size: 1px; }
+
+.german {
+  float: left; }
+  .german li {
+    margin-top: 5px; }
+    .german li a {
+      color: transparent;
+      background-image: url("img/Germany.png");
+      background-repeat: no-repeat;
+      padding: 20px 14px;
+      background-size: 28px 26px;
+      font-size: 1px; }
 
 /*# sourceMappingURL=global.css.map */

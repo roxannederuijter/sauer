@@ -31,6 +31,18 @@ function default_block_settings_default_fe_block_boxes() {
 	<li class="phone">0118-418110</li>
 </ul>
 </div>
+
+<div class="english">
+<ul>
+	<li class="english"><a href="/english">/english</a></li>
+</ul>
+</div>
+
+<div class="german">
+<ul>
+	<li class="german"><a href="/german">/german</a></li>
+</ul>
+</div>
 ';
 
   $export['contact'] = $fe_block_boxes;

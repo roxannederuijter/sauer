@@ -243,7 +243,7 @@ input[type="button"]:hover,
   .phone{
     float:left;
     li.phone {
-      padding-right:0px;
+      padding-right:30px;
       color:#fff;
     }
     li.phone:before {
@@ -1075,3 +1075,33 @@ ul#superfish-1 li.sf-item-2{
   p {
     font-family: $light;
   }
+
+.english {
+  float:left;
+  li {
+    margin-top:5px;
+    a {
+      color: transparent;
+      background-image: url("img/United-Kingdom.png");
+      background-repeat: no-repeat;
+      padding: 20px 14px;
+      background-size: 28px 26px;
+      font-size:1px;
+    }
+  }
+}
+
+.german {
+  float:left;
+  li {
+    margin-top:5px;
+    a {
+      color: transparent;
+      background-image: url("img/Germany.png");
+      background-repeat: no-repeat;
+      padding: 20px 14px;
+      background-size: 28px 26px;
+      font-size:1px;
+    }
+  }
+}
