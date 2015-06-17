@@ -897,4 +897,34 @@ ul#superfish-1 li.sf-item-2 ul {
 .zone-header-wrapper {
   margin-top: 44px; }
 
+#region-header-second {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #464b58;
+  padding: 10px 0; }
+  #region-header-second .region-header-second-inner {
+    margin: 0 auto;
+    width: 60%; }
+    #region-header-second .region-header-second-inner .block-superfish-3 {
+      float: left; }
+      #region-header-second .region-header-second-inner .block-superfish-3 a {
+        color: #fff;
+        padding-right: 20px; }
+      #region-header-second .region-header-second-inner .block-superfish-3 a:hover {
+        color: #e36968; }
+    #region-header-second .region-header-second-inner .block-superfish-4 {
+      float: left; }
+      #region-header-second .region-header-second-inner .block-superfish-4 a {
+        color: #fff;
+        padding-right: 20px; }
+      #region-header-second .region-header-second-inner .block-superfish-4 a:hover {
+        color: #e36968; }
+    #region-header-second .region-header-second-inner .block-superfish-5 {
+      float: left; }
+      #region-header-second .region-header-second-inner .block-superfish-5 a {
+        color: #fff;
+        padding-right: 20px; }
+      #region-header-second .region-header-second-inner .block-superfish-5 a:hover {
+        color: #e36968; }
+
 /*# sourceMappingURL=global.css.map */

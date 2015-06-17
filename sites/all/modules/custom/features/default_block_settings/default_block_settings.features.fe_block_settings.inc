@@ -494,7 +494,7 @@ diensten-*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'sidebar_first',
+        'region' => 'header_second',
         'status' => 1,
         'theme' => 'default',
         'weight' => -19,
@@ -506,7 +506,7 @@ diensten-*',
         'weight' => 0,
       ),
     ),
-    'title' => 'NIeuws',
+    'title' => '<none>',
     'visibility' => 1,
   );
 
@@ -521,7 +521,7 @@ nieuws*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'sidebar_first',
+        'region' => 'header_second',
         'status' => 1,
         'theme' => 'default',
         'weight' => -18,
@@ -533,7 +533,7 @@ nieuws*',
         'weight' => 0,
       ),
     ),
-    'title' => 'NIeuws categorie',
+    'title' => '<none>',
     'visibility' => 1,
   );
 
@@ -548,7 +548,7 @@ nieuws*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'sidebar_first',
+        'region' => 'header_second',
         'status' => 1,
         'theme' => 'default',
         'weight' => -17,

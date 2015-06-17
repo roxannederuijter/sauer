@@ -1137,3 +1137,44 @@ ul#superfish-1 li.sf-item-2{
 .zone-header-wrapper {
   margin-top:44px;
 }
+
+#region-header-second {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #464b58;
+  padding:10px 0;
+  .region-header-second-inner {
+    margin: 0 auto;
+    width: 60%;
+    .block-superfish-3 {
+      float:left;
+      a {
+        color:#fff;
+        padding-right:20px;
+      }
+      a:hover {
+        color:$red;
+      }
+    }
+    .block-superfish-4 {
+      float:left;
+      a {
+        color:#fff;
+        padding-right:20px;
+      }
+      a:hover {
+        color:$red;
+      }
+    }
+    .block-superfish-5 {
+      float:left;
+      a {
+        color:#fff;
+        padding-right:20px;
+      }
+      a:hover {
+        color:$red;
+      }
+    }
+  }
+}
