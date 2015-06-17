@@ -69,12 +69,13 @@
     padding: 3%;
     position: absolute;
     left: 0;
-    bottom: 36px; }
+    bottom: 36px;
+    width: 41%; }
   .front .bean-banner .paragraphs-items-field-paragraphs .group-right {
-    width: 56%;
+    width: 49%;
     position: absolute;
     right: 0;
-    bottom: 23px; }
+    bottom: 7px; }
     .front .bean-banner .paragraphs-items-field-paragraphs .group-right .bannertext {
       font-size: 1.313em;
       text-align: left;
