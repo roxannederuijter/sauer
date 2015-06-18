@@ -601,26 +601,13 @@ ul#superfish-1 li.sf-item-2 ul {
 
 .region-sidebar-first {
   padding: 20px 0px; }
-  .region-sidebar-first .block-superfish-4 {
-    background-color: #494949; }
-  .region-sidebar-first .block-superfish-3 {
-    background-color: #494949; }
   .region-sidebar-first .block-superfish-5 {
-    background-color: #494949;
     margin-top: 20px; }
   .region-sidebar-first .block-superfish {
     float: left; }
-  .region-sidebar-first h2.block-title {
-    text-align: left;
-    text-transform: none;
-    color: #fff;
-    margin-bottom: 20px;
-    font-size: 1.875em;
-    font-weight: 300;
-    float: left; }
   .region-sidebar-first .block-superfish-3 {
     float: left;
-    color: #fff;
+    color: #000;
     width: 100%;
     margin: 0;
     background-color: #494949;
@@ -636,41 +623,34 @@ ul#superfish-1 li.sf-item-2 ul {
       width: 100%;
       margin-left: 10px; }
       .region-sidebar-first .block-superfish-3 ul li a {
-        color: #fff;
+        color: #000;
         font-size: 0.938em;
         padding: 4px 0;
         font-weight: 400; }
   .region-sidebar-first .sf-megamenu-column ol li a {
     font-size: 0.750em;
-    color: #fff; }
+    color: #000; }
   .region-sidebar-first .sf-megamenu-column ol li a:before {
     content: '\003e';
     margin-right: 3%; }
   .region-sidebar-first .block-superfish-4 {
     float: left;
-    color: #fff;
+    color: #000;
     width: 100%;
     margin: 0;
-    padding-bottom: 10px;
-    background-color: #494949; }
-    .region-sidebar-first .block-superfish-4 h2.block-title {
-      margin-bottom: 10px;
-      text-transform: none;
-      float: left;
-      width: 100%;
-      margin-left: 10px; }
+    padding-bottom: 10px; }
     .region-sidebar-first .block-superfish-4 ul li {
       margin: 0;
       width: 100%;
       margin-left: 10px; }
       .region-sidebar-first .block-superfish-4 ul li a {
-        color: #fff;
+        color: #000;
         font-size: 0.938em;
         padding: 4px 0;
         font-weight: 400; }
   .region-sidebar-first .block-superfish-5 {
     float: left;
-    color: #fff;
+    color: #000;
     padding-bottom: 10px;
     width: 100%; }
     .region-sidebar-first .block-superfish-5 h2.block-title {
@@ -684,7 +664,7 @@ ul#superfish-1 li.sf-item-2 ul {
         width: 100%;
         margin-left: 10px; }
         .region-sidebar-first .block-superfish-5 ul li a {
-          color: #fff;
+          color: #000;
           font-size: 0.938em;
           padding: 4px 0;
           font-weight: 400; }

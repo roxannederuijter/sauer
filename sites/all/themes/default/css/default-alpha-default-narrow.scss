@@ -136,31 +136,16 @@ a.buttonred {
   .block-superfish {
     float:left;
   }
-  h2.block-title {
-    text-align: left;
-    text-transform: none;
-    color:#fff;
-    margin-bottom: 20px;
-    font-size: 1.875em;
-    font-weight: 400;
-    float:left;
-  }
   .block-superfish-3 {
     float:left;
-    color:#fff;
     padding-bottom:10px;
-    h2.block-title {
-      margin-bottom:10px;
-      text-transform:none;
-      float:left;
-    }
     ul {
       li {
         margin:0;
         width:100%;
-        margin-left:10px;
+        margin-left:0px;
+        border-bottom: 1px dashed #ddd;
         a {
-          color:#fff;
           font-size:0.938em;
           padding:4px 0;
           font-weight:400;
@@ -174,7 +159,6 @@ a.buttonred {
       li {
         a {
           font-size:0.750em;
-          color:#fff;
         }
         a:before {
           content:'\003e';
@@ -185,20 +169,14 @@ a.buttonred {
   }
   .block-superfish-4 {
     float:left;
-    color:#fff;
     padding-bottom:10px;
-    h2.block-title {
-      margin-bottom:10px;
-      text-transform:none;
-      float:left;
-    }
     ul {
       li {
         margin:0;
         width:100%;
-        margin-left:10px;
+        margin-left:0px;
+        border-bottom: 1px dashed #ddd;
         a {
-          color:#fff;
           font-size:0.938em;
           padding:4px 0;
           font-weight:400;
@@ -208,21 +186,15 @@ a.buttonred {
   }
   .block-superfish-5 {
     float:left;
-    color:#fff;
     padding-bottom:10px;
-    h2.block-title {
-      margin-bottom:10px;
-      text-transform:none;
-      float:left;
-    }
     ul {
-      padding:10px;
+      padding:0px;
       li {
         margin:0;
         width:100%;
-        margin-left:10px;
+        margin-left:0px;
+        border-bottom: 1px dashed #ddd;
         a {
-          color:#fff;
           font-size:0.938em;
           padding:4px 0;
           font-weight:400;
