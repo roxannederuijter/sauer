@@ -110,6 +110,107 @@ function view_diensten_views_default_views() {
 
   /* Display: Frontpage-Block */
   $handler = $view->new_display('block', 'Frontpage-Block', 'block');
+
+  /* Display: Pagina */
+  $handler = $view->new_display('page', 'Pagina', 'page_1');
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Veld: Inhoud: Titel */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
+  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  /* Veld: Veld: Paragraphs */
+  $handler->display->display_options['fields']['field_paragraphs']['id'] = 'field_paragraphs';
+  $handler->display->display_options['fields']['field_paragraphs']['table'] = 'field_data_field_paragraphs';
+  $handler->display->display_options['fields']['field_paragraphs']['field'] = 'field_paragraphs';
+  $handler->display->display_options['fields']['field_paragraphs']['label'] = '';
+  $handler->display->display_options['fields']['field_paragraphs']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_paragraphs']['settings'] = array(
+    'view_mode' => 'full',
+  );
+  $handler->display->display_options['path'] = 'dienst2';
+
+  /* Display: Block page diensten -> Nieuws */
+  $handler = $view->new_display('block', 'Block page diensten -> Nieuws', 'block_1');
+  $handler->display->display_options['defaults']['relationships'] = FALSE;
+  /* Relatie: Entity Reference: Referencing entity */
+  $handler->display->display_options['relationships']['reverse_field_dienst_node']['id'] = 'reverse_field_dienst_node';
+  $handler->display->display_options['relationships']['reverse_field_dienst_node']['table'] = 'node';
+  $handler->display->display_options['relationships']['reverse_field_dienst_node']['field'] = 'reverse_field_dienst_node';
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Veld: Veld: Afbeelding */
+  $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
+  $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
+  $handler->display->display_options['fields']['field_image']['field'] = 'field_image';
+  $handler->display->display_options['fields']['field_image']['relationship'] = 'reverse_field_dienst_node';
+  $handler->display->display_options['fields']['field_image']['label'] = '';
+  $handler->display->display_options['fields']['field_image']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_image']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_image']['settings'] = array(
+    'image_style' => '',
+    'image_link' => 'content',
+  );
+  /* Veld: Inhoud: Titel */
+  $handler->display->display_options['fields']['title_1']['id'] = 'title_1';
+  $handler->display->display_options['fields']['title_1']['table'] = 'node';
+  $handler->display->display_options['fields']['title_1']['field'] = 'title';
+  $handler->display->display_options['fields']['title_1']['relationship'] = 'reverse_field_dienst_node';
+  $handler->display->display_options['fields']['title_1']['label'] = '';
+  $handler->display->display_options['fields']['title_1']['element_label_colon'] = FALSE;
+  /* Veld: Inhoud: Datum van inzending */
+  $handler->display->display_options['fields']['created']['id'] = 'created';
+  $handler->display->display_options['fields']['created']['table'] = 'node';
+  $handler->display->display_options['fields']['created']['field'] = 'created';
+  $handler->display->display_options['fields']['created']['relationship'] = 'reverse_field_dienst_node';
+  $handler->display->display_options['fields']['created']['label'] = '';
+  $handler->display->display_options['fields']['created']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['created']['date_format'] = 'long';
+  $handler->display->display_options['fields']['created']['second_date_format'] = 'long';
+  /* Veld: Inhoud: Samenvatting */
+  $handler->display->display_options['fields']['field_samenvatting']['id'] = 'field_samenvatting';
+  $handler->display->display_options['fields']['field_samenvatting']['table'] = 'field_data_field_samenvatting';
+  $handler->display->display_options['fields']['field_samenvatting']['field'] = 'field_samenvatting';
+  $handler->display->display_options['fields']['field_samenvatting']['relationship'] = 'reverse_field_dienst_node';
+  $handler->display->display_options['fields']['field_samenvatting']['label'] = '';
+  $handler->display->display_options['fields']['field_samenvatting']['element_label_colon'] = FALSE;
+  /* Veld: Inhoud: Link */
+  $handler->display->display_options['fields']['view_node']['id'] = 'view_node';
+  $handler->display->display_options['fields']['view_node']['table'] = 'views_entity_node';
+  $handler->display->display_options['fields']['view_node']['field'] = 'view_node';
+  $handler->display->display_options['fields']['view_node']['relationship'] = 'reverse_field_dienst_node';
+  $handler->display->display_options['fields']['view_node']['label'] = '';
+  $handler->display->display_options['fields']['view_node']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['view_node']['text'] = 'Lees meer';
+  $handler->display->display_options['defaults']['sorts'] = FALSE;
+  $handler->display->display_options['defaults']['arguments'] = FALSE;
+  /* Contextueel filter: Inhoud: Nid */
+  $handler->display->display_options['arguments']['nid']['id'] = 'nid';
+  $handler->display->display_options['arguments']['nid']['table'] = 'node';
+  $handler->display->display_options['arguments']['nid']['field'] = 'nid';
+  $handler->display->display_options['arguments']['nid']['default_action'] = 'default';
+  $handler->display->display_options['arguments']['nid']['exception']['title'] = 'Alle';
+  $handler->display->display_options['arguments']['nid']['default_argument_type'] = 'node';
+  $handler->display->display_options['arguments']['nid']['summary']['number_of_records'] = '0';
+  $handler->display->display_options['arguments']['nid']['summary']['format'] = 'default_summary';
+  $handler->display->display_options['arguments']['nid']['summary_options']['items_per_page'] = '25';
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filtercriterium: Inhoud: Gepubliceerd */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filtercriterium: Inhoud: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'dienst' => 'dienst',
+  );
   $translatables['diensten'] = array(
     t('Master'),
     t('Diensten'),
@@ -121,6 +222,11 @@ function view_diensten_views_default_views() {
     t('Aflopend'),
     t('Voorpagina (field_voorpagina)'),
     t('Frontpage-Block'),
+    t('Pagina'),
+    t('Block page diensten -> Nieuws'),
+    t('Inhoud referencing Inhoud from field_dienst'),
+    t('Lees meer'),
+    t('Alle'),
   );
   $export['diensten'] = $view;
 

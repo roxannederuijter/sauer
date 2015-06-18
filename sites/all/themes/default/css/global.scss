@@ -1177,3 +1177,45 @@ ul#superfish-1 li.sf-item-2{
     margin:0 auto;
   }
 }
+
+.context-diensten {
+  .view-diensten .views-row .views-field-field-samenvatting {
+    width: 60%;
+    float: left;
+    text-align: left;
+  }
+  .views-field-view-node a {
+    color: #e36968;
+    width:60%;
+    float:left;
+    text-align:left;
+  }
+  .view-diensten .views-row {
+    width: 100%;
+    padding: 0 0;
+    .views-field-field-image {
+      width: 35%;
+      float: left;
+      margin-right: 5%;
+    }
+    .views-field-created {
+      width: 60%;
+      float: left;
+      text-align: left;
+      font-size: 0.938em;
+      margin-bottom: 20px;
+    }
+    .views-field-title-1 {
+      width: 60%;
+      float: left;
+      text-align: left;
+      font-size: 1.125em;
+      text-transform: uppercase;
+      font-weight: 300;
+      color:#000;
+      a {
+        color:#000;
+      }
+    }
+  }
+}

@@ -21,6 +21,11 @@ function content_dienst_ds_field_settings_info() {
       'weight' => '0',
       'label' => 'hidden',
       'format' => 'default',
+      'formatter_settings' => array(
+        'link' => '0',
+        'wrapper' => 'h2',
+        'class' => '',
+      ),
     ),
   );
   $export['node|dienst|default'] = $ds_fieldsetting;
@@ -47,14 +52,12 @@ function content_dienst_ds_layout_settings_info() {
         0 => 'title',
         1 => 'field_paragraphs',
         2 => 'field_nieuwsitems',
-        3 => 'field_contact_persoon',
       ),
     ),
     'fields' => array(
       'title' => 'ds_content',
       'field_paragraphs' => 'ds_content',
       'field_nieuwsitems' => 'ds_content',
-      'field_contact_persoon' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(

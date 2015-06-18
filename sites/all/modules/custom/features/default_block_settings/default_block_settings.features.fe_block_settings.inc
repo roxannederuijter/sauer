@@ -629,7 +629,7 @@ nieuws*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -17,
+        'weight' => -19,
       ),
       'seven' => array(
         'region' => 'content',
@@ -876,6 +876,32 @@ nieuws*',
     'visibility' => 1,
   );
 
+  $export['views-diensten-block_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'diensten-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'diensten/*',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -18,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
   $export['views-nieuws-block'] = array(
     'cache' => -1,
     'custom' => 0,
@@ -889,7 +915,7 @@ nieuws*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -15,
+        'weight' => -16,
       ),
       'seven' => array(
         'region' => '',
@@ -941,7 +967,7 @@ nieuws*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -16,
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',

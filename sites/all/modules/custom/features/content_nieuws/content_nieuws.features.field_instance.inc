@@ -10,6 +10,47 @@
 function content_nieuws_field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance: 'node-nieuws-field_dienst'
+  $field_instances['node-nieuws-field_dienst'] = array(
+    'bundle' => 'nieuws',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_dienst',
+    'label' => 'Dienst',
+    'required' => 0,
+    'settings' => array(
+      'behaviors' => array(
+        'test_instance_behavior' => array(
+          'status' => 0,
+        ),
+      ),
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_buttons',
+      'weight' => 7,
+    ),
+  );
+
   // Exported field_instance: 'node-nieuws-field_image'
   $field_instances['node-nieuws-field_image'] = array(
     'bundle' => 'nieuws',
@@ -20,7 +61,7 @@ function content_nieuws_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 9,
+        'weight' => 10,
       ),
       'teaser' => array(
         'label' => 'hidden',
@@ -142,7 +183,7 @@ function content_nieuws_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 10,
+        'weight' => 11,
       ),
       'teaser' => array(
         'label' => 'hidden',
@@ -176,6 +217,7 @@ function content_nieuws_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Afbeelding');
+  t('Dienst');
   t('Paragraphs');
   t('Samenvatting');
 

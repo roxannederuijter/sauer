@@ -115,6 +115,10 @@ function view_nieuws_views_default_views() {
 
   /* Display: teaser */
   $handler = $view->new_display('block', 'teaser', 'block');
+
+  /* Display: Pagina */
+  $handler = $view->new_display('page', 'Pagina', 'page_1');
+  $handler->display->display_options['path'] = 'nieuws-2';
   $translatables['nieuws'] = array(
     t('Master'),
     t('NIeuws'),
@@ -132,6 +136,7 @@ function view_nieuws_views_default_views() {
     t('Publicatiedatum:'),
     t('Lees meer'),
     t('teaser'),
+    t('Pagina'),
   );
   $export['nieuws'] = $view;
 
