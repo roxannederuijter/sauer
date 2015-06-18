@@ -292,9 +292,9 @@ a.buttonred {
   width: 55%; }
   .context-nieuws .views-field-view-node a {
     color: #e36968;
-    width: 55%;
-    float: left;
-    text-align: left; }
+    width: 100%;
+    float: right;
+    text-align: right; }
 .context-nieuws .views-field-field-image {
   width: 35%;
   float: left;

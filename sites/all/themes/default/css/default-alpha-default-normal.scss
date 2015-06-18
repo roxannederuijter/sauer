@@ -125,3 +125,60 @@ a.buttonblue {
     background: url("img/line.png") no-repeat scroll left -27% center, url("img/line.png") no-repeat scroll right -29% center transparent;
   }
 }
+
+.context-nieuws {
+  .view-id-nieuws .views-row .views-field-field-samenvatting {
+    width: 55%;
+    float: left;
+    text-align: left;
+  }
+  .views-field-view-node {
+    width:55%;
+    a {
+      color: #e36968;
+      width: 55%;
+      float: left;
+      text-align: left;
+    }
+  }
+  .views-field-field-image {
+    width: 35%;
+    float: left;
+    margin-right: 5%;
+  }
+  .views-field-created {
+    width: 55%;
+    float: left;
+    text-align: left;
+    font-size: 0.938em;
+    margin-bottom: 20px;
+  }
+  .views-field-title {
+    width: 55%;
+    float: left;
+    text-align: left;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    font-weight: 300;
+    color:#000;
+    a {
+      color:#000;
+    }
+  }
+  #edit-field-catogorie-tid {
+    width:100%;
+    float:left;
+  }
+  .views-submit-button {
+    width:100%;
+  }
+  #edit-submit-nieuws {
+    background-color: #006c68;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 12px;
+    width: 47%;
+    float: left;
+    text-align: center;
+  }
+}
