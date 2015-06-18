@@ -945,26 +945,26 @@ ul#superfish-1 li.sf-item-2 ul {
     .context-diensten .view-diensten .views-row .views-field-title-1 a {
       color: #000; }
 
-.context-nieuws-2 .view-id-nieuws .views-row .views-field-field-samenvatting {
+.context-nieuws .view-id-nieuws .views-row .views-field-field-samenvatting {
   width: 60%;
   float: left;
   text-align: left; }
-.context-nieuws-2 .views-field-view-node a {
+.context-nieuws .views-field-view-node a {
   color: #e36968;
   width: 60%;
   float: left;
   text-align: left; }
-.context-nieuws-2 .views-field-field-image {
+.context-nieuws .views-field-field-image {
   width: 35%;
   float: left;
   margin-right: 5%; }
-.context-nieuws-2 .views-field-created {
+.context-nieuws .views-field-created {
   width: 60%;
   float: left;
   text-align: left;
   font-size: 0.938em;
   margin-bottom: 20px; }
-.context-nieuws-2 .views-field-title-1 {
+.context-nieuws .views-field-title-1 {
   width: 60%;
   float: left;
   text-align: left;
@@ -972,7 +972,7 @@ ul#superfish-1 li.sf-item-2 ul {
   text-transform: uppercase;
   font-weight: 300;
   color: #000; }
-  .context-nieuws-2 .views-field-title-1 a {
+  .context-nieuws .views-field-title-1 a {
     color: #000; }
 
 /*# sourceMappingURL=global.css.map */

@@ -284,41 +284,43 @@ a.buttonred {
     .context-diensten .view-diensten .views-row .views-field-title-1 a {
       color: #000; }
 
-.context-nieuws-2 .view-id-nieuws .views-row .views-field-field-samenvatting {
-  width: 60%;
+.context-nieuws .view-id-nieuws .views-row .views-field-field-samenvatting {
+  width: 55%;
   float: left;
   text-align: left; }
-.context-nieuws-2 .views-field-view-node a {
-  color: #e36968;
-  width: 60%;
-  float: left;
-  text-align: left; }
-.context-nieuws-2 .views-field-field-image {
+.context-nieuws .views-field-view-node {
+  width: 55%; }
+  .context-nieuws .views-field-view-node a {
+    color: #e36968;
+    width: 55%;
+    float: left;
+    text-align: left; }
+.context-nieuws .views-field-field-image {
   width: 35%;
   float: left;
   margin-right: 5%; }
-.context-nieuws-2 .views-field-created {
-  width: 60%;
+.context-nieuws .views-field-created {
+  width: 55%;
   float: left;
   text-align: left;
   font-size: 0.938em;
   margin-bottom: 20px; }
-.context-nieuws-2 .views-field-title-1 {
-  width: 60%;
+.context-nieuws .views-field-title {
+  width: 55%;
   float: left;
   text-align: left;
   font-size: 1.125em;
   text-transform: uppercase;
   font-weight: 300;
   color: #000; }
-  .context-nieuws-2 .views-field-title-1 a {
+  .context-nieuws .views-field-title a {
     color: #000; }
-.context-nieuws-2 #edit-field-catogorie-tid {
+.context-nieuws #edit-field-catogorie-tid {
   width: 100%;
   float: left; }
-.context-nieuws-2 .views-submit-button {
+.context-nieuws .views-submit-button {
   width: 100%; }
-.context-nieuws-2 #edit-submit-nieuws {
+.context-nieuws #edit-submit-nieuws {
   background-color: #006c68;
   color: #fff;
   padding: 10px 0;
