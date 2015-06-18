@@ -184,7 +184,12 @@ function view_nieuws_views_default_views() {
   );
   $handler->display->display_options['filters']['field_catogorie_tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_catogorie_tid']['vocabulary'] = 'catogorie';
-  $handler->display->display_options['path'] = 'nieuws-2';
+  $handler->display->display_options['path'] = 'nieuws';
+  $handler->display->display_options['menu']['type'] = 'normal';
+  $handler->display->display_options['menu']['title'] = 'Nieuws';
+  $handler->display->display_options['menu']['weight'] = '0';
+  $handler->display->display_options['menu']['context'] = 0;
+  $handler->display->display_options['menu']['context_only_inline'] = 0;
   $translatables['nieuws'] = array(
     t('Master'),
     t('NIeuws'),

@@ -938,8 +938,8 @@ nieuws*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'content',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'default',
         'weight' => -16,
       ),
