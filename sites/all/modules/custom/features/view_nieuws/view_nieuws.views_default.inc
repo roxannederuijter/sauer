@@ -127,6 +127,42 @@ function view_nieuws_views_default_views() {
 
   /* Display: Pagina */
   $handler = $view->new_display('page', 'Pagina', 'page_1');
+  $handler->display->display_options['defaults']['use_ajax'] = FALSE;
+  $handler->display->display_options['use_ajax'] = TRUE;
+  $handler->display->display_options['defaults']['exposed_form'] = FALSE;
+  $handler->display->display_options['exposed_form']['type'] = 'better_exposed_filters';
+  $handler->display->display_options['exposed_form']['options']['submit_button'] = 'Toepassen';
+  $handler->display->display_options['exposed_form']['options']['reset_button_label'] = 'Opnieuw instellen';
+  $handler->display->display_options['exposed_form']['options']['exposed_sorts_label'] = 'Sorteren op';
+  $handler->display->display_options['exposed_form']['options']['sort_asc_label'] = 'Oplopend';
+  $handler->display->display_options['exposed_form']['options']['sort_desc_label'] = 'Aflopend';
+  $handler->display->display_options['exposed_form']['options']['autosubmit'] = TRUE;
+  $handler->display->display_options['exposed_form']['options']['bef'] = array(
+    'general' => array(
+      'allow_secondary' => 0,
+      'secondary_label' => 'Uitgebreide opties',
+    ),
+    'field_catogorie_tid' => array(
+      'bef_format' => 'bef',
+      'more_options' => array(
+        'bef_select_all_none' => 0,
+        'bef_collapsible' => 0,
+        'is_secondary' => 0,
+        'any_label' => '- Alles -',
+        'bef_filter_description' => '',
+        'tokens' => array(
+          'available' => array(
+            0 => 'global_types',
+          ),
+        ),
+        'rewrite' => array(
+          'filter_rewrite_values' => '',
+        ),
+      ),
+    ),
+  );
+  $handler->display->display_options['exposed_form']['options']['input_required'] = 0;
+  $handler->display->display_options['exposed_form']['options']['text_input_required_format'] = 'filtered_html';
   $handler->display->display_options['exposed_block'] = TRUE;
   $handler->display->display_options['defaults']['empty'] = FALSE;
   /* Gedrag bij ontbreken van resultaten: Algemeen: Ongefilterde tekst */
@@ -169,6 +205,7 @@ function view_nieuws_views_default_views() {
   $handler->display->display_options['filters']['field_catogorie_tid']['expose']['label'] = 'Catogorie ';
   $handler->display->display_options['filters']['field_catogorie_tid']['expose']['operator'] = 'field_catogorie_tid_op';
   $handler->display->display_options['filters']['field_catogorie_tid']['expose']['identifier'] = 'field_catogorie_tid';
+  $handler->display->display_options['filters']['field_catogorie_tid']['expose']['multiple'] = TRUE;
   $handler->display->display_options['filters']['field_catogorie_tid']['expose']['remember_roles'] = array(
     2 => '2',
     1 => 0,
@@ -209,6 +246,7 @@ function view_nieuws_views_default_views() {
     t('Type'),
     t('teaser'),
     t('Pagina'),
+    t('Selecteer een van de filters en klik op \'Toepassen\' om het resultaat te zien'),
     t('Er zijn geen nieuwsberichten in deze catogorie.'),
     t('Catogorie '),
     t('Catogorie (field_catogorie)'),

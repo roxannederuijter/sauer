@@ -3,6 +3,7 @@ core = 7.x
 package = Default settings
 dependencies[] = admin_menu
 dependencies[] = adminimal_admin_menu
+dependencies[] = better_exposed_filters
 dependencies[] = ctools
 dependencies[] = jquery_update
 dependencies[] = menu_expanded
