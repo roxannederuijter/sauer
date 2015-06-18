@@ -257,9 +257,9 @@ a.buttonred {
   text-align: left; }
 .context-diensten .views-field-view-node a {
   color: #e36968;
-  width: 60%;
-  float: left;
-  text-align: left; }
+  width: 100%;
+  float: right;
+  text-align: right; }
 .context-diensten .view-diensten .views-row {
   width: 100%;
   padding: 0 0; }
