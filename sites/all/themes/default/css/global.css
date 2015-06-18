@@ -958,28 +958,25 @@ ul#superfish-1 li.sf-item-2 ul {
   width: 60%;
   float: left;
   text-align: left; }
-.context-nieuws-2 .views-field-field-image .views-row {
-  width: 100%;
-  padding: 0 0; }
-  .context-nieuws-2 .views-field-field-image .views-row .views-field-field-image {
-    width: 35%;
-    float: left;
-    margin-right: 5%; }
-  .context-nieuws-2 .views-field-field-image .views-row .views-field-created {
-    width: 60%;
-    float: left;
-    text-align: left;
-    font-size: 0.938em;
-    margin-bottom: 20px; }
-  .context-nieuws-2 .views-field-field-image .views-row .views-field-title-1 {
-    width: 60%;
-    float: left;
-    text-align: left;
-    font-size: 1.125em;
-    text-transform: uppercase;
-    font-weight: 300;
+.context-nieuws-2 .views-field-field-image {
+  width: 35%;
+  float: left;
+  margin-right: 5%; }
+.context-nieuws-2 .views-field-created {
+  width: 60%;
+  float: left;
+  text-align: left;
+  font-size: 0.938em;
+  margin-bottom: 20px; }
+.context-nieuws-2 .views-field-title-1 {
+  width: 60%;
+  float: left;
+  text-align: left;
+  font-size: 1.125em;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #000; }
+  .context-nieuws-2 .views-field-title-1 a {
     color: #000; }
-    .context-nieuws-2 .views-field-field-image .views-row .views-field-title-1 a {
-      color: #000; }
 
 /*# sourceMappingURL=global.css.map */
