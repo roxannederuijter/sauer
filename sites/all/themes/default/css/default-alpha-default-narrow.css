@@ -251,28 +251,34 @@ a.buttonred {
       text-align: left;
       font-weight: 300; }
 
-.context-diensten .view-diensten .views-row .views-field-field-samenvatting {
+.context-diensten .block-diensten-block-2 .views-field-field-image img {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px; }
+.context-diensten .block-diensten-block-1 .view-diensten .views-row .views-field-field-samenvatting {
   width: 60%;
   float: left;
   text-align: left; }
-.context-diensten .views-field-view-node a {
+.context-diensten .block-diensten-block-1 .views-field-view-node a {
   color: #e36968;
   width: 55%;
   text-align: right; }
-.context-diensten .view-diensten .views-row {
+.context-diensten .block-diensten-block-1 .view-diensten .views-row {
   width: 100%;
   padding: 0 0; }
-  .context-diensten .view-diensten .views-row .views-field-field-image {
+  .context-diensten .block-diensten-block-1 .view-diensten .views-row .views-field-field-image {
     width: 35%;
     float: left;
     margin-right: 5%; }
-  .context-diensten .view-diensten .views-row .views-field-created {
+  .context-diensten .block-diensten-block-1 .view-diensten .views-row .views-field-created {
     width: 60%;
     float: left;
     text-align: left;
     font-size: 0.938em;
     margin-bottom: 20px; }
-  .context-diensten .view-diensten .views-row .views-field-title-1 {
+  .context-diensten .block-diensten-block-1 .view-diensten .views-row .views-field-title-1 {
     width: 60%;
     float: left;
     text-align: left;
@@ -280,7 +286,7 @@ a.buttonred {
     text-transform: uppercase;
     font-weight: 300;
     color: #000; }
-    .context-diensten .view-diensten .views-row .views-field-title-1 a {
+    .context-diensten .block-diensten-block-1 .view-diensten .views-row .views-field-title-1 a {
       color: #000; }
 
 .context-diensten .view-diensten .views-row {

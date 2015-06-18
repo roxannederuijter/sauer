@@ -332,41 +332,54 @@ a.buttonred {
 }
 
 .context-diensten {
-  .view-diensten .views-row .views-field-field-samenvatting {
-    width: 60%;
-    float: left;
-    text-align: left;
-  }
-  .views-field-view-node a {
-    color: #e36968;
-    width: 55%;
-    text-align: right;
-  }
-  .view-diensten .views-row {
-    width: 100%;
-    padding: 0 0;
+  .block-diensten-block-2 {
     .views-field-field-image {
-      width: 35%;
-      float: left;
-      margin-right: 5%;
+      img {
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+      }
     }
-    .views-field-created {
+  }
+  .block-diensten-block-1 {
+    .view-diensten .views-row .views-field-field-samenvatting {
       width: 60%;
       float: left;
       text-align: left;
-      font-size: 0.938em;
-      margin-bottom: 20px;
     }
-    .views-field-title-1 {
-      width: 60%;
-      float: left;
-      text-align: left;
-      font-size: 1.125em;
-      text-transform: uppercase;
-      font-weight: 300;
-      color:#000;
-      a {
-        color:#000;
+    .views-field-view-node a {
+      color: #e36968;
+      width: 55%;
+      text-align: right;
+    }
+    .view-diensten .views-row {
+      width: 100%;
+      padding: 0 0;
+      .views-field-field-image {
+        width: 35%;
+        float: left;
+        margin-right: 5%;
+      }
+      .views-field-created {
+        width: 60%;
+        float: left;
+        text-align: left;
+        font-size: 0.938em;
+        margin-bottom: 20px;
+      }
+      .views-field-title-1 {
+        width: 60%;
+        float: left;
+        text-align: left;
+        font-size: 1.125em;
+        text-transform: uppercase;
+        font-weight: 300;
+        color: #000;
+        a {
+          color: #000;
+        }
       }
     }
   }
