@@ -319,5 +319,18 @@ a.buttonred {
   color: #000; }
   .context-nieuws-2 .views-field-title-1 a {
     color: #000; }
+.context-nieuws-2 #edit-field-catogorie-tid {
+  width: 100%;
+  float: left; }
+.context-nieuws-2 .views-submit-button {
+  width: 100%; }
+.context-nieuws-2 #edit-submit-nieuws {
+  background-color: #006c68;
+  color: #fff;
+  padding: 10px 0;
+  font-size: 12px;
+  width: 47%;
+  float: left;
+  text-align: center; }
 
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
