@@ -10,6 +10,50 @@
 function content_werknemer_field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance: 'node-werknemer-field_dienst'
+  $field_instances['node-werknemer-field_dienst'] = array(
+    'bundle' => 'werknemer',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'entityreference',
+        'settings' => array(
+          'link' => FALSE,
+        ),
+        'type' => 'entityreference_label',
+        'weight' => 3,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_dienst',
+    'label' => 'Dienst',
+    'required' => 0,
+    'settings' => array(
+      'behaviors' => array(
+        'test_instance_behavior' => array(
+          'status' => 0,
+        ),
+      ),
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_buttons',
+      'weight' => 46,
+    ),
+  );
+
   // Exported field_instance: 'node-werknemer-field_functie'
   $field_instances['node-werknemer-field_functie'] = array(
     'bundle' => 'werknemer',
@@ -155,6 +199,7 @@ function content_werknemer_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Afbeelding');
+  t('Dienst');
   t('Functie');
   t('Naam');
 
