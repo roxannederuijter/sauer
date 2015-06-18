@@ -521,8 +521,8 @@ nieuws*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'default',
         'weight' => -18,
       ),
@@ -548,8 +548,8 @@ nieuws*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'default',
         'weight' => -17,
       ),
@@ -848,6 +848,32 @@ nieuws*',
     ),
     'title' => '',
     'visibility' => 0,
+  );
+
+  $export['views--exp-nieuws-page_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => '-exp-nieuws-page_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'nieuws*',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'sidebar_first',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => 0,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
   );
 
   $export['views-diensten-block'] = array(

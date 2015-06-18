@@ -54,6 +54,10 @@ function view_nieuws_views_default_views() {
     'field_samenvatting' => 'field_samenvatting',
     'view_node' => 'view_node',
   );
+  /* Gedrag bij ontbreken van resultaten: Algemeen: Ongefilterde tekst */
+  $handler->display->display_options['empty']['area_text_custom']['id'] = 'area_text_custom';
+  $handler->display->display_options['empty']['area_text_custom']['table'] = 'views';
+  $handler->display->display_options['empty']['area_text_custom']['field'] = 'area_text_custom';
   /* Veld: Veld: Afbeelding */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
   $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
@@ -112,12 +116,74 @@ function view_nieuws_views_default_views() {
   $handler->display->display_options['filters']['type']['value'] = array(
     'nieuws' => 'nieuws',
   );
+  $handler->display->display_options['filters']['type']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['type']['expose']['operator_id'] = 'type_op';
+  $handler->display->display_options['filters']['type']['expose']['label'] = 'Type';
+  $handler->display->display_options['filters']['type']['expose']['operator'] = 'type_op';
+  $handler->display->display_options['filters']['type']['expose']['identifier'] = 'type';
 
   /* Display: teaser */
   $handler = $view->new_display('block', 'teaser', 'block');
 
   /* Display: Pagina */
   $handler = $view->new_display('page', 'Pagina', 'page_1');
+  $handler->display->display_options['exposed_block'] = TRUE;
+  $handler->display->display_options['defaults']['empty'] = FALSE;
+  /* Gedrag bij ontbreken van resultaten: Algemeen: Ongefilterde tekst */
+  $handler->display->display_options['empty']['area_text_custom']['id'] = 'area_text_custom';
+  $handler->display->display_options['empty']['area_text_custom']['table'] = 'views';
+  $handler->display->display_options['empty']['area_text_custom']['field'] = 'area_text_custom';
+  $handler->display->display_options['empty']['area_text_custom']['empty'] = TRUE;
+  $handler->display->display_options['empty']['area_text_custom']['content'] = 'Er zijn geen nieuwsberichten in deze catogorie.';
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filtercriterium: Inhoud: Gepubliceerd */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filtercriterium: Inhoud: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'nieuws' => 'nieuws',
+  );
+  $handler->display->display_options['filters']['type']['expose']['operator_id'] = 'type_op';
+  $handler->display->display_options['filters']['type']['expose']['label'] = 'Type';
+  $handler->display->display_options['filters']['type']['expose']['operator'] = 'type_op';
+  $handler->display->display_options['filters']['type']['expose']['identifier'] = 'type';
+  $handler->display->display_options['filters']['type']['expose']['remember_roles'] = array(
+    2 => '2',
+    1 => 0,
+    3 => 0,
+  );
+  /* Filtercriterium: Inhoud: Catogorie (field_catogorie) */
+  $handler->display->display_options['filters']['field_catogorie_tid']['id'] = 'field_catogorie_tid';
+  $handler->display->display_options['filters']['field_catogorie_tid']['table'] = 'field_data_field_catogorie';
+  $handler->display->display_options['filters']['field_catogorie_tid']['field'] = 'field_catogorie_tid';
+  $handler->display->display_options['filters']['field_catogorie_tid']['exposed'] = TRUE;
+  $handler->display->display_options['filters']['field_catogorie_tid']['expose']['operator_id'] = 'field_catogorie_tid_op';
+  $handler->display->display_options['filters']['field_catogorie_tid']['expose']['label'] = 'Catogorie ';
+  $handler->display->display_options['filters']['field_catogorie_tid']['expose']['operator'] = 'field_catogorie_tid_op';
+  $handler->display->display_options['filters']['field_catogorie_tid']['expose']['identifier'] = 'field_catogorie_tid';
+  $handler->display->display_options['filters']['field_catogorie_tid']['expose']['remember_roles'] = array(
+    2 => '2',
+    1 => 0,
+    3 => 0,
+  );
+  $handler->display->display_options['filters']['field_catogorie_tid']['group_info']['label'] = 'Catogorie (field_catogorie)';
+  $handler->display->display_options['filters']['field_catogorie_tid']['group_info']['identifier'] = 'field_catogorie_tid';
+  $handler->display->display_options['filters']['field_catogorie_tid']['group_info']['remember'] = FALSE;
+  $handler->display->display_options['filters']['field_catogorie_tid']['group_info']['group_items'] = array(
+    1 => array(),
+    2 => array(),
+    3 => array(),
+  );
+  $handler->display->display_options['filters']['field_catogorie_tid']['type'] = 'select';
+  $handler->display->display_options['filters']['field_catogorie_tid']['vocabulary'] = 'catogorie';
   $handler->display->display_options['path'] = 'nieuws-2';
   $translatables['nieuws'] = array(
     t('Master'),
@@ -135,8 +201,12 @@ function view_nieuws_views_default_views() {
     t('volgende ›'),
     t('Publicatiedatum:'),
     t('Lees meer'),
+    t('Type'),
     t('teaser'),
     t('Pagina'),
+    t('Er zijn geen nieuwsberichten in deze catogorie.'),
+    t('Catogorie '),
+    t('Catogorie (field_catogorie)'),
   );
   $export['nieuws'] = $view;
 

@@ -10,6 +10,42 @@
 function content_nieuws_field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance: 'node-nieuws-field_catogorie'
+  $field_instances['node-nieuws-field_catogorie'] = array(
+    'bundle' => 'nieuws',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 12,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_catogorie',
+    'label' => 'Catogorie',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_buttons',
+      'weight' => 8,
+    ),
+  );
+
   // Exported field_instance: 'node-nieuws-field_dienst'
   $field_instances['node-nieuws-field_dienst'] = array(
     'bundle' => 'nieuws',
@@ -217,6 +253,7 @@ function content_nieuws_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Afbeelding');
+  t('Catogorie');
   t('Dienst');
   t('Paragraphs');
   t('Samenvatting');
