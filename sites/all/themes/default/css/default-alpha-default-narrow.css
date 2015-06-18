@@ -241,9 +241,10 @@ a.buttonred {
     padding: 3%;
     position: absolute;
     left: 0;
-    bottom: 36px; }
+    bottom: 36px;
+    width: 40%; }
   .front .bean-banner .paragraphs-items-field-paragraphs .group-right {
-    width: 56%;
+    width: 50%;
     float: right; }
     .front .bean-banner .paragraphs-items-field-paragraphs .group-right .bannertext {
       font-size: 1.000em;
