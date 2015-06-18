@@ -494,7 +494,7 @@ diensten-*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'header_second',
+        'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'default',
         'weight' => -19,
@@ -521,7 +521,7 @@ nieuws*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'header_second',
+        'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'default',
         'weight' => -18,
@@ -548,7 +548,7 @@ nieuws*',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'header_second',
+        'region' => 'sidebar_first',
         'status' => 1,
         'theme' => 'default',
         'weight' => -17,

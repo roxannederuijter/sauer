@@ -133,7 +133,7 @@ function default_superfish_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'superfish_depth_3';
-  $strongarm->value = '-1';
+  $strongarm->value = '10';
   $export['superfish_depth_3'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -868,7 +868,7 @@ function default_superfish_settings_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'superfish_multicolumn_3';
-  $strongarm->value = 1;
+  $strongarm->value = 0;
   $export['superfish_multicolumn_3'] = $strongarm;
 
   $strongarm = new stdClass();
