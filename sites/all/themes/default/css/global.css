@@ -260,8 +260,11 @@ input[type="button"]:hover,
   .zone-user-wrapper .region-user-second-inner {
     float: right; }
     .zone-user-wrapper .region-user-second-inner .block-1 {
-      float: left; }
+      float: left;
+      margin-top: 10px; }
     .zone-user-wrapper .region-user-second-inner .block-translate-block-1 {
+      float: left; }
+    .zone-user-wrapper .region-user-second-inner .views-row {
       float: left; }
 
 .block-superfish {
