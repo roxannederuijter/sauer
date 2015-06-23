@@ -45,14 +45,13 @@ function default_imagestyles_image_default_styles() {
   $styles['flags'] = array(
     'label' => 'Flags',
     'effects' => array(
-      5 => array(
-        'name' => 'image_scale',
+      7 => array(
+        'name' => 'image_resize',
         'data' => array(
           'width' => 22,
-          'height' => '',
-          'upscale' => 0,
+          'height' => 15,
         ),
-        'weight' => 1,
+        'weight' => 3,
       ),
     ),
   );
