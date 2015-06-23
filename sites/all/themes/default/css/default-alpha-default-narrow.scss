@@ -111,10 +111,38 @@ a.buttonred {
 
 .node-type-webform {
   #zone-content-wrapper {
+    background-image:url('img/contactbg.png');
     padding:80px 0;
+    .field-name-field-tekst-lang {
+      text-align:center;
+    }
+    .webform-component {
+      width:60%;
+      margin:0 auto;
+      margin-bottom:10px;
+    }
+    input {
+      border-radius:5px;
+      width:100%;
+    }
+    select {
+      border-radius:5px;
+      width:100%;
+    }
+    textarea {
+      border-radius:5px;
+      width:100%;
+    }
     .form-actions {
       width:25%;
       margin:0 auto;
+    }
+    .webform-submit {
+      border-radius:0;
+      background-color:$red;
+      color:#fff;
+      text-transform:uppercase;
+      padding:11px 15px;
     }
   }
 }

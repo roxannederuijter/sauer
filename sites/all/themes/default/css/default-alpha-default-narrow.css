@@ -97,10 +97,32 @@ a.buttonred {
   min-height: 315px; }
 
 .node-type-webform #zone-content-wrapper {
+  background-image: url("img/contactbg.png");
   padding: 80px 0; }
+  .node-type-webform #zone-content-wrapper .field-name-field-tekst-lang {
+    text-align: center; }
+  .node-type-webform #zone-content-wrapper .webform-component {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .node-type-webform #zone-content-wrapper input {
+    border-radius: 5px;
+    width: 100%; }
+  .node-type-webform #zone-content-wrapper select {
+    border-radius: 5px;
+    width: 100%; }
+  .node-type-webform #zone-content-wrapper textarea {
+    border-radius: 5px;
+    width: 100%; }
   .node-type-webform #zone-content-wrapper .form-actions {
     width: 25%;
     margin: 0 auto; }
+  .node-type-webform #zone-content-wrapper .webform-submit {
+    border-radius: 0;
+    background-color: #e36968;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 11px 15px; }
 
 #zone-content-wrapper {
   padding: 80px 0; }
