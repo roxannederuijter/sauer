@@ -102,10 +102,11 @@ a.buttonred {
 
 .view-werknemers {
   .views-row {
-    width: 18%;
+    width: 25%;
     float: left;
     padding: 50px 3%;
-    min-height:315px;
+    min-height: 315px;
+    box-sizing: border-box;
   }
 }
 
@@ -153,9 +154,10 @@ a.buttonred {
 
 #block-views-werknemers-block-1 {
   .view-werknemers .views-row {
-    width: 27%;
-    min-height:285px;
+    width: 33%;
+    min-height: 285px;
     padding: 5px 3% 0px 3%;
+    box-sizing: border-box;
   }
 }
 
@@ -562,4 +564,8 @@ a.buttonred {
   top: 44px;
   width: 100%;
   z-index: 997;
+}
+
+.view-footer {
+  clear:both;
 }
