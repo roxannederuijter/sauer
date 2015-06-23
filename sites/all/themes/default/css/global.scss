@@ -1295,12 +1295,13 @@ ul#superfish-1 li.sf-item-2{
       text-align: center;
     }
     .views-field-field-e-mail {
-      .field-content {
-        font-size:0.750em;
-      }
       text-align: center;
     }
   }
+}
+
+.views-field-field-e-mail {
+  font-size:0.750em;
 }
 
 

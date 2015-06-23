@@ -1007,7 +1007,8 @@ ul#superfish-1 li.sf-item-2 ul {
     text-align: center; }
   .view-display-id-block_3 .views-row-1 .views-field-field-e-mail {
     text-align: center; }
-    .view-display-id-block_3 .views-row-1 .views-field-field-e-mail .field-content {
-      font-size: 0.750em; }
+
+.views-field-field-e-mail {
+  font-size: 0.750em; }
 
 /*# sourceMappingURL=global.css.map */
