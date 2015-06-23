@@ -50,7 +50,7 @@ function content_werknemer_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_buttons',
-      'weight' => 46,
+      'weight' => 8,
     ),
   );
 
@@ -90,7 +90,7 @@ function content_werknemer_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 48,
+      'weight' => 7,
     ),
   );
 
@@ -130,7 +130,7 @@ function content_werknemer_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 44,
+      'weight' => 6,
     ),
   );
 
@@ -192,7 +192,7 @@ function content_werknemer_field_default_field_instances() {
         ),
       ),
       'type' => 'media_generic',
-      'weight' => 42,
+      'weight' => 4,
     ),
   );
 
@@ -232,7 +232,7 @@ function content_werknemer_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 43,
+      'weight' => 5,
     ),
   );
 
