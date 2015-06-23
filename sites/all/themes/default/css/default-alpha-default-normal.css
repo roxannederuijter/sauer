@@ -66,7 +66,8 @@
     width: 41%; }
   .front .bean-banner .paragraphs-items-field-paragraphs .group-right {
     width: 49%;
-    float: right; }
+    float: right;
+    padding-bottom: 50px; }
     .front .bean-banner .paragraphs-items-field-paragraphs .group-right .bannertext {
       font-size: 1.313em;
       text-align: left;
