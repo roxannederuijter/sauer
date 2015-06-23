@@ -224,25 +224,24 @@ input[type="button"]:hover,
     font-size: 0.688em;
     font: "Open Sans", sans-serif;
     color: #d1d2d5; }
-  .zone-user-wrapper .place {
-    width: 100%;
+  .zone-user-wrapper .place li.place {
+    color: #d1d2d5;
+    padding-right: 30px;
     float: left; }
-    .zone-user-wrapper .place li.place {
-      color: #d1d2d5;
-      padding-right: 30px; }
-    .zone-user-wrapper .place li.place:before {
-      font-family: FontAwesome;
-      content: "\f041";
-      margin-right: 5px;
-      color: #d1d2d5; }
-    .zone-user-wrapper .place a {
-      color: #d1d2d5; }
+  .zone-user-wrapper .place li.place:before {
+    font-family: FontAwesome;
+    content: "\f041";
+    margin-right: 5px;
+    color: #d1d2d5; }
+  .zone-user-wrapper .place a {
+    color: #d1d2d5; }
   .zone-user-wrapper .phone {
-    width: 100%;
     float: left; }
     .zone-user-wrapper .phone li.phone {
       padding-right: 30px;
-      color: #d1d2d5; }
+      color: #d1d2d5;
+      width: 100%;
+      float: left; }
     .zone-user-wrapper .phone li.phone:before {
       font-family: FontAwesome;
       content: "\f10b";
@@ -250,18 +249,17 @@ input[type="button"]:hover,
       color: #d1d2d5; }
     .zone-user-wrapper .phone a {
       color: #d1d2d5; }
-  .zone-user-wrapper .mail {
-    float: left;
-    width: 100%; }
-    .zone-user-wrapper .mail a {
-      color: #d1d2d5; }
-    .zone-user-wrapper .mail a:before {
-      font-family: FontAwesome;
-      content: "\f0e0";
-      margin-right: 5px;
-      color: #d1d2d5; }
+  .zone-user-wrapper .mail li {
+    float: left; }
+  .zone-user-wrapper .mail a {
+    color: #d1d2d5; }
+  .zone-user-wrapper .mail a:before {
+    font-family: FontAwesome;
+    content: "\f0e0";
+    margin-right: 5px;
+    color: #d1d2d5; }
   .zone-user-wrapper .region-user-second-inner {
-    float: right; }
+    float: left; }
     .zone-user-wrapper .region-user-second-inner .block-1 {
       float: left; }
     .zone-user-wrapper .region-user-second-inner .block-translate-block-1 {

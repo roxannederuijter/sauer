@@ -54,7 +54,6 @@
 
 .zone-user-wrapper {
   li {
-    padding: 13px 30px 13px 0;
     font-size:0.750em;
   }
 }
@@ -449,10 +448,87 @@ a.buttonred {
   }
 }
 
+.zone-user-wrapper {
+  width: 100%;
+  background-color: #464b58;
+  li {
+    float: left;
+    list-style: none;
+    padding: 7px 30px 0px 0;
+    font-size:0.688em;
+    font:$font;
+    color: #d1d2d5;
+  }
+  .place {
+    float:left;
+    li.place {
+      color: #d1d2d5;
+      padding-right:30px;
+      float:left;
+    }
+    li.place:before {
+      font-family: FontAwesome;
+      content: "\f041";
+      margin-right:5px;
+      color: #d1d2d5;
+    }
+    a {
+      color: #d1d2d5;
+    }
+  }
+  .phone{
+    float:left;
+    li.phone {
+      padding-right:30px;
+      color: #d1d2d5;
+      width:100%;
+      float:left;
+    }
+    li.phone:before {
+      font-family: FontAwesome;
+      content: "\f10b";
+      margin-right:5px;
+      color: #d1d2d5;
+    }
+    a {
+      color: #d1d2d5;
+    }
+  }
+  .mail {
+    float:left;
+    li {
+      float:left;
+    }
+    a {
+      color: #d1d2d5;
+    }
+    a:before {
+      font-family: FontAwesome;
+      content: "\f0e0";
+      margin-right:5px;
+      color: #d1d2d5;
+    }
+  }
+  .region-user-second-inner {
+    float:right;
+    .block-1 {
+      float:left;
+    }
+    .block-translate-block-1 {
+      float:left;
+
+      margin-top:7px;
+    }
+    .views-row {
+      float:left;
+    }
+  }
+}
+
 .zone-branding-wrapper {
   background-color: #fff;
   position: absolute;
-  top: 44px;
+  top: 28px;
   width: 100%;
   z-index: 997;
 }

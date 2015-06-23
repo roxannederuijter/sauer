@@ -226,11 +226,10 @@ input[type="button"]:hover,
     color: #d1d2d5;
   }
   .place {
-    width:100%;
-    float:left;
     li.place {
       color: #d1d2d5;
       padding-right:30px;
+      float:left;
     }
     li.place:before {
       font-family: FontAwesome;
@@ -243,11 +242,12 @@ input[type="button"]:hover,
     }
   }
   .phone{
-    width:100%;
     float:left;
     li.phone {
       padding-right:30px;
       color: #d1d2d5;
+      width:100%;
+      float:left;
     }
     li.phone:before {
       font-family: FontAwesome;
@@ -260,8 +260,9 @@ input[type="button"]:hover,
     }
   }
   .mail {
-    float:left;
-    width:100%;
+    li {
+      float:left;
+    }
     a {
       color: #d1d2d5;
     }
@@ -273,7 +274,7 @@ input[type="button"]:hover,
     }
   }
   .region-user-second-inner {
-    float:right;
+    float:left;
     .block-1 {
       float:left;
     }
