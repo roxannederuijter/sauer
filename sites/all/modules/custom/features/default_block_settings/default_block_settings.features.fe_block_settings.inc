@@ -157,7 +157,7 @@ over-ons',
         'region' => 'user_second',
         'status' => 1,
         'theme' => 'default',
-        'weight' => 0,
+        'weight' => -21,
       ),
       'seven' => array(
         'region' => '',
@@ -978,6 +978,32 @@ nieuws*',
     ),
     'title' => '<none>',
     'visibility' => 1,
+  );
+
+  $export['views-translate-block_1'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'translate-block_1',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => '',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'user_second',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -20,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 0,
   );
 
   $export['views-translate-block_3'] = array(

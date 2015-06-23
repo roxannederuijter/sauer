@@ -34,8 +34,7 @@ function view_translate_views_default_views() {
   $handler->display->display_options['exposed_form']['options']['exposed_sorts_label'] = 'Sorteren op';
   $handler->display->display_options['exposed_form']['options']['sort_asc_label'] = 'Oplopend';
   $handler->display->display_options['exposed_form']['options']['sort_desc_label'] = 'Aflopend';
-  $handler->display->display_options['pager']['type'] = 'some';
-  $handler->display->display_options['pager']['options']['items_per_page'] = '3';
+  $handler->display->display_options['pager']['type'] = 'none';
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
@@ -184,6 +183,20 @@ function view_translate_views_default_views() {
     'werknemer' => 'werknemer',
   );
   $handler->display->display_options['block_description'] = 'werknemers';
+
+  /* Display: flags */
+  $handler = $view->new_display('block', 'flags', 'block_1');
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Veld: Inhoud: Vlag */
+  $handler->display->display_options['fields']['field_vlag']['id'] = 'field_vlag';
+  $handler->display->display_options['fields']['field_vlag']['table'] = 'field_data_field_vlag';
+  $handler->display->display_options['fields']['field_vlag']['field'] = 'field_vlag';
+  $handler->display->display_options['fields']['field_vlag']['label'] = '';
+  $handler->display->display_options['fields']['field_vlag']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_vlag']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_vlag']['settings'] = array(
+    'image_style' => 'flags',
+  );
   $translatables['translate'] = array(
     t('Master'),
     t('vertaling'),
@@ -198,6 +211,7 @@ function view_translate_views_default_views() {
     t('Inhoud referencing Inhoud from field_vertalingspagina'),
     t('Alle'),
     t('werknemers'),
+    t('flags'),
   );
   $export['translate'] = $view;
 

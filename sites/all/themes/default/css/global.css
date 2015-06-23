@@ -259,6 +259,10 @@ input[type="button"]:hover,
       color: #d1d2d5; }
   .zone-user-wrapper .region-user-second-inner {
     float: right; }
+    .zone-user-wrapper .region-user-second-inner .block-1 {
+      float: left; }
+    .zone-user-wrapper .region-user-second-inner .block-translate-block-1 {
+      float: left; }
 
 .block-superfish {
   float: left; }

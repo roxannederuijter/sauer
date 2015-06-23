@@ -41,6 +41,22 @@ function default_imagestyles_image_default_styles() {
     ),
   );
 
+  // Exported image style: flags.
+  $styles['flags'] = array(
+    'label' => 'Flags',
+    'effects' => array(
+      5 => array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 22,
+          'height' => '',
+          'upscale' => 0,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: footer.
   $styles['footer'] = array(
     'label' => 'footer',

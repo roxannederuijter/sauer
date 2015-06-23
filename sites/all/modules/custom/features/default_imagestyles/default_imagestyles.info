@@ -5,4 +5,5 @@ dependencies[] = image
 features[features_api][] = api:2
 features[image][] = contact
 features[image][] = dienst
+features[image][] = flags
 features[image][] = footer
