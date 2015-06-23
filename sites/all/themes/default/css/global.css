@@ -496,7 +496,8 @@ h2.block-title {
     margin: 0;
     margin-bottom: 20px; }
   .zone-footer-wrapper a, .zone-footer-wrapper a:link {
-    float: left; }
+    float: left;
+    width: 100%; }
 
 .block-superfish-2 {
   float: left;
