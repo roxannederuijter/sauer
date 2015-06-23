@@ -629,7 +629,7 @@ nieuws*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -20,
+        'weight' => -21,
       ),
       'seven' => array(
         'region' => 'content',
@@ -915,7 +915,7 @@ nieuws*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -18,
+        'weight' => -19,
       ),
       'seven' => array(
         'region' => '',
@@ -941,7 +941,7 @@ nieuws*',
         'region' => 'content',
         'status' => 1,
         'theme' => 'default',
-        'weight' => -19,
+        'weight' => -20,
       ),
       'seven' => array(
         'region' => '',
@@ -968,6 +968,34 @@ nieuws*',
         'status' => 0,
         'theme' => 'default',
         'weight' => -16,
+      ),
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+    ),
+    'title' => '<none>',
+    'visibility' => 1,
+  );
+
+  $export['views-translate-block_3'] = array(
+    'cache' => -1,
+    'custom' => 0,
+    'delta' => 'translate-block_3',
+    'module' => 'views',
+    'node_types' => array(),
+    'pages' => 'engels
+duits
+pools',
+    'roles' => array(),
+    'themes' => array(
+      'default' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'default',
+        'weight' => -18,
       ),
       'seven' => array(
         'region' => '',

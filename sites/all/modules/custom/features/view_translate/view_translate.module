@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the View - Translate feature.
+ */
+
+include_once 'view_translate.features.inc';

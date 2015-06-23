@@ -50,6 +50,7 @@ features[fe_block_settings][] = views-diensten-block
 features[fe_block_settings][] = views-diensten-block_1
 features[fe_block_settings][] = views-diensten-block_2
 features[fe_block_settings][] = views-nieuws-block
+features[fe_block_settings][] = views-translate-block_3
 features[fe_block_settings][] = views-werknemers-block
 features[fe_block_settings][] = views-werknemers-block_1
 features[fe_block_settings][] = webform-client-block-10

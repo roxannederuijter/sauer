@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Content - Translate feature.
+ */
+
+include_once 'content_translate.features.inc';
