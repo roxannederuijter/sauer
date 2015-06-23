@@ -69,6 +69,65 @@ function content_translate_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-translate-field_vlag'
+  $field_instances['node-translate-field_vlag'] = array(
+    'bundle' => 'translate',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 9,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_vlag',
+    'label' => 'Vlag',
+    'required' => 0,
+    'settings' => array(
+      'alt_field' => 0,
+      'class_field' => 0,
+      'custom_target' => 0,
+      'default_image' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'longdesc_field' => 0,
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'rel_field' => 0,
+      'target' => '_self',
+      'title_field' => 0,
+      'url' => '',
+      'url_settings' => array(
+        'class_field' => 0,
+        'custom_target' => 0,
+        'rel_field' => 0,
+        'target' => '_self',
+        'url' => '',
+      ),
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'linkimagefield',
+      'settings' => array(
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'linkimagefield_widget',
+      'weight' => 43,
+    ),
+  );
+
   // Exported field_instance: 'node-werknemer-field_vertalingspagina'
   $field_instances['node-werknemer-field_vertalingspagina'] = array(
     'bundle' => 'werknemer',
@@ -117,6 +176,7 @@ function content_translate_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Paragraphs');
   t('Vertalingspagina');
+  t('Vlag');
 
   return $field_instances;
 }
