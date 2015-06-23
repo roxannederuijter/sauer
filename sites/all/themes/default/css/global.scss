@@ -890,6 +890,7 @@ ul#superfish-1 li.sf-item-2{
   }
   .pager li {
     border-right: none;
+    border-left:none;
     color: $groen;
     font:$font;
     font-size:0.938em;
@@ -904,7 +905,7 @@ ul#superfish-1 li.sf-item-2{
     cursor: pointer;
   }
   .pager {
-    background: $gray;
+    background: transparent;
     border: none;
     border-radius: 0px;
     -moz-border-radius: 0px;
