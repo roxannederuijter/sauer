@@ -237,6 +237,7 @@ a.buttonred {
 .context-nieuws {
   .pager li {
     border-right: none;
+    border-left:none;
     color: $groen;
     font:$font;
     font-size:0.938em;
@@ -251,7 +252,7 @@ a.buttonred {
     cursor: pointer;
   }
   .pager {
-    background: $gray;
+    background: transparent;
     border: none;
     border-radius: 0px;
     -moz-border-radius: 0px;
