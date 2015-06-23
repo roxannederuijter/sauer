@@ -220,11 +220,12 @@ input[type="button"]:hover,
   .zone-user-wrapper li {
     float: left;
     list-style: none;
-    padding: 13px 30px 13px 0;
+    padding: 0px 30px 0px 0;
     font-size: 0.688em;
     font: "Open Sans", sans-serif;
     color: #d1d2d5; }
   .zone-user-wrapper .place {
+    width: 100%;
     float: left; }
     .zone-user-wrapper .place li.place {
       color: #d1d2d5;
@@ -237,6 +238,7 @@ input[type="button"]:hover,
     .zone-user-wrapper .place a {
       color: #d1d2d5; }
   .zone-user-wrapper .phone {
+    width: 100%;
     float: left; }
     .zone-user-wrapper .phone li.phone {
       padding-right: 30px;
@@ -249,7 +251,8 @@ input[type="button"]:hover,
     .zone-user-wrapper .phone a {
       color: #d1d2d5; }
   .zone-user-wrapper .mail {
-    float: left; }
+    float: left;
+    width: 100%; }
     .zone-user-wrapper .mail a {
       color: #d1d2d5; }
     .zone-user-wrapper .mail a:before {
