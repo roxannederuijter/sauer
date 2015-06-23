@@ -340,4 +340,11 @@ a.buttonred {
   float: left;
   text-align: center; }
 
+.zone-branding-wrapper {
+  background-color: #fff;
+  position: absolute;
+  top: 44px;
+  width: 100%;
+  z-index: 997; }
+
 /*# sourceMappingURL=default-alpha-default-narrow.css.map */
