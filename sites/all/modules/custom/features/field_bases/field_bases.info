@@ -16,6 +16,7 @@ features[field_base][] = field_afbeelding
 features[field_base][] = field_afbeelding_rechts
 features[field_base][] = field_catogorie
 features[field_base][] = field_dienst
+features[field_base][] = field_e_mail
 features[field_base][] = field_file_image_alt_text
 features[field_base][] = field_file_image_title_text
 features[field_base][] = field_paragraph_s

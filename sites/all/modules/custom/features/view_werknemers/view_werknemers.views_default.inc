@@ -73,6 +73,12 @@ De uitdaging voor hen en de medewerkers ligt in hoogwaardige juridisch advieswer
   $handler->display->display_options['fields']['field_functie']['field'] = 'field_functie';
   $handler->display->display_options['fields']['field_functie']['label'] = '';
   $handler->display->display_options['fields']['field_functie']['element_label_colon'] = FALSE;
+  /* Veld: Inhoud: e-mail */
+  $handler->display->display_options['fields']['field_e_mail']['id'] = 'field_e_mail';
+  $handler->display->display_options['fields']['field_e_mail']['table'] = 'field_data_field_e_mail';
+  $handler->display->display_options['fields']['field_e_mail']['field'] = 'field_e_mail';
+  $handler->display->display_options['fields']['field_e_mail']['label'] = '';
+  $handler->display->display_options['fields']['field_e_mail']['element_label_colon'] = FALSE;
   /* Sorteercriterium: Algemeen: Willekeurig */
   $handler->display->display_options['sorts']['random']['id'] = 'random';
   $handler->display->display_options['sorts']['random']['table'] = 'views';

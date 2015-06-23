@@ -146,6 +146,13 @@ function view_translate_views_default_views() {
   $handler->display->display_options['fields']['field_functie']['relationship'] = 'reverse_field_vertalingspagina_node';
   $handler->display->display_options['fields']['field_functie']['label'] = '';
   $handler->display->display_options['fields']['field_functie']['element_label_colon'] = FALSE;
+  /* Veld: Inhoud: e-mail */
+  $handler->display->display_options['fields']['field_e_mail']['id'] = 'field_e_mail';
+  $handler->display->display_options['fields']['field_e_mail']['table'] = 'field_data_field_e_mail';
+  $handler->display->display_options['fields']['field_e_mail']['field'] = 'field_e_mail';
+  $handler->display->display_options['fields']['field_e_mail']['relationship'] = 'reverse_field_vertalingspagina_node';
+  $handler->display->display_options['fields']['field_e_mail']['label'] = '';
+  $handler->display->display_options['fields']['field_e_mail']['element_label_colon'] = FALSE;
   $handler->display->display_options['defaults']['sorts'] = FALSE;
   $handler->display->display_options['defaults']['arguments'] = FALSE;
   /* Contextueel filter: Inhoud: Nid */
