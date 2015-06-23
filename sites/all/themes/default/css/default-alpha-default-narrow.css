@@ -238,7 +238,9 @@ a.buttonred {
   .context-nieuws .views-field-view-node a {
     color: #e36968; }
 .context-nieuws .view-nieuws .views-row {
-  min-height: 264px; }
+  min-height: 236px;
+  border-bottom: 1px solid #f1f4f9;
+  margin-bottom: 36px; }
 .context-nieuws h2 {
   text-transform: uppercase; }
 

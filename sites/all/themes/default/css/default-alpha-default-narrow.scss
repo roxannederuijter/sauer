@@ -306,7 +306,9 @@ a.buttonred {
   }
   .view-nieuws {
     .views-row {
-      min-height:264px;
+      min-height: 236px;
+      border-bottom: 1px solid $gray;
+      margin-bottom: 36px;
     }
   }
   h2 {
