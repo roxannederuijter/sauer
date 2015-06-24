@@ -110,6 +110,41 @@ function view_diensten_views_default_views() {
 
   /* Display: Frontpage-Block */
   $handler = $view->new_display('block', 'Frontpage-Block', 'block');
+  $handler->display->display_options['defaults']['fields'] = FALSE;
+  /* Veld: Veld: Afbeelding */
+  $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
+  $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
+  $handler->display->display_options['fields']['field_image']['field'] = 'field_image';
+  $handler->display->display_options['fields']['field_image']['label'] = '';
+  $handler->display->display_options['fields']['field_image']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_image']['click_sort_column'] = 'fid';
+  $handler->display->display_options['fields']['field_image']['settings'] = array(
+    'image_style' => '',
+    'image_link' => 'content',
+  );
+  /* Veld: Inhoud: Titel */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
+  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
+  /* Veld: Inhoud: Samenvatting */
+  $handler->display->display_options['fields']['field_samenvatting']['id'] = 'field_samenvatting';
+  $handler->display->display_options['fields']['field_samenvatting']['table'] = 'field_data_field_samenvatting';
+  $handler->display->display_options['fields']['field_samenvatting']['field'] = 'field_samenvatting';
+  $handler->display->display_options['fields']['field_samenvatting']['label'] = '';
+  $handler->display->display_options['fields']['field_samenvatting']['alter']['make_link'] = TRUE;
+  $handler->display->display_options['fields']['field_samenvatting']['alter']['absolute'] = TRUE;
+  $handler->display->display_options['fields']['field_samenvatting']['element_label_colon'] = FALSE;
+  /* Veld: Inhoud: Voorpagina */
+  $handler->display->display_options['fields']['field_voorpagina']['id'] = 'field_voorpagina';
+  $handler->display->display_options['fields']['field_voorpagina']['table'] = 'field_data_field_voorpagina';
+  $handler->display->display_options['fields']['field_voorpagina']['field'] = 'field_voorpagina';
+  $handler->display->display_options['fields']['field_voorpagina']['label'] = '';
+  $handler->display->display_options['fields']['field_voorpagina']['exclude'] = TRUE;
+  $handler->display->display_options['fields']['field_voorpagina']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_voorpagina']['type'] = 'ds_taxonomy_view_mode';
 
   /* Display: Pagina */
   $handler = $view->new_display('page', 'Pagina', 'page_1');

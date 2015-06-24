@@ -147,14 +147,18 @@ a.buttonred {
       margin-left: 0px;
       border-bottom: 1px dashed #ddd; }
       .region-sidebar-first .block-superfish-3 ul li a {
-        font-size: 0.938em;
-        padding: 4px 0;
+        font-size: 1em;
+        padding: 8px 0;
         font-weight: 400; }
+      .region-sidebar-first .block-superfish-3 ul li a.active {
+        color: #e36968; }
   .region-sidebar-first .sf-megamenu-column ol li a {
-    font-size: 0.750em; }
+    font-size: 0.875em; }
   .region-sidebar-first .sf-megamenu-column ol li a:before {
     content: '\003e';
     margin-right: 3%; }
+  .region-sidebar-first .sf-megamenu-column ol li a.active {
+    color: #e36968; }
   .region-sidebar-first .block-superfish-4 {
     float: left;
     padding-bottom: 10px; }
