@@ -186,6 +186,13 @@ a.buttonred {
           padding: 4px 0;
           font-weight: 400; }
 
+.context-nieuws .highlight {
+  color: #e36968; }
+.context-nieuws .views-exposed-form label {
+  font-weight: 300; }
+.context-nieuws .form-type-bef-checkbox {
+  border-bottom: 1px dashed #ddd;
+  padding: 8px 0; }
 .context-nieuws .pager li {
   border-right: none;
   border-left: none;
@@ -246,7 +253,7 @@ a.buttonred {
     color: #e36968; }
 .context-nieuws .view-nieuws .views-row {
   min-height: 236px;
-  border-bottom: 1px solid #f1f4f9;
+  border-bottom: 1px solid #464b58;
   margin-bottom: 36px; }
 .context-nieuws h2 {
   text-transform: uppercase; }

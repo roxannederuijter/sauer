@@ -241,6 +241,16 @@ a.buttonred {
 }
 
 .context-nieuws {
+  .highlight {
+    color:$red;
+  }
+  .views-exposed-form label {
+    font-weight:300;
+  }
+  .form-type-bef-checkbox {
+    border-bottom: 1px dashed #ddd;
+    padding: 8px 0;
+  }
   .pager li {
     border-right: none;
     border-left:none;
@@ -316,7 +326,7 @@ a.buttonred {
   .view-nieuws {
     .views-row {
       min-height: 236px;
-      border-bottom: 1px solid $gray;
+      border-bottom: 1px solid #464b58;
       margin-bottom: 36px;
     }
   }
