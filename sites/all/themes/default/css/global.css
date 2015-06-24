@@ -441,17 +441,19 @@ h2.block-title {
 
 .zone-preface-second-wrapper {
   padding-top: 50px;
-  padding-bottom: 40px;
   background-image: url("img/dienstbg.png");
   background-size: cover;
+  background-repeat: no-repeat;
   margin: 0 auto; }
 
 .zone-preface-third-wrapper {
   padding-top: 50px;
-  padding-bottom: 40px; }
+  padding-bottom: 50px; }
 
 .zone-postscript-wrapper {
-  background-color: #f1f4f9; }
+  background-color: #f1f4f9;
+  padding-top: 50px;
+  padding-bottom: 40px; }
 
 .view-werknemers .views-row {
   width: 48%;
