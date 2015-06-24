@@ -10,6 +10,21 @@
 function default_imagestyles_image_default_styles() {
   $styles = array();
 
+  // Exported image style: banner.
+  $styles['banner'] = array(
+    'label' => 'banner',
+    'effects' => array(
+      8 => array(
+        'name' => 'image_resize',
+        'data' => array(
+          'width' => 2560,
+          'height' => 772,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   // Exported image style: contact.
   $styles['contact'] = array(
     'label' => 'Contact',

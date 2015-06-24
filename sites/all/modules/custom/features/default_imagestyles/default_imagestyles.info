@@ -3,6 +3,7 @@ core = 7.x
 package = Default settings
 dependencies[] = image
 features[features_api][] = api:2
+features[image][] = banner
 features[image][] = contact
 features[image][] = dienst
 features[image][] = flags
