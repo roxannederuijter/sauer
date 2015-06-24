@@ -512,7 +512,7 @@ h2.block-title {
     margin: 0; }
     .block-superfish-2 ul li a {
       color: #fff;
-      font-size: 0.750em;
+      font-size: 1em;
       padding: 4px 0; }
     .block-superfish-2 ul li a:before {
       content: '\003e';
