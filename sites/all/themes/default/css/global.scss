@@ -658,6 +658,8 @@ h2.block-title {
   #zone-content-wrapper {
     background-image:url('img/contactbg.png');
     padding:80px 0;
+    background-size:cover;
+    background-repeat:no-repeat;
     .field-name-field-tekst-lang {
       text-align:center;
     }
